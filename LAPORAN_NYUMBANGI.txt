@@ -1,0 +1,2022 @@
+NYUMBANGIN: PLATFORM DONASI DIGITAL
+LAPORAN PROYEK III
+
+Diajukan untuk Memenuhi Kelulusan Matakuliah
+Proyek 3 pada Program Studi DIV Teknik
+Informatika
+
+DISUSUN OLEH :
+714230027-Muhamad Haekal Syukur
+714230060-Muhammad Ferdy Leoza
+
+PROGRAM STUDI DIV TEKNIK INFORMATIKA
+FAKULTAS SEKOLAH VOKASI
+UNIVERSITAS LOGISTIK & BISNIS INTERNASIONAL
+BANDUNG
+2026
+
+LEMBAR PENGESAHAN
+NYUMBANGIN: PLATFORM DONASI DIGITAL
+
+Laporan Proyek 3 ini telah diperiksa, disetujui dan disidangkan
+Di Bandung,
+Oleh:
+Penguji Pendamping,
+
+Penguji Utama,
+
+Rolly Maulana Awangga, S.T.,MT.
+NIK: 113.74.163
+
+NIK: 1
+
+Pembimbing,
+
+Koordinator Proyek 3
+
+Rolly Maulana Awangga, S.T.,MT.
+
+Roni Habibi, S.Kom., M.T., SFPC
+
+NIK: 117.86.219
+
+NIK: 117.88.233
+
+Menyetujui,
+Ketua Program Studi D-IV Teknik Informatika,
+
+Roni Andarsyah, S.T., M.Komk
+NIK: 115.88.193
+
+SFPC NIK. 115.88.193
+
+i
+
+SURAT PERNYATAAN BEBAS
+PLAGIARISME
+Nama
+NPM
+
+: Muhamad Haekal Syukur
+: 714230027
+
+Program Studi
+
+: DIV Teknik Informatika
+
+Judul
+
+: NYUMBANGIN: PLATFORM DONASI DIGITAL
+
+Menyatakan bahwa:
+1) Proyek pemrograman aplikasi (PROYEK 3) ini adalah karya asli yang
+
+belum pernah diajukan untuk memenuhi kelulusan pada program studi DIV
+Teknik Informatika di Universitas Logistik & Bisnis Internasional maupun
+di perguruan tinggi lainnya. Oleh karena itu, keaslian proyek ini terjamin.
+2) Proyek ini merupakan hasil pemikiran, rumusan, dan penelitian saya
+sendiri, tanpa adanya bantuan dari pihak lain, kecuali arahan yang diberikan
+oleh pembimbing. Dengan demikian, semua ide dan konsep dalam proyek
+ini sepenuhnya merupakan hasil kerja saya.
+3) Dalam proyek ini, tidak terdapat karya atau pendapat yang ditulis atau
+dipublikasikan oleh orang lain, kecuali jika telah dicantumkan secara
+tertulis sebagai acuan dalam naskah, dengan menyebutkan nama pengarang
+dan mencantumkannya dalam daftar pustaka. Hal ini menunjukkan bahwa
+semua referensi telah diakui dengan benar.
+4) Saya menyatakan bahwa pernyataan ini dibuat dengan sesungguhnya.
+Apabila di kemudian hari terdapat penyimpangan atau ketidakbenaran
+dalam pernyataan ini, saya bersedia menerima sanksi akademik, termasuk
+pencabutan gelar yang telah diperoleh, serta sanksi lainnya sesuai dengan
+norma yang berlaku di perguruan tinggi. Dengan demikian, saya
+bertanggung jawab penuh atas keabsahan pernyataan ini.
+
+Bandung Januari 2026
+Yang membuat pernyataan,
+
+Muhamad Haekal Syukur
+NPM : 714230027
+
+ii
+
+SURAT PERNYATAAN BEBAS
+PLAGIARISME
+Nama
+NPM
+
+: Muhammad Ferdy Leoza
+: 714230060
+
+Program Studi
+
+: DIV Teknik Informatika
+
+Judul
+
+: NYUMBANGIN: PLATFORM DONASI DIGITAL
+
+Menyatakan bahwa:
+1) Proyek pemrograman aplikasi (PROYEK 3) ini adalah karya asli yang
+
+belum pernah diajukan untuk memenuhi kelulusan pada program studi DIV
+Teknik Informatika di Universitas Logistik & Bisnis Internasional maupun
+di perguruan tinggi lainnya. Oleh karena itu, keaslian proyek ini terjamin.
+2) Proyek ini merupakan hasil pemikiran, rumusan, dan penelitian saya
+sendiri, tanpa adanya bantuan dari pihak lain, kecuali arahan yang diberikan
+oleh pembimbing. Dengan demikian, semua ide dan konsep dalam proyek
+ini sepenuhnya merupakan hasil kerja saya.
+3) Dalam proyek ini, tidak terdapat karya atau pendapat yang ditulis atau
+dipublikasikan oleh orang lain, kecuali jika telah dicantumkan secara
+tertulis sebagai acuan dalam naskah, dengan menyebutkan nama pengarang
+dan mencantumkannya dalam daftar pustaka. Hal ini menunjukkan bahwa
+semua referensi telah diakui dengan benar.
+4) Saya menyatakan bahwa pernyataan ini dibuat dengan sesungguhnya.
+Apabila di kemudian hari terdapat penyimpangan atau ketidakbenaran
+dalam pernyataan ini, saya bersedia menerima sanksi akademik, termasuk
+pencabutan gelar yang telah diperoleh, serta sanksi lainnya sesuai dengan
+norma yang berlaku di perguruan tinggi. Dengan demikian, saya
+bertanggung jawab penuh atas keabsahan pernyataan ini.
+
+Bandung Januari 2026
+Yang membuat pernyataan,
+
+Muhammad Ferdy Leoza
+NPM : 714230060
+
+iii
+
+ABSTRAK
+Aplikasi donasi digital kini banyak digunakan oleh kreator konten untuk
+memudahkan dukungan dari para pendukung. Laporan ini membahas pengembangan
+platform donasi dengan fitur utama seperti pengiriman donasi, notifikasi real-time melalui
+overlay, leaderboard pendukung, serta mekanisme pencairan dana bagi kreator.
+Pengembangan dilakukan melaui analisis kebutuhan, perancangan sistem, dan
+implementasi fitur sesuai alur donasi hingga pencairan dana. Hasil pengujian menunjukkan
+bahwa aplikasi dapat memproses donasi dengan baik, menampilkan notifikasi secara
+langsung dan menyediakan proses pencairan dana yang terstruktur untuk kreator.
+Secara keseluruhan, aplikasi yang dibangun telah memenuhi tujuan utama, yaitu
+menyediakan sarana donasi yang fungsional dan mudah digunakan, meskipun masih
+terdapat ruang pengembangan lebih lanjut untuk meningkatkan stabilitas dan cakupan fitur.
+
+Kata Kunci: donasi digital, aplikasi web, kreator, notifikasi overlay, payout.
+
+iv
+
+ABSTRACT
+Digital donations applications are now widely used by content creators to make
+easier for supporters to contribute. This report covers the development of a donation
+platform with key features such as donation delivery, real-time notifications via overlays,
+supporter leaderboards, and fund disbursement for creators. The development process
+included needs analysis, system design, and feature implementation following the
+donations flow up to payout. Testing show the applications can process donations well,
+display notifications instantly, and provide a structured fund disbursement process for
+creators.
+Overall, the applications that was built has met its main objective, which is to
+provide a functional and easy-to-use donation tool, although there is still room for further
+development to improve stability and feature coverage.
+
+Keywords: digital donations, web applications, creator, overlay notifications, payouts.
+
+v
+
+DAFTAR ISI
+
+LEMBAR PENGESAHAN ............................................................................................... i
+SURAT PERNYATAAN BEBAS .................................................................................... ii
+PLAGIARISME ................................................................................................................ ii
+SURAT PERNYATAAN BEBAS ................................................................................... iii
+PLAGIARISME ............................................................................................................... iii
+ABSTRAK ........................................................................................................................ iv
+ABSTRACT ....................................................................................................................... v
+DAFTAR ISI..................................................................................................................... vi
+BAB I .................................................................................................................................. 1
+PENDAHULUAN ............................................................................................................. 1
+1.1 LATAR BELAKANG ............................................................................................. 1
+1.2 IDENTIFIKASI MASALAH ................................................................................. 2
+1.3 TUJUAN .................................................................................................................. 2
+1.4 RUANG LINGKUP ................................................................................................ 3
+1.4.1
+
+Cakupan Fungsional ................................................................................. 3
+
+1.4.2
+
+Cakupan Teknis ........................................................................................ 4
+
+1.4.3 Cakupan Pengujian.......................................................................................... 4
+1.4.4 Batasan Penilitian ............................................................................................ 5
+1.4.5 Luaran Penilitian ............................................................................................. 5
+1.5 SISTEMATIKA PENULISAN .............................................................................. 5
+BAB II ................................................................................................................................ 7
+LANDASAN TEORI ........................................................................................................ 7
+2.1 PLATFORM DONASI DIGITAL ......................................................................... 7
+2.2 ARSITEKTUR APLIKASI WEB MODERN ...................................................... 7
+
+vi
+
+2.2.1 Arsitektur Three-Tier/N-Tier ......................................................................... 8
+2.2.2 Konsep Client-Server ....................................................................................... 8
+2.3 REST API DAN PROTOKOL HTTP ................................................................... 8
+2.4 AUTENTIKASI DAN OTORASI.......................................................................... 9
+2.4.1 OAuth 2.0 .......................................................................................................... 9
+2.4.2 OpenID Connect............................................................................................... 9
+2.4.3 JWT ................................................................................................................. 10
+2.4.4 Skema Bearer Token ..................................................................................... 10
+2.4.5 Keamanan API ............................................................................................... 11
+2.5 DATABASE NoSQL (MongoDB) ........................................................................ 11
+2.6 FLOWCHART SISTEM ...................................................................................... 12
+2.7 UNIFIED MODELING LANGUAGE (UML) ................................................... 12
+2.6.1 Use Case Diagram .......................................................................................... 13
+2.6.2 Activity Diagram ............................................................................................ 13
+2.6.3 Sequence Diagram.......................................................................................... 13
+2.6.4 Class Diagram ................................................................................................ 13
+2.8 ENTITY-RELATIONSHIP DIAGRAM (ERD) ................................................ 14
+2.9 PERAN FITUR SOCIAL SHARING DALAM DONASI DIGITAL............... 14
+BAB III............................................................................................................................. 15
+METODE PENELITIAN ............................................................................................... 15
+3.1 METODE PENGEMBANGAN SISTEM ........................................................... 15
+3.1.1 Konsep Agile Development ........................................................................... 15
+3.1.2 Alur Iterasi Pengembangan .......................................................................... 15
+3.1.3 Penerapan Agile pada Proyek Nyumbangin................................................ 16
+3.2 ANALISIS KEBUTUHAN ................................................................................... 16
+3.2.1 Sumber Kebutuhan ........................................................................................ 16
+3.2.2 Kebutuhan Fungsional .................................................................................. 17
+
+vii
+
+3.2.3 Kebutuhan Non-Fungsional .......................................................................... 17
+3.3 PERANCANGAN SISTEM ................................................................................. 18
+3.3.1 Arsitektur Logis ............................................................................................. 18
+3.3.2 Arsitektur Fisik .............................................................................................. 18
+3.3.3 Arsitektur Teknologi...................................................................................... 19
+3.3.4 Modul Utama .................................................................................................. 19
+3.3.5 Strategi Desain ............................................................................................... 20
+3.4 PEMODELAN SISTEM ...................................................................................... 20
+3.4.1 Use Case .......................................................................................................... 21
+3.4.2 Activity Diagram ............................................................................................ 22
+3.4.3 Sequence Diagram.......................................................................................... 24
+3.3.4 Model Entitas ................................................................................................. 25
+3.4.5 Relasi Entitas .................................................................................................. 26
+3.5 METODE PERANCANAN TEKNIS.................................................................. 27
+3.6 METODE PENGUJIAN....................................................................................... 28
+3.6.1 Jenis Pengujian............................................................................................... 28
+3.6.2 Skenario Pengujian ........................................................................................ 29
+3.6.3 Alat Pengujian ................................................................................................ 30
+3.7 EVALUASI KEBERHASILAN ........................................................................... 30
+BAB IV ............................................................................................................................. 33
+HASIL DAN PEMBAHASAN ....................................................................................... 33
+4.1 HALAMAN AUTENTIKASI............................................................................... 33
+4.2 HALAMAN DONASI ........................................................................................... 34
+4.2.1 Form Donasi ................................................................................................... 34
+4.2.2 Halaman Pembayaran Midtrans .................................................................. 35
+4.3 DASHBOARD KREATOR .................................................................................. 36
+4.4 HALAMAN REQUEST PAYOUT...................................................................... 36
+
+viii
+
+4.5 OVERLAY............................................................................................................. 37
+4.5.1 Overlay Notifikasi Donasi ............................................................................. 37
+4.5.2 Overlay Media Share ..................................................................................... 37
+4.5.3 Overlay QR link Donasi ................................................................................ 38
+4.5.4 Overlay Leaderboard .................................................................................... 39
+4.6 DASHBOARD ADMIN ........................................................................................ 39
+4.6.1 Halaman Dashboard ...................................................................................... 39
+4.6.2 Halaman Creator ........................................................................................... 40
+4.6.3 Halaman Payout ............................................................................................. 40
+4.7 STRUKTUR BASIS DATA ................................................................................. 41
+BAB V .............................................................................................................................. 43
+KESIMPULAN ............................................................................................................... 43
+DAFTAR PUSTAKA ...................................................................................................... 44
+
+ix
+
+DAFTAR GAMBAR
+
+Gambar 3. 1 Arsitektur Teknologi ................................................................................ 19
+Gambar 3. 2 Use Case Diagram..................................................................................... 21
+Gambar 3. 3 Activity Diagram Donasi .......................................................................... 22
+Gambar 3. 4 Activity Diagram Payout.......................................................................... 23
+Gambar 3. 5 Sequence Diagram Donasi ....................................................................... 24
+Gambar 3. 6 Sequence Diagram Leaderboard ............................................................. 25
+Gambar 3. 7 ERD ............................................................................................................ 27
+Gambar 4. 1 Halaman Login ......................................................................................... 33
+Gambar 4. 2 Form Donasi .............................................................................................. 34
+Gambar 4. 3 Halaman Pembayaran Midtrans ............................................................. 35
+Gambar 4. 4 Dashboard Kreator................................................................................... 36
+Gambar 4. 5 Halaman Payout ....................................................................................... 36
+Gambar 4. 6 Notifikasi Donasi ....................................................................................... 37
+Gambar 4. 7 Media Share .............................................................................................. 37
+Gambar 4. 8 QR .............................................................................................................. 38
+Gambar 4. 9 Leaderboard Donatur .............................................................................. 39
+Gambar 4. 10 Dashboard Admin................................................................................... 39
+Gambar 4. 11 Tabel Daftar Creator dan Detail Creator ............................................ 40
+Gambar 4. 12 Tampilan Payout..................................................................................... 40
+
+x
+
+BAB I
+PENDAHULUAN
+
+1.1 LATAR BELAKANG
+Perkembangan teknologi digital telah membawa perubahan yang signifikan dalam
+praktik penggalangan dana, khususnya melalui platform donasi digital berbasis
+crowdfunding. Secara global, donation-based crowdfunding berkembang pesat karena
+mampu menghubungkan donatur dan penerima manfaat secara efisien tanpa batasan
+geografis. Penelitian menunjukkan bahwa platform donasi digital berperan pentong dalm
+meningkatkan akases pendanaan sosial serta mendonrong partisipasi masyarakat melaluli
+pemanfaatan teknologi informai (Halim, 2024).
+Dalam konteks donasi digital, berbagai studi menekankan bahwa factor
+kepercayaan (trust) dan inovasi teknologi merupakan determinan utama dalam Keputusan
+berdonasi. Inovasi platform crowdfunding serta Tingkat kepercayaan pengguna
+berpengaruh positif terhadap Keputusan donasi online (Tarigan, 2023a). Selain itu, persepsi
+transparansi da keamanan system turut membentuk keyakinan donator dalam
+menggunakan olatform donasi digital. Temuan ini di perkuat oleh penelitian (Zikrinawati,
+et al. (2025). Influence of Trust and Perceived Risk on Online Donation Decisions. JIVA
+Journal., n.d.) yang menunjukan bahwa kepercayaan dan persepsi risiko memiliki
+pengaruh signifikan terhadap Keputusan donasi online, khususnya pada platform berbasis
+web.
+Di Indonesia, perkemangan donasi digital sejalan dengan meningkatnya adopsi
+teknologi finansial. Integrasi system pembayaran digital, seperti QRIS, pada platform
+donasi terbukti mempermudah proses transaksi serta meningkatkan efisiensi dan
+aksesibitilas bagi Masyarakat. Studi (Saputra & Putri Nabila, 2025) menunjukan bahwa
+penggunakan QRIS pada platform donation-based crodfunding mampu meningkatkan
+kenyamanan pengguna dan mempercepat proses donasi, meskipun tantangan terkait literasi
+digital
+
+dan
+
+kepercayaan
+
+terhadap
+
+platform
+
+masih
+
+menjadi
+
+perhatian.
+
+Meskipun demikian, sejumlah penelitian mengindikasikan bahwa tantangan utama
+dalam donasi digital tidak hanya terletak paada aspek teknis pembayaran, tetapi juga ada
+Upaya membangun kepercayaan pengguna secara berkelanjutan. Inovasi fitur pada
+platform donasi dinilai dapat berkontirbusidalam meningkatkan partisipasi donator apabila
+
+1
+
+mampu memberikan pengalaman pengguna yang transparan dan interaktif (Tarigan,
+2023;Zikrinawati, et al. (2025). Influence of Trust and Perceived Risk on Online Donation
+Decisions. JIVA Journal., n.d.).
+Berdasarkan kondisi tersebut, alikasi Nyumbangin di kembangkan sebagai
+platform donasi digital berbasis web dan mengintegrasikan sistem pembayaran digital serta
+fitur pendukung seperti notifikasi real-time, leaderboard donator, dan media sharing. Fitur
+media sharing di rancang untuk mendorong keterlibatanan sosial dan meningkatkan
+kepercayaan pengguna melalu mekanisme berbagi aktivitas donasi, yang berdasarkan
+penelitian sebelumnya terbukti dapat mmepengaruhi partisipasi donator. Dengan
+pendekatan tersebut, aplikasi Nyumbangin di harapkan mampu memberikan pengalaman
+donasi digital yang transparan, interaktif, dan terpercaya.
+
+1.2 IDENTIFIKASI MASALAH
+Meskipun platform donasi digital sudah banyak tersedia, sebagian besar memiliki
+kompleksitas fitur dan arsitektur yang cukup tinggi, sehingga kurang sesuai untuk
+dipelajari atau dijadikan dasar pengembangan mandiri. Selain itu, implementasi digital
+payment membutuhkan contoh sistem yang sederhana namun fungsional agar dapat
+dipahami dengan mudah.
+Berdasarkan kondisi tersebut, kebutuhan yang muncul adalah:
+1. Kebutuhan untuk memahami sekaligus mempraktikkan implementasi sistem
+Digital Payment melalui proyek nyata.
+2. Kebutuhan akan platform donasi yang ringan dan sederhana, tanpa kompleksitas
+berlebih.
+3. Kebutuhan akan sebuah media belajar dan inovasi, yang tetap memiliki potensi
+digunakan oleh publik.
+
+1.3 TUJUAN
+Tujuan utama dari pengembangan platform Nyumbangin adalah membangun
+sistem donasi digital yang sederhana, fungsional, dan dapat menjadi dasar pengambangan
+lebih lanjut. Secara khusus, tujuan proyek ini adalah:
+
+2
+
+1. Merancang dan mengimplementasikan platform donasi sederhana sebagai
+penerapan teknologi, termasuk Digital Payment.
+2. Menyediakan alternatif platform donasi yang ringan, fleksibel, dan mudah
+dikembangkan sesuai kebutuhan.
+3. Membangun pondasi produk digital yang dapat diekspansi menjadi sistem yang
+lebih kompleks di masa depan sekaligus menjadi
+
+sarana
+
+pembelajaran
+
+dan
+
+inovasi.
+
+1.4 RUANG LINGKUP
+Ruang lingkup pengembangan ini difokuskan pada perancangan, pembangunan,
+dan evaluasi prototi Nyumbangin, yaitu platform web sederhana untuk penggalangan
+dukungan/donasi bagi kreator. Lingkup ini mencakup proses analisis kebutuhan,
+perancangan arsitektur dan model data, implementasi modul inti, serta pengujian
+fungsional dalam lingkungan pengembangan.
+
+1.4.1 Cakupan Fungsional
+Penilitian ini mencakup pengembangan fitur inti sebagai berikut:
+1. Manajemen Kreator
+Meliputi registrasi, autentikasi, dan donasi otorisasi kreator menggunakan
+dua metode:
+a) JSON
+
+Web
+
+Token
+
+(JWT)
+
+untuk
+
+autentikasi
+
+berbasis
+
+username/password.
+b) OAuth Google Sign-in sebagai metode login alternatif menggunakan
+akun Google.
+2. Pengelolaan Donasi
+Pencatatan transaksi donasi (nominal, waktu, dan identitas donor
+terbatas/anonym), penyimpanan data donasi, serta penyajian ringkasan
+donasi kepada kreator.
+3. Dashboard Kreator
+Penyajian metrik dasar seperti jumlah donasi, total nominal terkumpul, dan
+daftar 10 donatur terbaru.
+4. Leaderboard Global
+
+3
+
+Agregasi donasi lintas kreator untuk menampilkan peringkat donasi secara
+global melalui endpoint contoh
+GET /api/dashboard/leaderboard dengan verifikasi JWT tipe creator.
+5. Antarmuka Pengguna Web
+Halaman publik untuk menampilkan profile kreator dan melakukan donasi,
+serta halaman privat untuk dashboard kreator.
+
+1.4.2 Cakupan Teknis
+Secara teknis, penilitian ini mencakup:
+1. Arsitektur Aplikasi
+Pembangunan sistem berbasis Next.js dengan API Routes sebagai backend,
+Node.js runtime, dan NoSQL MongoDB menggunakan Mongoose.
+2. Keamanan Dasar Sistem
+Meliputi:
+-
+
+Implementasi JWT untuk login tradisional
+
+-
+
+Integrasi OAuth 2.0 Google Sign-In
+
+-
+
+Validasi input dan sanitasi sederhana
+
+-
+
+Penanganan akses endpoint privat berdasarkan token
+
+3. Perancangan dan Pemodelan
+Meliputi use case diagram, flowchart proses (alur donasi, autentikasi,
+leaderboard), dan rancangan model data (Creator, Donation).
+4. Integrasi Modul Internal
+Modul koneksi database, middleware verifikasi token (JWT & OAuth),
+utilitas hashing, serta pengelolaan data melalui shcema Creator dan
+Donation.
+
+1.4.3 Cakupan Pengujian
+Pengujian dilakukan meliputi:
+1. Uji fungsional terhadap endpoint inti seperti autentikasi kreator,
+pencatatan/pengambilan donasi, dan pemuatan data leaderboard.
+2. Uji integritas sederhana untuk memastikan alur donasi hingga dashboard
+berjalan end-to-end menggunakan data simulasi.
+
+4
+
+1.4.4 Batasan Penilitian
+Penilitian ini dibatasi pada aspek-aspek berikut:
+1. Fokus Pada Alur Donasi Dasar
+Sistem hanya mencakup proses donasi sederhana tanpa fitur pendukung
+seperti manajemen kampanye, penjadwalan donasi, atau komisi.
+2. Integrasi Pembayaran Bersifat Simulasi
+Payment gateaway digunakan dalam mode sandbox untuk tujuan
+pembelajaran dan pengujian; tidak mencakup transaksi finansial nyata,
+KYC/AML, atau kepatuhan regulasi.
+3. Lingkup Pengembangan Berskala Proyek
+Optimasi performa produksi, skalabilitas tinggi, dan security hardering
+tingkat lanjut tidak menjadi fokus utama. Namun sistem dirancang untuk
+dapat dikembangkan lebih lanjut menjadi produk publik.
+
+1.4.5 Luaran Penilitian
+Luaran yang dihasilkan meliputi:
+1. Prototipe aplikasi web Nyumbangin yang dapat dijalankan pada lingkungan
+pengembangan.
+2. Dokumen desain arsitektur, use case, flowchart, dan schema model data.
+3. Spesifikasi endpoint inti, termasuk leaderboard global.
+4. Hasil pengujian fungsional serta evaluasi ketercapaian kebutuhan.
+
+1.5 SISTEMATIKA PENULISAN
+Sistematika penulisan analisis ini disusun dalam 5 bab dan bagian akhir terdapat
+daftar pustaka, dan lampiran. Dimana pada setiap bab tersebut akan dibagi lagi menjadi
+sub-bab yang akan dibahas secara terperinci. Berikut merupakan sistematika penulisan dan
+keterangan singkatnya:
+1. Bab I Pendahuluan
+Berisi latar belakang, identifikasi masalah, tujuan, ruang lingkup, batasan, dan
+sistematika penulisan. Bab ini juga menjelaskan alasan pemilihan teknologi
+seperti Next.js, Node.js, MongoDB, JWT, serta integrasi Oauth Google.
+2. Bab II Landasan Teori
+
+5
+
+Menguraikan teori dan konsep pendukung seperti arsitektur web modern,
+SSR/SPA, autentikasi JWT, OAuth 2.0 & OpenID Connect (Google), API REST,
+basis data NoSQL, serta UML.
+3. Bab III Metode Penelitian
+Menjelaskan metode analisis kebutuhan, perancangan, pemodelan, dan
+pengujian. Termasuk use case, flowchart utama, dan arsitektur sistem.
+4. Bab IV Hasil dan Pembahasan
+Menyajikan hasil implementasi prototipe, struktur proyek, model data, endpoint,
+antarmuka pengguna, hasil pengujian, serta evaluasi sesuai ruang lingkup.
+5. Bab V Kesimpulan dan Saran
+Berisi kesimpulan akhir dan rekomendasi pengembangan lebih lanjut seperti
+integrasi payment gateaway real, peningkatan keamanan, dan optimasi performa.
+
+6
+
+BAB II
+LANDASAN TEORI
+
+2.1 PLATFORM DONASI DIGITAL
+Platform donasi digital merupakan pengembangan dari teknologi platform berbasis
+internet yang memfasilitasi interaksi antara berbagai pihak untuk tujuan sosial dan
+filantropi. Platform digital didefinisikan sebagai seperangkat komponen teknologi yang
+menyediakan fungsi inti bagi suatu sistem dan menjadi fondasi bagi pengembangan
+layanan pelengkap di atasnya (Shneor et al., n.d.; Zhou & Inoue, 2025). Secara konseptual,
+platform ini beroperasi sebagai two-sided market yang mempertemukan kelompok
+pengguna berbeda namun saling bergantung, seperti donatur dan penerima manfaat, di
+mana nilai platform tercipta dari interaksi antar pengguna tersebut (Jullien et al., 2021).
+Dalam konteks filantropi di Indonesia, platform digital digunakan sebagai
+alternatif lembaga amil konvensional dengan menawarkan kemudahan akses, transparansi,
+dan kecepatan distribusi dana untuk zakat, infaq, sedekkah, dan wakaf bagi para donator
+(Febriandika et al., 2024; Hidayatullah & Purbasari, 2022). Perkembangan ini sejalan
+dengam meningkatnya kepercayaan masyarakat terhadap sistem donasi daring serta
+pergeseran perilaku filantropi ke media digital (Indriyani & Ibrahim, 2024).
+Dalam lingkup penggalan dana massal, platform donation-based crowdfunding
+didefinisikan secara spesifik sebagai perantara teknologi yang digunakan oleh penggalan
+dana (fundraisers) untuk mencocokkan donasi dengan tujuan para donatur. Tujuan yang
+dipertemukan dalam platform ini tidak bersifat moneter, melainkan pemenuhan kebutuhan
+psikologis donatur (Fadzirul Kamarubahrin et al., n.d.). Dalam ekosistem ini, penyedia
+situs web (website providers) berperan menyediakan layanan web dan membangun sistem
+yang mendukung pemilik proyek (founders) untuk mempresentasikan kampaye mereka
+kepada calon pendukung (backers) guna menggalang donasi (Fadzirul Kamarubahrin et al.,
+n.d.; Sirisawat et al., 2022)
+
+2.2 ARSITEKTUR APLIKASI WEB MODERN
+Bagian ini membahas konsep dasar arsitektur aplikasi web modern yang menjadi
+landasan dalam memahami cara kerja sistem berbasis web (Fraihat et al., 2022).
+Pemahaman mengenai pola komunikasi serta pembagian lapisan dalam aplikasi diperlukan
+untuk menjelaskan bagaimana komponen penyusun sistem saling berinteraksi dan
+7
+
+menjalankan fungsinya. Oleh karena itu, pembahasan berikut difokuskan pada model
+client-server dan arsitektur three-tier/N-tier sebagai struktur arsitektural yang umum
+digunakan dalam pengembangan aplikasi web masa kini.
+
+2.2.1 Arsitektur Three-Tier/N-Tier
+Arsitektur three-tier (tiga lapisan) atau N-tier merupakan sebuah model
+arsitektur perangkat lunak yang membagi fungsionalitas aplikasi menjadi tiga
+lapisan logis dan fisik yang berbeda untuk meningkatkan skalabilitas dan keandalan
+sistem (Maruf & Ugli, n.d.; Prabu & De Paul, 2025). Tiga lapisan utama tersebut
+terdiri dari: lapisan presentasi (presentation tier), yang berinteraksi langsung dengan
+pengguna; lapisan aplikasi (application tier atau business logic tier), yang
+menangani pemorosesan data dan logika bisnis inti; dan lapisan data (data tier), yang
+bertanggung jawab atas penyimpanan dan manajemen basis data (Maruf & Ugli,
+n.d.). Pemisahan fungsionalitas ini memungkinkan setiap lapisan dikelola dan
+dikembangkan secara independent, menjadi arsitektur ini pilihan yang efektif untuk
+sistem yang memerlukan ketersediaan tinggi (high availabilitiy), seperti pada kasus
+penerapan LMS Moodle (Ismail, 2023).
+
+2.2.2 Konsep Client-Server
+Client-Server adalah sebuah model perangkat lunak yang memungkinkan
+sumber daya dan permintaan layanan dipenuhi melalui jaringan, dimana computer
+yang disebut kline (client) akan meminta sumber daya atau layanan, dan server akan
+menerima permintaan tersebut, memprosesnya, dan memberikan respons yang
+sesuai (Assistant professor, n.d.; Geofrey et al., n.d.). Model ini memungkinkan
+banyak pengguna untuk secara simultan mengakses dan menggunakan sumber daya
+yang disimpan secara terpusat di server, yang biasanya memiliki basis data dan
+menjalankan program untuk memproses permintaan (Geofrey et al., n.d.).
+Komunikasi antara klien dan server difasilitasi melalui protocol standar seperti
+HTTP, FTP, dan SMTP, dan model ini memberikan inter-proses komunikasi yang
+memungkinkan pertukaran data, menjadikannya fondasi bagi banyak aplikasi
+termasuk email, sistem basis data, dan internet (Nyabuto, 2023;Assistant professor,
+n.d.).
+
+2.3 REST API DAN PROTOKOL HTTP
+REST API dipahami sebagai pendekatan arsitektur web service yang
+memanfaatkan prinsip Representational State Transfer (REST) (Ehsan et al., 2022;
+8
+
+Roziqin et al., 2023). REST menekankan penggunaan URI standar untuk mengidentifikasi
+resource, memanfaatkan protokol dan prinsip yang sudah ada di web, serta menerapkan
+batasan seperti addressability, statelessness, uniform interface, dan representations untuk
+memastikan intiraksi yang sederhana namun kuat dalam sistem terdistribusi (Ehsan et al.,
+2022). Dalam konteks ini, HTTP berperan sebagai protokol utama yang digunakan baik
+sebagai standar komunikasi maupun sebagai media transportasi data (Roziqin et al., 2023).
+HTTP memungkinkan klien dan server bertukar informasi melalui metode seperti GET,
+POST, PUT, dan DELETE, dan menjadi fondasi bagi layanan REST karena sifatnya yang
+terbuka, sederhana, serta telah lama menjadi protokol inti web modern (Apriyani &
+Hamdana, n.d.; Roziqin et al., 2023).
+
+2.4 AUTENTIKASI DAN OTORASI
+Bagian ini membahas konsep dasar autentikasi dan otorisasi yang menjadi fondasi
+penting dalam pengamanan aplikasi berbasis web. Mekanisme pengenalan identitas
+pengguna dan pemberian hak akses harus dirancang secara tepat agar interaksi antar sistem
+tetap aman, terukur, dan sesuai dengan tingkat kewenangan yang dibutuhkan. Oleh karena
+itu, pembahasan berikut mencakup OAuth 2.0 sebagai protokol delegasi akses, OpenID
+Connect sebagai lapisan identitas, JSON Web Token (JWT) sebagai format token yang
+umum digunakan, skema Bearer Token yang banyak diadopsi dalam komunikasi API, serta
+prinsip-prinsip keamanan API yang memastikan perlindungan terhadap ancaman dan
+penyalahgunaan akses.
+
+2.4.1 OAuth 2.0
+OAuth 2.0 didefinisikan sebagai frameworka otorisasi yang populer yang
+memungkinkan suatu aplikasi memperoleh akses terbatas ke resource yang
+dilindungi tanpa harus mengetahui atau menyimpan kredensial pengguna secara
+langsung (Lodderstedt et al., 2025). OAuth 2.0 menyediakan seperangkat
+authorization server (Philippaerts et al., 2022). Framework ini dirancang untuk
+mendukung berbagai konteks-mulai dari aplikasi web, single-page apps, hingga
+aplikasi mobile-dengan cara memberikan fleksibilitas pada mekanisme autentikasi
+dan otorisasi yang aman di antara berbagai jenis klien (Singh & Chaudhary, 2023).
+
+2.4.2 OpenID Connect
+OpenID Connect (OIDC) merupakan sebuah protokol yang mapan yang
+digunakan secara luas dalam manajemen identitas terfederasi (federated identity
+management). Protokol ini berfungsi sebagai dasar bagi otentikasi dan sistem Masuk
+9
+
+Tunggal (Single Sign-On atau SSO), yang memungkinkan klien untuk memverifikasi
+identitas pengguna akhir berdasarkan otentikasi yang dilakukan oleh Penyedia
+Identitas (Identity Provider) (Hammann et al., 2020; Yasuda et al., 2022). Dibangun
+di atas kerangka kerja otorisasi OAuth 2.0, kegunaan OIDC meluas hingga ke
+infrastruktur kompleks, seperti memfasilitasi akses Secure Shell (SSH) pada
+pengaturan terfederasi dengan menggunakan token akses OIDC untuk otentikasi
+pengguna pada server jarak jauh (Gudu et al., 2025).
+
+2.4.3 JWT
+JSON Web Token (JWT) merupakan sebuah standar terbuka yang
+didasarkan pada RFC 7519, yang digunakan secara luas sebagai mekanisme standar
+untuk otentikasi dan otorisasi pengguna pada layanan web. Standar ini tidak hanya
+populer untuk mengamankan transmisi data dan otentikasi pada RESTful API, tetapi
+juga dapat diperluas untuk meningkatkan keamanan dengan menyimpan informasi
+historis perilaku pengguna, seperti konsistensi alamat IP dan jenis user agent (Bucko
+et al., 2023;Rahman et al., n.d.). Sementara itu, JWT secara fundamental adalah
+format token yang memfasilitasi transmisi data yang ringkas dan aman antara pihakpihak yang berkepentingan sebagai objek JSON, yang menjadikannya mekanisme
+otentikasi
+
+yang
+
+penting
+
+dalam
+
+implementasi
+
+berbagai
+
+aplikasi
+
+modern
+
+(Nashikhuddin et al., 2023).
+
+2.4.4 Skema Bearer Token
+Skema Bearer Token merupakan mekanisme autentikasi pada OAuth 2.0 di
+mana klien cukup menyertakan token pada header (Authorization: Bearer <token>)
+untuk memperoleh akses ke resource yang dilindungi (Lodderstedt et al., 2025).
+Karena token ini bersifat bearer, siapa pun yang memilikinya dapat
+menggunakannya tanpa verifikasi tambahan, sehingga membuat keamanan transport
+menjadi aspek kritis. Penelitian terbaru menyoroti bahwa risiko pencurian token
+dapat diminimalkan melalui penggunaan kalal terenskripsi, pembatasan masa hidup
+token, serta validasi ketat pada sisi server (Ball et al., n.d.). Selain itu, praktik modern
+juga menekankan pentingnya menghindari pengiriman token melalui URL dan
+memastikan proses otorisasi mengikuti pedoman keamanan OAuth 2.0 (Neelan,
+2022).
+
+10
+
+2.4.5 Keamanan API
+Keamanan API merupakan aspek kritis dalam pengembangan aplikasi
+modern karena API menjadi jalur utama pertukaran data dan sering menjadi target
+serangan (Chandramouli & Butcher, 2020). Banyak celah keamanan muncul akibat
+pengelolaan aset API yang lemah, API lama yang tidak terinventarisasi, serta
+kerentanan pada alur data dan logika bisnis (Sun et al., 2022). Selain itu,
+meningkatnya kompleksitas arsitektur RESTful dan GraphQL memperluas
+permukaan serangan, termasuk risiko seperti information leakage, unauthorized
+access, dan eksploitasi validasi input yang tidak memadai (Zhao, n.d.).
+Untuk
+
+mengatasi
+
+ancaman
+
+tersebut,
+
+mekanisme
+
+keamanan
+
+API
+
+membutuhkan pendekatan berlapis yang mencakup autentikasi kuas berbasis
+OAuth/JWT, penggunaan HTTPS/TLS untuk mengamankan transmisi data, serta
+manjemen hak akses yang detail guna mencegah penyalahgunaan kredensial (Zhao,
+n.d.). Pentingnya teknik seperti asset discovery, traffic auditing, dan analisis alur
+data untuk mengidentifikasi API tersembunyi dan aktivitas mencurigakan (Sun et
+al., 2022). Di samping itu, penggunaan API Gateaway dapat membantu menerapkan
+pembatasan trafik, filtrasi permintaan, dan perlindungan terhadap serangan seperti
+DDoS, sehingga API tetap terawasi dan terlindungi secara konsisten.
+
+2.5 DATABASE NoSQL (MongoDB)
+Basis data dokumen NoSQL (Not Only SQL) muncul sebagai alternatif yang
+signifikan terhadap basis data relasional tradisional yang sering memiliki batasan ketat
+pada struktur data dan relasi, sehingga kurang efisien untuk menangani volume data yang
+sangat besar (huge database) (Byali et al., 2022). NoSQL document database mengatasi
+masalah ini dengan menyediakan kemampuan untuk menyimppan dan mengelola data
+dalam format dokumen, sehingga dapat menampung data yang tidak terstruktur, semistruktur, maupun terstruktur (Carvalho et al., 2023). Keunggulan utama NoSQL, khususnya
+jenis berorientasi dokumen seperti MongoDB, terletak pada fleksibilitas dan skalabilitas
+horizontal yang tinggi, menjadikannya pilihan esensial ketika skema data yang dinamis
+tidak sesuai dengan kebutuhan basis data realisonal (Byali et al., 2022).
+Secara opsional, basis data dokumen NoSQL menyimpan dalam bentuk dokumen.
+Meskipun memiliki perbedaan dalam beberapa aspek, MongoDB, Couchbase, dan
+CouchDB adalah contoh utama dari basis data dokume yang terkenal (Carvalho et al.,
+2023). Sebagai contoh MongoDB merupakan basis data berorientasi dokumen, cross11
+
+platform, yang menawarkan kinjera tinggi, ketersediaan tinggi, dan skalabilitas yang
+sederhana. Basis data ini menggunakan MongoDB Query Language (MQL) yang
+dirancang untuk kemudahan penggunaan oleh pengembang (Byali et al., 2022). Oleh
+karena itu, basis data dokumen NoSQL menjadi solusi penting untuk aplikasi padat data,
+memastikan penyimpanan big data dan kinerja kueri yang baik.
+
+2.6 FLOWCHART SISTEM
+Flowchart merupakan salah satu model yang paling mendasar dan penting dalam
+perancangan sistem informasi, di mana ia berfungsi untuk mendesain dan menyusun alur
+dokumen serta memvisualisasikan prosedur atau tahapan proses secara sistematis. Secara
+umum, flowchart memiliki aplikasi yang luas di berbagai bidang seperti pengembangan
+perangkat lunak, desain teknik, dan eksperimen ilmiah (Zhang et al., 2023). Struktur data
+flowchart tradisional sering kali didasarkan pada adjacensy list, cross-linked list, atau
+adjacency matrix dari struktur graf, yang didasari fakta bahwa setiap dua node dapat
+memiliki hubungan koneksi (Zhang et al., 2023). Namun, terlepas dari kompleksitas
+penyimpanan datanya, flowchart tetap menjadi alat fundamental yang menyediakan
+representasi visual dari urutan dan hubungan logis dalam suatu sistem (Ratumurun et al.,
+n.d.;Pan et al., 2024).
+
+2.7 UNIFIED MODELING LANGUAGE (UML)
+Unified Modeling Language (UML) didefinisikan sebagai sebuah bahasa
+pemodelan standar yang digunakan untuk merancang dan mendokumentasikan sistem
+berorientasi objek. Sebagai bahasa standar, UML menyediakan seperangkat notasi grafis
+yang komprehensif untuk memvisualisasikan, memspesifikasikan, membangun, dan
+mendokumentasikan artefak dalam sistem perangkat. Tujuan utama penggunaan UML
+adalah untuk memperjelas model yang tidak konsisten dan mengurangi ambiguitas selama
+proses pengembangan perangkat lunak (Amani Bestari et al., 2024). UML membantu
+memvisualkan, menspesifikasikan dan mendokumentasikan desain sistem secara grafis
+(Siska Narulita et al., 2024).
+Dengan menggunakan diagram-diagram yang berbeda, seperti Use Case Diagram
+dan Activity Diagram, UML membantu pengembang dalam memodelkan interaksi,
+struktur, dan perilaku sistem (Marwah M. A. Dabdawb, 2024). Penerapan UML sangat
+krusial dalam siklus hidup pengembangan sistem (System Development Life Cycle atau
+
+12
+
+SDLC) karena membantu memastikan konsisten model dan mempermudah komunikasi
+antara pihak-pihak yang terlibat dalam proyek (Marchezan et al., 2023).
+
+2.6.1 Use Case Diagram
+Use Case adalah suatu diagram fundamental yang umum diajarkan dalam
+ilmu komputer dan rekayasa perangkat lunak. Diagram ini berfungsi sebagai
+representasi visual dari fungsionalitas sistem dari sudut pandang pengguna.
+Meskipun definisinya tampak sederhana, penilaian terhadap diagram use case sering
+kali menjadi hambatan dalam proses pembelajaran, terutama karena dua masalah
+utama: masalah interpersonal (tidak adanya standar penilaian di antara para
+pengajar)(Jebli et al., 2024) dan masalah intrapersonal (inkonsistensi seorang
+pengajar saat menilai banyak diagram) (Fauzan et al., 2021; Abbott et al., 2025;
+Wang et al., 2025).
+
+2.6.2 Activity Diagram
+Activity Diagram adalah salah satu diagram perilaku yang tersedia dalam
+Unified Model Language (UML) yang digunakan untuk memodelkan alur kontrol
+dan alur data dalam suatu sistem (Sandfreni et al., 2021). Diagram ini secara visual
+merepresentasikan Langkah-langkah, keputusan, dan urutan tindakan yang
+diperlukan untuk menyelesaikan suatu proses atau kegiatan bisnis tertentu (Siska
+Narulita et al., 2024). Dalam konteks pemodelan sistem, Activity Diagram sangat
+berguna untuk memvisualisasikan bagaimana berbagai kegiatan saling terkait dan
+bergantung satu sama lain (Jha et al., 2023; Ramdany et al., n.d.).
+
+2.6.3 Sequence Diagram
+Sequence Diagram adalah diagram UML yang paling umum kedua,
+digunakan untuk merepresentasikan interaksi objek dan pertukaran pesan antar objek
+tersebut seiring berjalannya waktu (Siska Narulita et al., 2024). Diagram ini secara
+visual menunjukkan bagaimana peristiwa atau aktivitas yang ada dalam sebuah use
+case dipetakan menjadi operasi-operasi dari kelas objek yang ada pada Class
+Diagram (Al-Fedaghi, n.d.).
+
+2.6.4 Class Diagram
+Class Diagram merupakan salah satu diagram Unified Modeling Language
+(UML) yang paling umum digunakan dalam Pendidikan dan pengembangan
+perangkat lunak berorientasi objek (Siska Narulita et al., 2024b). Fungsi utama dari
+
+13
+
+Class Diagram adalah untuk merepresentasikan kelas-kelas dalam sistem perangkat
+lunak dan hubungan yang terjalin antar kelas-kelas tersebut (Fauzan et al., 2021b).
+
+2.8 ENTITY-RELATIONSHIP DIAGRAM (ERD)
+Entity-Relationship Diagram (ERD) adalah salah satu teknik utama yang
+digunakan dalam perancangan basis data dan merupakan representasikan diagramatik
+utama dari model data konseptual (Pulungan et al., n.d.). Fungsi utamanya adalah untuk
+merefleksikan persyaratan data pengguna dalam suatu sistem basis data (PENGANTAR
+BASIS DATA, n.d.). ERD adalah tahap pertama dalam proses desain basis data dan
+memvisualisasikan bagaimana berbagai komponen data diatur dan berinterkasi (JaimezGonzález & Martínez-Samora, 2020). Dalam membuat ERD, beberapa hal penting harus
+dipertimbangkan, antara lain setiap basis data harus memiliki entitas (entities) yang saling
+terhubung melalui hubungan (relationship), dan setiap entitas harus memiliki atribut
+(atributes) yang terdiri dari kunci utama (primary key) dan kunci asing (foreign key)
+(Afiifah et al., 2022).
+
+2.9 PERAN FITUR SOCIAL SHARING DALAM DONASI DIGITAL
+Kepercayaan merupakan faktor kunci dalam keberhasilan platform donasi digital,
+mengingat interaksi antara donatur dan penerima dilakukan sepenuhnya secara daring
+tanpa kontak langsung (Tarigan, 2023). Tingkat kepercayaan ini sangat dipengaruhi oleh
+persepsi transparansi dan kredibilitas sistem yang disediakan oleh platform donasi digital
+(Greselda Gosal et al., n.d.). Oleh karena itu, platform donasi perlu menyediakan
+mekanisme yang mampu memperkuat transparansi tersebut.
+Salah satu mekanisme yang dapat diterapkan adalah fitur social sharing, yang
+memungkinkan aktivitas donasi dibagikan ke media sosial. Penerapan fitur social sharing
+berperan sebagai social proof, di mana visibilitas partisipasi pengguna lain dapat
+meningkatkan persepsi keandalan dan legitimasi platform (Rahmayanti et al., 2024).
+Peningkatan kepercayaan dan persepsi positif tersebut pada akhirnya berdampak pada
+meningkatnya niat dan partisipasi pengguna dalam kegiatan donasi digital (Kamarudin et
+al., 2023).
+Berdasarkan temuan tersebut, fitur social sharing pada aplikasi Nyumbangin
+dirancang sebagai fitur pendukung yang memungkinkan pengguna membagikan aktivitas
+donasi ke media sosial. Fitur ini diharapkan dapat memperkuat kepercayaan pengguna serta
+mendorong partisipasi donasi secara lebih luas.
+
+14
+
+BAB III
+METODE PENELITIAN
+
+3.1 METODE PENGEMBANGAN SISTEM
+Pengembangan platform Nyumbangin menggunakan pendekatan Agile, yang
+menekankan proses pengembangan sistem secara bertahap, adaptif, dan berulang.
+Pendekatan Agile dipilih karena sesuai dengan karakteristik proyek berskala kecil hingga
+menengah, serta memungkinkan penyesuaian fitur berdasarkan hasil evaluasi pada setiap
+tahap pengembangan.
+Pendekatan ini memungkinkan sistem dikembangkan secara inkremental, di mana
+setiap iterasi menghasilkan fungsionalitas yang dapat diuji dan dievaluasi sebelum
+melanjutkan ke iterasi berikutnya. Dengan demikian, risiko kesalahan desain dan
+implementasi dapat diminimalkan sejak tahap awal.
+
+3.1.1 Konsep Agile Development
+Agile Development merupakan pendekatan pengembangan perangkat lunak
+yang berfokus pada fleksibilitas, kolaborasi, dan kemampuan beradaptasi terhadap
+perubahan kebutuhan (Ariesta et al., n.d.). Berbeda dengan metode linear seperti
+waterfall, Agile memungkinkan perubahan kebutuhan terjadi selama proses
+pengembangan tanpa harus mengulang seluruh tahapan dari awal.
+Dalam konteks pengembangan platform Nyumbangin, Agile digunakan
+sebagai kerangka kerja konseptual untuk mengelola proses pengerjaan fitur secara
+bertahap, mulai dari analisis kebutuhan dasar, implementasi modul inti, hingga
+pengujian dan evaluasi sistem. Pendekatan ini mendukung pengembangan sistem
+yang responsif terhadap kebutuhan fungsional dan teknis yang berkembang selama
+proyek berlangsung.
+
+3.1.2 Alur Iterasi Pengembangan
+Proses pengembangan sistem dilakukan melalui beberapa siklus iterasi yang masingmasing mencakup tahapan:
+1. Perencanaan Iterasi
+Penentuan fitur yang akan dikembangkan berdasarkan prioritas kebutuhan
+sistem.
+2. Implementasi Fitur
+15
+
+Pengembangan modul atau fungsi tertentu sesuai dengan hasil perencanaan
+iterasi.
+3. Pengujian Fungsional
+Pengujian terhadap fitur yang telah dikembangkan untuk memastikan
+kesesuaian dengan kebutuhan.
+4. Evaluasi dan Penyempurnaan
+Evaluasi hasil iterasi dan perbaikan terhadap kukurangan sebelum
+melanjutkan ke iterasi berikutnya.
+Setiap iterasi menghasilkan peningkatan fungsional sistem yang dapat langsung
+diuji, sehingga kemajuan proyek dapat dipantau secara berkelanjutan.
+
+3.1.3 Penerapan Agile pada Proyek Nyumbangin
+Penerapan pendekatan Agile pada proyek Nyumbangin dilakukan dengan
+membagi pengembangan sistem ke dalam beberapa iterasi utama. Iterasi awal
+difokuskan pada pembangunan fitur inti, seperti autentikasi kreator, pencatatan
+donasi,
+
+dan
+
+integrasi
+
+sistem
+
+pembayaran.
+
+Iterasi
+
+berikutnya
+
+mencakup
+
+pengembangan fitur pendukung, seperti notifikasi real-time melalui overlay,
+leaderboard donatur, serta mekanisme payout bagi kreator.
+Pada setiap iterasi, fitur yang telah diimplementasikan langsung diuji
+menggunakan scenario pengujian fungsional untuk memastikan alur donasi,
+pembayaran, dan pencairan dana berjalan dengan benar. Hasil pengujian digunakan
+sebagai dasar evaluasi untuk menentukan perbaikan atau pengembangan fitur pada
+iterasi selanjutnya.
+Pendekatan ini memungkinkan pengembangan aplikasi dilakukan secara
+terstruktur namun tetap fleksibel, sehingga sistem dapat berkembang secara bertahap
+hingga memenuhi kebutuhan fungsional yang telah ditetapkan.
+
+3.2 ANALISIS KEBUTUHAN
+3.2.1 Sumber Kebutuhan
+Analisis kebutuhan sistem dilakukan melalui tiga pendekatan utama.
+Pertama, observasi terhadap platform donasi digital untuk mengidentifikasi pola
+umum, seperti kebutuhan transparansi transaksi, tampilan notifikasi real-time, dan
+mekanisme payout yang akuntabel. Kedua, studi pustaka terkait autentikasi modern
+(OAuth 2.0, JWT), keamanan API, serta pola desain sistem web yang relevan dengan
+
+16
+
+karakteristik aplikasi donasi. Ketiga, analisis artefak kode dan struktur API yang
+telah dikembangkan, termasuk model basis data, alur donasi, integrasi Midtrans,
+serta skrip pemeliharaan yang digunakan untuk verifikasi dan pengarsipan data.
+Pendekatan ini memastikan kebutuhan sistem dirumuskan berdasarkan konteks
+teknis dan operasional yang aktual.
+
+3.2.2 Kebutuhan Fungsional
+Kebutuhan fungsional mendeskripsikan fitur yang wajib disediakan agar
+aplikasi donasi dapata berfungsi secara utuh. Fitur tersebut meliputi:
+1) Autentikasi Pengguna menggunakan Google OAuth melalui NextAuth, serta
+validasi akses melalui JWT untuk endpoint sensitif.
+2) Validasi Username Kreator, memastikan username unik dan dapat
+diverifikasi sebelum transaksi dilakukan.
+3) Pengelolaan Donasi, mencakup pembuatan transaksi, integrasi Midtrans,
+pembaruan status melalui webhook, serta penyimpanan konten media share.
+4) Notiifikasi Real-Time, yang menampilkan donasi terbaru pada overlay
+kreator untuk keperluan siaran langsung.
+5) Leaderboard, baik secara global maupun berdasarkan kreator, untuk
+menampilkan agregasi donasi.
+6) Statistik Kreator, berupa ringkasan donasi berdasarkan periode.
+7) Payout, mencakup permintaan penarikan dana, perhitungan biaya platform,
+dan persetujuan admin.
+8) Pengelolaan Data Media Share dan Notifikasi, termasuk pengaturan masa
+berlaku (TTL) dan keterkaitan dengan transaksi donasi.
+
+3.2.3 Kebutuhan Non-Fungsional
+Kebutuhan non-fungsional mencakup karakteristik kualitas sistem, yaitu:
+•
+
+Keamanan: verifikasi token JWT, sanitasi input, pembatasan metode HTTP,
+dan pemisahan akses berdasarkan peran pengguna.
+
+•
+
+Performa: optimasi query leaderboard melalui limit dan sorting.
+
+•
+
+Skalabilitas: rencana pagination serta caching pada proses agregasi data.
+
+•
+
+Reliabilitas: konsistensi penanganan kesalahan dengan kode status standar
+(401, 404, 500)
+
+17
+
+•
+
+Integritas Data: akurasi perhitungan saldo payout dan pemrosesan donasi
+berdasarkan statur valid (PAID).
+
+3.3 PERANCANGAN SISTEM
+3.3.1 Arsitektur Logis
+Arsitektur logis sistem terdiri atas empat lapisan utama:
+1. Lapisan Antarmuka Pengguna (UI Layer)
+Berisi halaman donasi, dashboard kreator, halaman overlay notifikasi, serta
+antarmuka admin.
+2. Lapisan API (Application Layer)
+Mengelola endpoint untuk donasi, leaderboard, overlay, autentikasi, payout,
+dan operasi admin melalui mekanisme API Routes di Next.js
+3. Lapisan Layanan Utilitas (Service Layer)
+Meliputi modul koneksi database, pengelolaan token JWT, serta utilitas
+untuk validasi dan perhitungan internal.
+4. Lapisan Data (Data Layer)
+Terdiri atas model MongoDB seperti Donation, Creator, MediaShare,
+Payout, dan Notification.
+
+3.3.2 Arsitektur Fisik
+Arsitektur fisik sistem mengikuti pola aplikasi web modern:
+Browser / OBS Overlay → Next.js Runtime (Node.js) → MongoDB → Layanan
+Eksternal (Google OAuth, Midtrans)
+•
+
+Next.js menangani logika UI dan API dalam satu platform.
+
+•
+
+MongoDB digunakan sebagai basis data dokumen.
+
+•
+
+Midtrans mengelola proses pembayaran melalui Snap Token dan webhook.
+
+•
+
+Overlay digunakan secara mandiri melalui OBS atau iframe untuk
+menampilkan notifikasi donasi.
+
+18
+
+3.3.3 Arsitektur Teknologi
+Arsitektur teknologi sistem mencakup penggunaan Next.js sebagai
+framework utama yang menjalankan frontend dan backend melalui API Routes,
+Node.js sebagai runtime server-side, serta MongoDB sebagai data dokumen. Sistem
+autentikasi menggunakan Google OAuth 2.0 melalui NextAuth dan JWT untuk
+otoriasi endpoint privat. Mekanisme pembayaran dilakukan dengan Midtrans
+melalui Snap Token dan Webhook. Selain itu, aplikasi menyediakan overlay web
+real-time untuk integrasi dengan OBS sebagai tampilan notifikasi donasi. Kombinasi
+teknologi ini menghasilkan sistem yang modern, responsive, serta siap
+diintegrasikan dengan berbagai layanan eksternal.
+
+1Gambar 3. 1 Arsitektur Teknologi
+
+3.3.4 Modul Utama
+Sistem dibagi ke dalam beberapa modul utama:
+1) Authentication Module (OAuth + JWT)
+2) Donation Module (pembuatan transaksi, webhook, media share)
+3) Leaderboard Module (global dan per kreator)
+4) Payout Module (request, approval, perhitungan fee)
+5) Notification Module (TTL, event donasi)
+6) Maintenance Module (arsip donasi, integritas data)
+19
+
+3.3.5 Strategi Desain
+Desain strategi menerapkan pola penanganan API yang konsisten meliputi
+validasi metode HTTP, autentikasi, validasi input, eksekusi query database, dan
+pengembalian response JSON. Selain itu, prinsip pemisahan tanggung jawab
+diterapkan melalui pembagian endpoint berdasarkan role dan fungsi. Pembatasan
+data seperti limit dan sorting digunakan untuk menghindari over-fetching, terutama
+pada leaderboard dan statistik.
+
+3.4 PEMODELAN SISTEM
+Pemodelan sistem dilakukan untuk memberikan representasi visual dan konseptual
+dari fungsi, alur kerja, serta struktur data yang digunakan dalam aplikasi Nyumbangin ini.
+Pemodelan ini bertujuan memastikan bahwa kebutuhan fungsional dan non-fungsional
+yang telah diidentifikasi dapat diterjemahkan ke dalam desain sistem yang jelas, terstruktur,
+dan mudah diimplementasikan. Diagram-diagram pada bagian ini mencakup model proses,
+interaksi, dan entitas yang saling berhubungan, sehingga dapat memberikan gambaran
+menyeluruh mengenai cara sistem beroperasi secara end-to-end.
+
+20
+
+3.4.1 Use Case
+
+Gambar 3. 2 Use Case Diagram
+
+Use case menggambarkan interkasi antara Donatur, Kreator, Admin,
+Midtrans, dan Google OAuth, yang meliputi proses donasi, verifikasi status
+pembayaran, pengelolaan leaderboard, permintaan payout, pengelolaan payout
+admin, dan login menggunakan Google OAuth.
+
+21
+
+3.4.2 Activity Diagram
+•
+
+Activity Diagram proses Donasi
+
+Gambar 3. 3 Activity Diagram Donasi
+
+Activity diagram proses Donasi menggambarkan di mana Donor
+mengisi formulir (dengan atau tanpa mediashare), kemudian Sistem membuat
+record PENDING, menghasilkan snap token, dan mengarahkan Donor ke
+Midtrans untuk pembayaran; setelah Midtrans mengirim webhook, Sistem
+memperbarui status donasi menjadi PAID dan membuat notifikasi.
+
+22
+
+•
+
+Activity Diagram proses Payout
+
+Gambar 3. 4 Activity Diagram Payout
+
+Activity diagram proses Payout dimulai ketika Kreator meminta payout,
+di mana Sistem memeriksa saldo minimal; jika memenuhi syarat, sistem
+menghitung biaya layanan (5%) dan status menjadi PENDING, lalu Admin
+meninjau dan melakukan transfer manual, yang kemudian diperbarui oleh Sistem
+menjadi PROCESSED.
+
+23
+
+3.4.3 Sequence Diagram
+•
+
+Sequence Diagram Donasi
+
+Gambar 3. 5 Sequence Diagram Donasi
+
+Pada sequence diagram ini menggambarkan alur proses donasi, dimulai
+dari donor mengisi form di Donation Page yang kemudian divalidasi dan dikirim
+ke Donate API. Setelah validasi server-side, data donasi disimpan ke database,
+dan jika ada youtubeUrl, dibuat juga MediaShare. API lalu meminta Snap Token
+ke Midtrans, yang digunakan untuk membuka halaman pembayaran. Setelah
+donor membayar dan pembayaran sukses, Midtrans mengirim webhook ke
+server, sehingga status donasi diupdate menjadi PAID dan di akhir notifikasi
+overlay dibuat.
+
+24
+
+•
+
+Sequence Diagram Leaderboard
+
+Gambar 3. 6 Sequence Diagram Leaderboard
+
+Sequence diagram ini menggambarkan alur pengambilan data
+leaderboard, di mana client (dashboard kreator) mengirim request ke leaderboard
+API dengan token. API memeriksa method dan validasi token melalui JWT
+Service, lalu memastikan user adalah kreator dan datanya ada. Setelah itu, API
+mengambil data donasi terbaru dari database, memformat respons, dan mengirim
+hasilnya ke client. Jika terjadi error seperti token tidak valid, kreator tidak
+ditemukan, atau method salah, API akan mengembalikan kode error yang sesuai.
+
+3.3.4 Model Entitas
+Model entitas digunakan untuk merepresentasikan struktur data utama yang
+bekerja di dalam platform donasi. Setiap entitas dirancang untuk mendukung proses
+transaksi, pengelolaan kreator, penayangan media share di overlay, hingga alur
+pancairan dana. Secara umum, entitas yang digunakan dapat dikelompokkan
+menjadi entitas utama dan entitas pendukung.
+Entitas utama platform meliputi:
+•
+
+Creator
+Menyimpan data kreator seperti nama, email, profil, serta informasi akun
+yang diperlukan untuk menerima donasi dan melakukan permintaan payout.
+
+25
+
+•
+
+Donation
+Mencatat seluruh transaksi donasi, termasuk nominal, pesan, metode
+pembayaran, status (PENDING/PAID), serta relasi terhadap kreator yang
+menerima donasi.
+
+•
+
+MediaShare
+Entitas untuk menangani request media share (youtube video) yang
+dikaitkan dengan donasi tertentu, termasuk durasi dan validasi media.
+
+•
+
+Payout
+Menyimpan informasi permintaan pencairan dana kreator, mencakup jumlah
+pencairan, fee platform, status (PENDING/APPROVED/PROCESSED),
+serta log aktivitas admin.
+
+•
+
+Notification
+Berfungsi untuk menampilkan data overlay secara real-time, seperti donasi
+terbaru atau media share yang harus ditayangkan oleh streamer/kreator.
+
+Selain itu, terdapat entitas pendukung yang digunakan untuk historasi dan agregasi
+data:
+•
+
+DonationHistory – mencatat perubahan status donasi.
+
+•
+
+MonthlyLeaderboard – digunakan untuk menyimpan data peringkat donatur
+setiap bulan.
+
+•
+
+Contact – mencatat umpan balik dari pengguna.
+
+•
+
+ProfileImage – menyimpan data gambar untuk kebutuhan profil kreator.
+
+•
+
+Admin – menyimpan kredensial admin yang bertugas memverifikasi payout
+dan melakukan manajemen sistem.
+Seluruh entitas tersebut berperan dalam memastikan integritas data serta
+
+menghubungkan seluruh proses inti mulai dari transaksi donasi, pengololaan kreator,
+hingga operasional sistem admin.
+
+3.4.5 Relasi Entitas
+Pada poin ini menjelaskan hubungan antar entitas utama yang digunakan
+dalam sistem. Relasi ini dibangun berdasarkan alur operasional aplikasi, seperti
+proses donasi, pemutaran media share, pengajuan payout, serta notifikasi kepada
+kreator. Hubungan antar entitas divisualisasikan dalam bentuk Entity Relationship
+Diagram (ERD) agar struktur data menjadi lebih jelas, baik dari sisi keterkaitan
+26
+
+maupun dependensi antar table/model. Diagram ini menjadi dasar dalam
+perancangan database dan memastikan bahwa setiap proses bisnis memiliki
+representasi data yang konsisten dan saling terhubung.
+
+Gambar 3. 7 ERD
+
+3.5 METODE PERANCANAN TEKNIS
+Perancangan teknis pada platform donasi ini difokuskan pada penyusunan
+arsitektur layanan yang aman, efisien, dan mudah dipelihara. Pendekatan utama yang
+digunakan adalah pemisahan tanggung jawab antar modul serta penerapan pola
+penanganan API yang konsisten. Setiap endpoint dirancang mengikuti alur standar: validasi
+metode HTTP, autentikasi menggunakan JWT (untuk endpoint privat), validasi input,
+eksekusi operasi database, dan pengembalian respons JSON. Pola yang seragam ini
+memudahkkan debugging serta menjaga konsistensi perilaku lintas layanan.
+Dari sisi keamanan, validasi token JWT diterapkan untuk memastikan setiap
+permintaan memiliki otorisasi yang benar termasuk pengecekan masa berlaku token dan
+jenis pengguna (donor, kreator, atau admin). Seluruh input kritis seperti username, nominal
+donasi, dan URL media share – validasi untuk mencegah data tidak sah masuk ke sistem.
+
+27
+
+Integrasi pembayaran dirancang agar bergantung hanya pada webhook resmi Midtrans,
+sehingga status transaksi tidak bergantung pada aktivitas pengguna di sisi client.
+Optimasi basis data dilakukan melalui penempatan indeks pada atribut yang sering
+digunakan dalam kueri seperti (createdAt, creatorId, dan creatorUsername). Operasi
+agregasi seperti leaderboard dan statistik kreator menggunakan pipeline agregasi
+MongooDB untuk mengurangi beban pada server aplikasi. Pembatasan kueri (limit)
+diterapkan untuk mencegah pengambilan data berlebihan pada endpoint yang memiliki
+potensi pertumbuhan data tinggi.
+Selain itu, proses donasi dan penyajian notifikasi dipisahkan dari alur pembayaran
+utama. Server hanya membuat record donasi dan Snap Token pada permintaan awal,
+sementara pembaruan status dan pemicu notifikasi dilakukan ketika webhook diterima.
+Pemisahan ini membuat sistem lebih stabil dan memastikan overlay selalu menampilkan
+data yang sudah tervalidasi.
+
+3.6 METODE PENGUJIAN
+Metode pengujian pada platform donasi ini dirancang untuk memastikan bahwa
+seluruh fungsi sistem berjalan sesuai kebutuhan, aman digunakan, dan menghasilkan data
+yang konsisten. Pendekatan pengujian dilakukan melalui kombinasi pengujian unit,
+pengujian integrasi, serta pengujian fungsional terhadap endpoint API dan alur bisnis
+utama. Fokus utama pengujian meliputi keakuratan proses donasi, keandalan mekanisme
+payout, integritas data pada leaderboard serta statistik kreator, dan validitas proses
+autentikasi berbasis OAuth dan JWT.
+Pengujian dilakukan menggunakan data uji yang dikontrol, simulasi webhook
+pembayaran, serta verifikasi hasil langsung melalui database. Seluruh scenario kritis seperti
+validasi input, autentikasi dan otorisasi, serta penanganan kesalahan diuji untuk
+memastikan sistem tetap stabil dalam berbagai kondisi operasional.
+
+3.6.1 Jenis Pengujian
+Pengujian sistem mencakup beberapa jenis pengujian sebagai berikut:
+a. Pengujian Unit (Unit Testing)
+Dilakukan pada fungsi atau modul kecil yang berdiri sendiri, seperti:
+•
+
+Validasi token JWT (sign dan verify),
+
+•
+
+Perhitungan platfromFee dan finalAmount pada payout,
+
+•
+
+Validasi input donasi (amount, username, media share).
+28
+
+Tujuannya memastikan setiap fungsi inti bekerja dengan benar secara mandiri.
+b. Pengujian Integrasi (Integrasi Testing)
+Berfokus pada alur yang melibatkan beberapa komponen, seperti:
+•
+
+Proses donasi lengkap (create donation → Snap Token → pembayaran
+→ webhook → update status pembayaran),
+
+•
+
+Permintaan payout oleh kreator dan proses approval oleh admin,
+
+•
+
+Penampilan notifikasi overlay berdasarkan data terbaru.
+
+Pengujian ini memastikan setiap komponen saling berinteraksi tanpa
+mengakibatkan inkosistensi.
+c. Pengujian Fungsional (Functional Testing)
+Dilakukan untuk mengevaluasi apakah setiap endpoint memenuhi kebutuhan
+fungsional yang telah ditetapkan, seperti:
+•
+
+Validasi username saat login atau donasi,
+
+•
+
+Pembatasan akses endpoint dashboard menggunakan JWT,
+
+•
+
+Respon error 400, 401, 404, dan 500 yang konsisten.
+
+d. Pengujian Keamanan (Security Testing)
+Meliputi:
+•
+
+Akses API tanpa token → harus ditolak,
+
+•
+
+Token expired atau userType salah → harus tidak lolos,
+
+•
+
+Percobaan mengirim payload tidak valid → harus tervalidasi.
+
+e. Pengujian Kinerja (Performance Testing)
+Difokuskan pada:
+•
+
+Kecepatan query leaderboard (target < 300 ms)
+
+•
+
+Respons webhook stabil,
+
+•
+
+Performa overlay saat polling data.
+
+3.6.2 Skenario Pengujian
+Beberapa skenario pengujian utama yang digunakan meliputi:
+1) Skenario 1 – Donasi Berhasil
+Input valid → server membuat record PENDING → Snap Token sukses →
+pembayaran di Midtrans → webhook diterima → status menjadi PAID →
+overlay menampilkan donasi.
+29
+
+2) Skenario 2 – Donasi Gagal Validasi
+Nominal < minimun atau format URL salah → server mengembalikan status
+400.
+3) Skenario 3 – Akses Endpoint Tanpa Token
+Mengakses leaderboard atau payout tanpa Authorization → harus menghasilkan
+401 Unauthorized.
+4) Skenario 4 – Payout Request oleh Kreator
+Saldo cukup → request dicatat → status PENDING → admin review →
+APPROVED → status PROCESSED → saldo kreator berkurang sesuai
+finalAmount.
+5) Skenario 5 – Token Salah Atau Expired
+Token invalid/expired → akses ditolak dengan pesan error yang konsisten.
+6) Skenario 6 – Webhook Simulasi Midtrans
+Webhook dikirim manual dari Postman → status donasi harus berubah menjadi
+PAID → overlay menampilkan notifikasi.
+
+3.6.3 Alat Pengujian
+Alat yang digunakan dalam proses pengujian meliputi:
+•
+
+Postman – untuk pengujian API (header, body, autentikasi).
+
+•
+
+MongoDB Compass – untuk memverifikasi perubahan data secara langsung.
+
+•
+
+Logging Next.js (console) – untuk memantau webhook, error, dan alur
+proses.
+
+3.7 EVALUASI KEBERHASILAN
+Evaluasi keberhasilan dilakukan untuk menilai sejauh mana implementasi sistem
+memenuhi kebutuhan fungsional, stabilitas operasional, serta ketepatan mekanisme kritis
+seperti autentikasi, pengelolaan sesi, dan pemrosesan pembayaran. Penilaian dilakukan
+melalui pengujian terstruktur dan analisis hasil code coverage yang dihasilkan dari proses
+unit testing pada modul-modul inti.
+a. Cakupan pengujian
+Pengujian difokuskan pada komponen yang tergolong critical bagi kelangsungan
+sistem, meliputi:
+•
+
+Autentikasi & Otorisasi (JWT, session handling, route protection)
+
+30
+
+•
+
+Pemrosesan Pembayaran (Midtrans Snap & webhook)
+
+•
+
+Fungsi donasi (validasi input, perhitungan status)
+
+•
+
+Fungsi payout (perhitungan finalAmount, status machine payout)
+
+Komponen lain seperti UI Component dan utilitas pendukung tidak menjadi prioritas
+utama dalam pengujian ini tidak langsung berpengaruh pada keamanan maupun alur
+transaksi.
+b. Hasil Code Coverage
+Pengujian menghasilkan metrik code coverage sebagai berikut:
+Metode
+
+Cakupan
+
+Statements
+
+14.71%
+
+Branch
+
+15.56%
+
+Functions
+
+29.35%
+
+Lines
+
+14.21%
+Tabel 3.1 Code Coverage
+
+Meskipun angka coverage terlihat rendah secara keseluruhan, hal ini tidak
+mencerminkan kualitas fungsional sistem secara langsung karena coverage tidak
+mencakup seluruh file, tetapi hanya modul-modul yang dipilih berdasarkan kategori
+kritis. File non-kritis (UI, utilitas ringan, helper statis) tidak disertakan dalam pengujian
+sehingga turut menurunkan total persentase.
+Hasil tersebut mengegaskan bahwa:
+•
+
+Seluruh proses inti (auth, sesi, validasi donasi, perhitungan payout,
+pembayaran) telah berhasil diuji.
+
+•
+
+Jalur eksekusi utama (main happy path) telah tevalidasi.
+
+•
+
+Beberapa jalur error masih belum seluruhnya dicakup, sehingga membuka
+peluang peningkatan lebih lanjut.
+
+c. Interpretasi dan Evaluasi
+Berdasarkan hasil pengujian dan code coverage tersebut, dapat disimpulkan bahwa:
+1. Stabilitas alur bisnis utama sudah tervirifikasi, terutama mekanisme donasi
+dan payout yang melibatkan transaksi dan webhook.
+
+31
+
+2. Keamanan dasar terkait autentikasi, JWT, dan sesi sudah diuji dan berfungsi
+sesuai kebutuhan.
+3. Konsistentasi data pada proses pembayaran serta pencatatan notifikasi
+berhasil diuji melalui simulasi webhook.
+4. Coverage yang rendah lebih disebabkan oleh lingkup pengujian yang
+difokuskan, bukan karena ketidakterujian seluruh sistem.
+5. Sistem dinilai layak digunakan, namun peningkatan cakupan pengujian tetap
+direkomendasikan untuk modul non-kritis seperti UI dan utilitas.
+d. Kesimpulan Evaluasi
+Secara keseluruhan, sistem telah memenuhi fungsi utamanya – mulai dari pemrosesan
+donasi, pembayaran, hingga payout dan notifikasi. Hasil pengujian menunjukkan
+bahwa fitur inti berjalan stabil, meskipun pengujian yang lebih luas masih diperlukan
+pada pengembangan selanjutnya.
+
+32
+
+BAB IV
+HASIL DAN PEMBAHASAN
+
+4.1 HALAMAN AUTENTIKASI
+
+Gambar 4. 1 Halaman Login
+
+Berisi halaman yang menampilkan dua opsi untuk login. Login manual maupun
+menggunakan Google OAuth untuk mempermudah proses autentikasi.
+
+33
+
+4.2 HALAMAN DONASI
+4.2.1 Form Donasi
+
+Gambar 4. 2 Form Donasi
+
+Halaman donasi menyediakan input seperti nama donor, nominal donasi, pesan serta opsi
+media share. Sistem melakukan validasi dasar sebelum melanjutkan proses ke Midtrans.
+
+34
+
+4.2.2 Halaman Pembayaran Midtrans
+
+Gambar 4. 3 Halaman Pembayaran Midtrans
+
+Setelah form donasi divalidasi, sistem mengirimkan request Snap Token ke
+Midtrans. Donor kemudian diarahkan ke halaman pembayaran yang disediakan
+Midtrans.
+
+35
+
+4.3 DASHBOARD KREATOR
+
+Gambar 4. 4 Dashboard Kreator
+
+Pada dashboard kreator menampilkan statistik utama seperti total donasi, total pendapatan,
+menu riwayat donasi, dan menu leaderboard donasi terbanyak perbulan.
+
+4.4 HALAMAN REQUEST PAYOUT
+
+Gambar 4. 5 Halaman Payout
+
+Kreator dapat mengajukan pencairan dana berdasarkan saldo yang tersedia. Sistem
+menghitung saldo bersih (total donasi PAID yang belum pernah dipayout).
+
+36
+
+4.5 OVERLAY
+Overlay berfungsi sebagai antarmuka yang ditampilkan pada platform streaming
+melalui OBS. Seluruh elemen overlay diambil secara real-time dari API sehingga kreator
+dapat menampilkan interaksi donasi secara langsung kepada penonton. Sub bab ini
+menampilkan implementasi setiap komponen overlay.
+
+4.5.1 Overlay Notifikasi Donasi
+
+Gambar 4. 6 Notifikasi Donasi
+
+Overlay menampilkan notifikasi donasi secara real-time yang diambil melalui
+polling API tampilan ini dikonfigurasi agar kompitabel dengan OBS untuk keperluan
+streaming.
+
+4.5.2 Overlay Media Share
+
+Gambar 4. 7 Media Share
+
+Overlay Media Share menampilkan video YouTube yang diputar berdasarkan
+permintaan donor. Pada tampilan ini, video akan muncul di area utama layar,
+
+37
+
+sementara informasi donasi – seperti nama donor, nominal, dan pesan singkat –
+tampil di bagian bawah kiri.
+
+4.5.3 Overlay QR link Donasi
+
+Gambar 4. 8 QR
+
+Overlay menyediakan kode QR statis yang mengarahkan penonton langsung ke
+halaman donasi kreator. QR ini memfasilitasi penonton streamer untuk berdonasi
+tanpa harus mengetik tautan secara manual.
+
+38
+
+4.5.4 Overlay Leaderboard
+
+Gambar 4. 9 Leaderboard Donatur
+
+Overlay ini menampilkan leaderboard daftar pendukung terbesar (top donors) atau
+ranking total donasi yang telah dioptimasi dengan limit dan sorting. Tampilan ini
+digunakan untuk memberikan apresiasi kepada donatur selama streaming.
+
+4.6 DASHBOARD ADMIN
+Bagian ini menampilkan antarmuka yang digunakan admin untuk mengelola
+aktivitas pada platform, mulai dari pemantauan data donasi hingga pengelolaan creator dan
+proses payout. Dashboard admin terdiri dari tiga menu utama: Dashboard, Creator, dan
+Payout.
+
+4.6.1 Halaman Dashboard
+
+Gambar 4. 10 Dashboard Admin
+
+39
+
+Halaman dashboard menampilkan ringkasan statistik utama sistem, seperti jumlah
+creator terdaftar, jumlah pengejuan payout, serta jumlah payout yang telah
+diselesaikan. Selain itu, halaman ini juga memvisualisasikan Top 5 Creator Paling
+Aktif berdasarkan total donasi yang diterima.
+
+4.6.2 Halaman Creator
+
+Gambar 4. 11 Tabel Daftar Creator dan Detail Creator
+
+Halaman creator digunakan untuk melihat daftar creator yang terdaftar pada
+platform, termasuk informasi status kelengkapan data payout masing-masing.
+Admin dapat melakukan pencairan creator dan melihat detail lengkap akun creator
+melalui dialog Detail Creator.
+
+4.6.3 Halaman Payout
+
+Gambar 4. 12 Tampilan Payout
+
+Halaman payout menampilkan daftar pengajuan pencairan dana yang dilakukan oleh
+para creator. Admin dapat memantau nominal, waktu pengajuan, status proses, serta
+40
+
+catatan yang terkait dengan setiap payout. Halaman ini membantu admin
+memastikan bahwa seluruh proses pancairan berjalan dengan transparan dan
+terdokumentasi.
+
+4.7 STRUKTUR BASIS DATA
+
+Gambar 4. 13 Basis Data
+
+Sistem menggunakan MongoDB sebagai basis data utama. Setiap fitur ini
+menghasilkan koleksi tersendiri untuk memudahkan proses penyimpanan, pemantauan,
+dan analisis data.
+Koleksi yang terbentuk antara lain:
+•
+
+admins – menyimpan data akun admin yang memiliki akses panel pengelolaan.
+
+•
+
+contacts – menyimpan data feedback atau saran/keluhan dari pengguna.
+
+•
+
+creators – menyimpan informasi creator, termasuk data payout dan profil.
+
+•
+
+donations – mencatat data donasi sementara yang masuk dari user yang nantinya
+dialihkan ke koleksi donationhistories.
+
+•
+
+donationhistories – menyimpan data riwayat donasi yang masuk dari koleksi
+donations.
+
+•
+
+donationshares – mencatat data share link donasi.
+
+41
+
+•
+
+filteredwords – menyimpan data filter kata kata yang tidak pantas.
+
+•
+
+mediashares – menyimpan data media share (request video YouTube).
+
+•
+
+monthlyleaderboards – menyimpan data peringkat donor per bulan.
+
+•
+
+notifications – menyimpan data notifikasi donasi yang ditampilkan pada overlay.
+
+•
+
+payouts – mencatat pengajuan dan proses pencairan dana oleh creator.
+
+•
+
+profileimages – menyimpan informasi gambar profile creator.
+
+42
+
+BAB V
+KESIMPULAN
+Berdasarkan hasil perancangan, implementasi, dan pengujian yang telah dilakukan,
+dapat disimpulkan bahwa platform Nyumbangin berhasil dikembangkan sebagai prototipe
+platform donasi digital berbasis web yang fungsional. Sistem mampu menangani alur
+utama donasi, mulai dari autentikasi pengguna, pencatatan transaksi, integrasi pembayaran,
+notifikasi real-time melalui overlay, hingga mekanisme pencairan dana (payout) bagi
+kreator secara terstuktur.
+Fitur-fitur inti yang dirancang pada tahap analisis telah diimplementasikan dan
+berjalan sesuai kebutuhan. Penggunaan arsitektur aplikasi web modern serta pemodelan
+sistem menggunakan UML dan ERD membantu memastikan alur proses dan struktur data
+berjalan konsisten. Hasil pengujian menunjukkan bahwa proses kritis seperti donasi,
+pembayaran, webhook, dan payout dapat berjalan stabil dan menghasilkan data yang valid.
+Pengujian sistem difokuskan pada modul-modul utama yang bersifat kritis,
+sehingga hasil code coverage yang diperoleh hanya merepresentasikan pengujian fitur inti
+dan tidak mencakup seluruh modul aplikasi, khususnya antarmuka pengguna dan utilitas
+pendukung. Meskipun demikian, sistem telah memenuhi tujuan pengembangan sebagai
+platform donasi digital yang operasional. Pengembangan lanjutan masih dapat dilakukan,
+terutama pada perluasan cakupan pengujian, peningkatan keamanan, dan optimasi
+performa untuk penggunaan skala lebih besar.
+
+43
+
+DAFTAR PUSTAKA
+Abbott, A. A., Shin, J., Carlson, K., Russell, M., Qi, Y., Storm, H., & Jewell, V. D. (2025).
+Achieving Inter-Rater Agreement and Inter-Rater Reliability to Assess Fidelity of an
+Occupation-Based Coaching (OBC) Clinical Trial Intervention. British Journal of
+Occupational Therapy, 88(3), 133–141. https://doi.org/10.1177/03080226241283292
+Afiifah, K. ’, Fira Azzahra, Z., & Anggoro, A. D. (2022). Universitas Negeri Jakarta; Jl.
+Rawamangun Muka Raya No.11 RW.14 Rawamangun. JURNAL INTECH, 3(2), 18–
+22.
+Al-Fedaghi, S. (n.d.). UML Sequence Diagram: An Alternative Model. In IJACSA)
+International Journal of Advanced Computer Science and Applications (Vol. 12,
+Issue 5). www.ijacsa.thesai.org
+Amani Bestari, A., Voutama Sistem Informasi, A., Singaperbanga Karawang Jl Ronggo
+Waluyo, U. H., Telukjambe Timur, K., & Karawang, K. (2024). PENERAPAN UML
+PADA SISTEM INFORMASI PENGADUAN MASYARAKAT BERBASIS WEB.
+In Jurnal Mahasiswa Teknik Informatika (Vol. 8, Issue 3).
+Apriyani, M. E., & Hamdana, E. N. (n.d.). JIP (Jurnal Informatika Polinema) ANALISIS
+IMPLEMENTASI RESTFULL WEB SERVICE MENGGUNAKAN RESOURCEORIENTED ARCHITECTURE.
+Ariesta, A., Novita Dewi, Y., Ayu Sariasih, F., Wahyuhening Fibriany, F., Informasi, S.,
+Nusa Mandiri Jl Jatiwaringin No, S., Melayu, C., & Timur, J. (n.d.). PENERAPAN
+METODE AGILE DALAM PENGEMBANGAN APPLICATION PROGRAMMING
+INTERFACE SYSTEM PADA PT XYZ.
+Assistant professor, S. K. (n.d.). A Study on the Client Server Architecture and Its Usability.
+24, 73–76. https://doi.org/10.9790/0661-2404017376
+Ball, M., Bodrow, W., Budin, G., Callebaut, W., Delouis, D., Ryck-tasmowsky, L. DE,
+Dias Figueiredo, A. DE, Espiritu, L., Elkonaissi, A., Fache, A., Godijns, R.,
+Goyvaerts, D., Konvit, M., Koskeris, A., Mathew, M., Niccolucci, F., Peferoen, L.,
+Rothkranz, L., Salvador, M., … Thayer, L. (n.d.). COMMUNICATION &
+COGNITION.
+55.
+https://www.lotuswebtec.com/en/ethische-richtlijnen-voorpublicaties-c-c
+Bucko, A., Vishi, K., Krasniqi, B., & Rexha, B. (2023). Enhancing JWT Authentication
+and Authorization in Web Applications Based on User Behavior History. Computers,
+12(4). https://doi.org/10.3390/computers12040078
+Byali, R., Jyothi, Ms., & Shekadar, M. C. (2022). "Evaluation of NoSQL Database
+MongoDB with Respect to JSON Format Data Representation ". International
+Journal
+of
+Research
+Publication
+and
+Reviews,
+867–871.
+https://doi.org/10.55248/gengpi.2022.3.9.24
+Carvalho, I., Sá, F., & Bernardino, J. (2023). Performance Evaluation of NoSQL Document
+Databases: Couchbase, CouchDB, and MongoDB. Algorithms, 16(2).
+https://doi.org/10.3390/a16020078
+Chandramouli, R., & Butcher, Z. (2020). Building secure microservices-based applications
+using service-mesh architecture. https://doi.org/10.6028/NIST.SP.800-204a
+
+44
+
+Ehsan, A., Abuhaliqa, M. A. M. E., Catal, C., & Mishra, D. (2022). RESTful API Testing
+Methodologies: Rationale, Challenges, and Solution Directions. In Applied Sciences
+(Switzerland) (Vol. 12, Issue 9). MDPI. https://doi.org/10.3390/app12094369
+Fadzirul Kamarubahrin, A., Muhamed, N. A., Radzi, R. M., Fazni, W. N., Nazarie, W. M.,
+Iqmal, M., & Kamaruddin, H. (n.d.). Donation-Based Crowdfunding: Systematic
+Literature Review.
+Fauzan, R., Siahaan, D., Rochimah, S., & Triandini, E. (2021a). A Different Approach on
+Automated Use Case Diagram Semantic Assessment. International Journal of
+Intelligent
+Engineering
+and
+Systems,
+14(1),
+496–505.
+https://doi.org/10.22266/IJIES2021.0228.46
+Fauzan, R., Siahaan, D., Rochimah, S., & Triandini, E. (2021b). Automated Class Diagram
+Assessment using Semantic and Structural Similarities. International Journal of
+Intelligent
+Engineering
+and
+Systems,
+14(2),
+52–66.
+https://doi.org/10.22266/ijies2021.0430.06
+Febriandika, N. R., Pambudi, H. R., Muslimah, M., & Inayati, N. L. (2024). Enjoyment,
+Habits and Social Influence: Key Drivers of Zakat Crowdfunding Adoption Intentions
+in Indonesia. Journal of Logistics, Informatics and Service Science, 11(5), 395–410.
+https://doi.org/10.33168/JLISS.2024.0523
+Fraihat, H., Almbaideen, A. A., Al-Odienat, A., Al-Naami, B., De Fazio, R., & Visconti,
+P. (2022). Solar Radiation Forecasting by Pearson Correlation Using LSTM Neural
+Network and ANFIS Method: Application in the West-Central Jordan. Future
+Internet, 14(3). https://doi.org/10.3390/fi14030079
+Geofrey, M., Nyabuto, M., Mony, M. V., & Mbugua, S. (n.d.). Architectural Review of
+Client-Server Models. In International Journal of Scientific Research & Engineering
+Trends (Vol. 10, Issue 1).
+Greselda Gosal, G., Irantha, ;, Kenang, H., Laura, ;, & Tjahjono, M. (n.d.). The
+Effectiveness of Crowdfunding Promotions on Social Media in Affecting Donation
+Intention: An Exploratory Survey on Millennials.
+Gudu, D., Hardt, M., Brocke, L., & Zachmann, G. (2025). Enabling Secure Shell Access
+with OpenID Connect. Computing and Software for Big Science, 9(1).
+https://doi.org/10.1007/s41781-025-00136-5
+Halim, M. A. (2024). Does crowdfunding contribute to digital financial inclusion? In
+Research
+in
+Globalization
+(Vol.
+9).
+Elsevier
+B.V.
+https://doi.org/10.1016/j.resglo.2024.100238
+Hammann, S., Sasse, R., & Basin, D. (2020). Privacy-Preserving OpenID Connect.
+Proceedings of the 15th ACM Asia Conference on Computer and Communications
+Security, ASIA CCS 2020, 277–289. https://doi.org/10.1145/3320269.3384724
+Hidayatullah, E. I., & Purbasari, L. T. (2022). Analysing Repeat Alms Donation Behavior
+via Digital Platform. Jurnal Ilmiah Ekonomi Islam, 8(1), 677.
+https://doi.org/10.29040/jiei.v8i1.4618
+Indriyani, F., & Ibrahim, R. (2024). The Impact of Transparency on the Intention to Donate
+Online through the Kitabisa.com Platform. International Journal of Current Science
+Research and Review, 07(10). https://doi.org/10.47191/ijcsrr/V7-i10-38
+
+45
+
+Ismail, A. (2023). High Availability Moodle dengan Load Balancer pada Three-tier
+Architecture.
+Jurnal
+Minfo
+Polgan,
+12(1),
+297–302.
+https://doi.org/10.33395/jmp.v12i1.12376
+Jaimez-González, C. R., & Martínez-Samora, J. (2020). DiagrammER: A Web Application
+to Support the Teaching-Learning Process of Database Courses Through the Creation
+of E-R Diagrams. International Journal of Emerging Technologies in Learning,
+15(19), 4–21. https://doi.org/10.3991/ijet.v15i19.14745
+Jebli, R., El Bouhdidi, J., & Chkouri, M. Y. (2024). A Proposed Algorithm for Assessing
+and Grading Automatically Student UML Diagrams. International Journal of Modern
+Education
+and
+Computer
+Science,
+16(1),
+37–46.
+https://doi.org/10.5815/ijmecs.2024.01.04
+Jha, P., Sahu, M., & Isobe, T. (2023). A UML Activity Flow Graph-Based Regression
+Testing
+Approach.
+Applied
+Sciences
+(Switzerland),
+13(9).
+https://doi.org/10.3390/app13095379
+Jullien, B., Pavan, A., & Rysman, M. (2021). “Two-sided Markets, Pricing, and Network
+Effects” Two-sided Markets, Pricing, and Network Effects *.
+Kamarudin, M. K., Mohamad Norzilan, N. I., Mustaffa, F. N. A., Khidzir, M., Alma’amun,
+S., Nor Muhamad, N. H., Abu-Hussin, M. F., Noor Zainan, N. I., Abdullah, A. H., &
+Samat-Darawi, A. B. (2023). Why Do Donors Donate? A Study on Donation-Based
+Crowdfunding
+in
+Malaysia.
+Sustainability
+(Switzerland),
+15(5).
+https://doi.org/10.3390/su15054301
+Lodderstedt, T., Bradley, J., Labunets, A., & Fett, D. (2025). RFC 9700: Best Current
+Practice for OAuth 2.0 Security. https://www.rfc-editor.org/info/rfc9700
+Marchezan, L., Kretschmer, R., Assunção, W. K. G., Reder, A., & Egyed, A. (2023).
+Generating repairs for inconsistent models. Software and Systems Modeling, 22(1),
+297–329. https://doi.org/10.1007/s10270-022-00996-0
+Maruf, T., & Ugli, T. (n.d.). MODERN EDUCATION AND DEVELOPMENT Выпуск
+журнала №-23 Часть-1_Март-2025 THE APPLICATION OF THREE-TIER
+DATABASE ARCHITECTURE.
+Marwah M. A. Dabdawb. (2024). Unified Modeling Language Quantitative Measures
+Based on a Behavioural Model. Journal of Education and Science, 33(1), 90–98.
+https://doi.org/10.33899/edusj.2024.145662.1416
+Nashikhuddin, A. Y., Karaman, J., & Litanianda, Y. (2023). IMPLEMENTASI API
+RESTFUL DENGAN JSON WEB TOKEN (JWT) PADA APLIKASI ECOMMERCE THRIFTY SHOP UNTUK OTENTIKASI DAN OTORISASI
+PENGGUNA. METHOMIKA Jurnal Manajemen Informatika Dan Komputerisasi
+Akuntansi, 7(2), 239–246. https://doi.org/10.46880/jmika.Vol7No2.pp239-246
+Neelan, A. (2022). OAuth 2.0 Evolution, Grant Types and Best Practices for Secure
+Authorization in Web, Mobile, and API Platforms. International Journal of Leading
+Research Publication (IJLRP) IJLRP22071422, 3(7). www.ijlrp.com•
+Nyabuto, G. (2023). Client-server Architecture, a Review. International Journal of
+Advanced
+Science
+and
+Computer
+Applications,
+3(1).
+https://doi.org/10.47679/ijasca.v3i1.48
+
+46
+
+Pan, H., Zhang, Q., Caragea, C., Dragut, E., & Latecki, L. J. (2024). FlowLearn: Evaluating
+Large
+Vision-Language
+Models
+on
+Flowchart
+Understanding.
+http://arxiv.org/abs/2407.05183
+PENGANTAR BASIS DATA. (n.d.). www.penerbitlitnus.co.id
+Philippaerts, P., Preuveneers, D., & Joosen, W. (2022). OAuch: Exploring Security
+Compliance in the OAuth 2.0 Ecosystem. ACM International Conference Proceeding
+Series, 460–481. https://doi.org/10.1145/3545948.3545955
+Prabu, R., & De Paul, V. (2025). Building Scalable API-Led Connectivity Using ThreeTier Architecture Patterns. https://doi.org/10.32996/jcsts
+Pulungan, S. M., Febrianti, R., Lestari, T., Gurning, N., & Fitriana, N. (n.d.). Analisis
+Teknik Entity-Relationship Diagram Dalam Perancangan Database. 01(2), 143–147.
+https://doi.org/10.47233/jemb.v2i1.533
+Rahman, H., Supervisor, A., & Olesen, H. (n.d.). Title: Security analysis of JSON web
+tokens-Attack scenarios and countermeasures. http://www.aau.dk
+Rahmayanti, P. L. D., Rahyuda, I. K., Ekawati, N. W., & Setiawan, P. Y. (2024). Intention
+to Donate on Online Charitable Crowdfunding: Systematic Literature Review and
+Future Research Agenda. Journal of Economics, Business, & Accountancy Ventura,
+26(3), 401–427. https://doi.org/10.14414/jebav.v26i3.4221
+Ramdany, S. W., Aulia Kaidar, S., Aguchino, B., Amelia, C., Putri, A., & Anggie, R. (n.d.).
+Penerapan UML Class Diagram dalam Perancangan Sistem Informasi Perpustakaan
+Berbasis Web. In Journal of Industrial and Engineering System (Vol. 5, Issue 1).
+Ratumurun, S., Chricela, ), & Joseph, N. (n.d.). LPPM STIA Said Perintah Volume 4, No.
+1, Maret 2023 https://stia-saidperintah.e-journal.id/ppj Implementasi Model
+Flowchart Perancangan Sistem Informasi Akuntansi untuk Permintaan
+Dana/Advance. https://stia-saidperintah.e-journal.id/ppj
+Roziqin, M. C., Noor, M. S., Iskandar, A., & Yuliantika, A. (2023). Implementation of
+REST API in Web Service System for Medical Resume Provision. International
+Journal
+of
+Healthcare
+and
+Information
+Technology,
+1(1).
+https://doi.org/10.25047/ijhitech.v1i1.4046
+Sandfreni, S., Ulum, M. B., & Azizah, A. H. (2021). ANALISIS PERANCANGAN
+SISTEM INFORMASI PUSAT STUDI PADA FAKULTAS ILMU KOMPUTER
+UNIVERSITAS
+ESA
+UNGGUL.
+Sebatik,
+25(2),
+345–356.
+https://doi.org/10.46984/sebatik.v25i2.1587
+Saputra, Y. H., & Putri Nabila, A. (2025). Pemanfaatan QRIS Dalam Donation Based
+Crowdfunding: Studi Pada Platform kitabisa.com. Center of Economic Student
+Journal, 8(2), 2621–8186. https://doi.org/10.56750/csej.v8i2.1130
+Shneor, R., Zhao, L., & Flåten, B.-T. (n.d.). Advances in Crowdfunding Research and
+Practice.
+Singh, J., & Chaudhary, N. K. (2023). Unified Singular Protocol Flow for OAuth (USPFO)
+Ecosystem. http://arxiv.org/abs/2301.12496
+Sirisawat, S., Chatjuthamard, P., Kiattisin, S., & Treepongkaruna, S. (2022). The future of
+digital
+donation
+crowdfunding.
+PLoS
+ONE,
+17(11
+November).
+https://doi.org/10.1371/journal.pone.0275898
+Siska Narulita, Ahmad Nugroho, & M. Zakki Abdillah. (2024a). Diagram Unified
+Modelling Language (UML) untuk Perancangan Sistem Informasi Manajemen
+47
+
+Penelitian dan Pengabdian Masyarakat (SIMLITABMAS). Bridge : Jurnal Publikasi
+Sistem
+Informasi
+Dan
+Telekomunikasi,
+2(3),
+244–256.
+https://doi.org/10.62951/bridge.v2i3.174
+Siska Narulita, Ahmad Nugroho, & M. Zakki Abdillah. (2024b). Diagram Unified
+Modelling Language (UML) untuk Perancangan Sistem Informasi Manajemen
+Penelitian dan Pengabdian Masyarakat (SIMLITABMAS). Bridge : Jurnal Publikasi
+Sistem
+Informasi
+Dan
+Telekomunikasi,
+2(3),
+244–256.
+https://doi.org/10.62951/bridge.v2i3.174
+Sun, R., Wang, Q., & Guo, L. (2022). Research Towards Key Issues of API Security.
+Communications in Computer and Information Science, 1506 CCIS, 179–192.
+https://doi.org/10.1007/978-981-16-9229-1_11
+Tarigan, E. S. (2023a). THE INFLUENCE OF CROWDFUNDING INNOVATION AND
+TRUST ON ONLINE DONATION DECISIONS ON CROWDFUNDING
+PLATFORMS. Jurnal Apresiasi Ekonomi, 11(3), 506–519.
+Tarigan, E. S. (2023b). THE INFLUENCE OF CROWDFUNDING INNOVATION AND
+TRUST ON ONLINE DONATION DECISIONS ON CROWDFUNDING
+PLATFORMS. Jurnal Apresiasi Ekonomi, 11(3), 506–519.
+Wang, C., Wang, B., Liang, P., & Liang, J. (2025). Assessing UML Diagrams by GPT:
+Implications for Education. http://arxiv.org/abs/2412.17200
+Yasuda, K., Lodderstedt, T., Chadwick, D., Nakamura, K., & Vercammen, J. (2022).
+OpenID for Verifiable Credentials. https://www.iso.org/committee/45144.html
+Zhang, P., Dou, W., & Liu, H. (2023a). Hierarchical data structures for flowchart. Scientific
+Reports, 13(1). https://doi.org/10.1038/s41598-023-31968-z
+Zhang, P., Dou, W., & Liu, H. (2023b). Hierarchical data structures for flowchart. Scientific
+Reports, 13(1). https://doi.org/10.1038/s41598-023-31968-z
+Zhao, C. (n.d.). Frontiers in Computing and Intelligent Systems API Common Security
+Threats
+and
+Security
+Protection
+Strategies.
+https://blog.csdn.net/gyzlsc/article/details/134238884
+Zhou, X., & Inoue, Y. (2025). Innovation in Platform Ecosystems: Roles of
+Complementors’ Experiential Knowledge and Community Engagement as an
+External
+Knowledge
+Source.
+Sustainability
+(Switzerland),
+17(5).
+https://doi.org/10.3390/su17052279
+Zikrinawati, et al. (2025). Influence of Trust and Perceived Risk on Online Donation
+Decisions. JIVA Journal. (n.d.).
+
+48
+
+

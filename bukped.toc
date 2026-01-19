@@ -1,0 +1,79 @@
+\contentsline {chapter}{\numberline {1}PENDAHULUAN}{12}{chapter.1}%
+\contentsline {section}{\numberline {1.1}LATAR BELAKANG}{12}{section.1.1}%
+\contentsline {section}{\numberline {1.2}IDENTIFIKASI MASALAH}{13}{section.1.2}%
+\contentsline {section}{\numberline {1.3}TUJUAN}{14}{section.1.3}%
+\contentsline {section}{\numberline {1.4}RUANG LINGKUP}{14}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Cakupan Fungsional}{14}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Cakupan Teknis}{15}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Cakupan Pengujian}{15}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Batasan Penelitian}{15}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Luaran Penelitian}{16}{subsection.1.4.5}%
+\contentsline {section}{\numberline {1.5}SISTEMATIKA PENULISAN}{16}{section.1.5}%
+\contentsline {chapter}{\numberline {2}LANDASAN TEORI}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}PLATFORM DONASI DIGITAL}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}ARSITEKTUR APLIKASI WEB MODERN}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Arsitektur Three-Tier/N-Tier}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Konsep Client-Server}{19}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}REST API DAN PROTOKOL HTTP}{20}{section.2.3}%
+\contentsline {section}{\numberline {2.4}AUTENTIKASI DAN OTORISASI}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}OAuth 2.0}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}OpenID Connect}{21}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}JWT}{21}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Skema Bearer Token}{21}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Keamanan API}{22}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}DATABASE NoSQL (MongoDB)}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}FLOWCHART SISTEM}{23}{section.2.6}%
+\contentsline {section}{\numberline {2.7}UNIFIED MODELING LANGUAGE (UML)}{23}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Use Case Diagram}{24}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Activity Diagram}{24}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Sequence Diagram}{24}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Class Diagram}{24}{subsection.2.7.4}%
+\contentsline {section}{\numberline {2.8}ENTITY-RELATIONSHIP DIAGRAM (ERD)}{25}{section.2.8}%
+\contentsline {section}{\numberline {2.9}PERAN FITUR SOCIAL SHARING DALAM DONASI DIGITAL}{25}{section.2.9}%
+\contentsline {chapter}{\numberline {3}METODE PENELITIAN}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1}METODE PENGEMBANGAN SISTEM}{26}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Konsep Agile Development}{26}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Alur Iterasi Pengembangan}{27}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Penerapan Agile pada Proyek Nyumbangin}{27}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}ANALISIS KEBUTUHAN}{28}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Sumber Kebutuhan}{28}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Kebutuhan Fungsional}{28}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Kebutuhan Non-Fungsional}{29}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}PERANCANGAN SISTEM}{29}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Arsitektur Logis}{29}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Arsitektur Fisik}{29}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Arsitektur Teknologi}{30}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Modul Utama}{31}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Strategi Desain}{31}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}PEMODELAN SISTEM}{31}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Use Case}{31}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Activity Diagram}{33}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Sequence Diagram}{33}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Model Entitas}{35}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Relasi Entitas}{38}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}METODE PERANCANGAN TEKNIS}{38}{section.3.5}%
+\contentsline {section}{\numberline {3.6}METODE PENGUJIAN}{39}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Jenis Pengujian}{40}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Skenario Pengujian}{40}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Alat Pengujian}{41}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}EVALUASI KEBERHASILAN}{41}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Interpretasi dan Evaluasi}{41}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Kesimpulan Evaluasi}{41}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}HALAMAN AUTENTIKASI}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}HALAMAN DONASI}{44}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Form Donasi}{44}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Halaman Pembayaran Midtrans}{44}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}DASHBOARD KREATOR}{44}{section.4.3}%
+\contentsline {section}{\numberline {4.4}HALAMAN REQUEST PAYOUT}{47}{section.4.4}%
+\contentsline {section}{\numberline {4.5}OVERLAY}{47}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Overlay Notifikasi Donasi}{47}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Overlay Media Share}{48}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Overlay QR link Donasi}{48}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Overlay Leaderboard}{48}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}DASHBOARD ADMIN}{48}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Halaman Dashboard}{50}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Halaman Creator}{50}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Halaman Payout}{50}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}STRUKTUR BASIS DATA}{53}{section.4.7}%
+\contentsline {chapter}{\numberline {5}KESIMPULAN}{55}{chapter.5}%

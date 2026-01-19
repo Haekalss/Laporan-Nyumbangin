@@ -1,0 +1,245 @@
+\chapter{METODE PENELITIAN}
+
+\section{METODE PENGEMBANGAN SISTEM}
+Pengembangan platform Nyumbangin menggunakan pendekatan \textit{Agile}, yang menekankan proses pengembangan sistem secara bertahap, adaptif, dan berulang. Pendekatan \textit{Agile} dipilih karena sesuai dengan karakteristik proyek berskala kecil hingga menengah, serta memungkinkan penyesuaian fitur berdasarkan hasil evaluasi pada setiap tahap pengembangan.
+
+Pendekatan ini memungkinkan sistem dikembangkan secara inkremental, di mana setiap iterasi menghasilkan fungsionalitas yang dapat diuji dan dievaluasi sebelum melanjutkan ke iterasi berikutnya. Dengan demikian, risiko kesalahan desain dan implementasi dapat diminimalkan sejak tahap awal.
+
+\subsection{Konsep Agile Development}
+\textit{Agile Development} merupakan pendekatan pengembangan perangkat lunak yang berfokus pada fleksibilitas, kolaborasi, dan kemampuan beradaptasi terhadap perubahan kebutuhan (Ariesta et al., n.d.). Berbeda dengan metode linear seperti \textit{waterfall}, \textit{Agile} memungkinkan perubahan kebutuhan terjadi selama proses pengembangan tanpa harus mengulang seluruh tahapan dari awal.
+
+Dalam konteks pengembangan platform Nyumbangin, \textit{Agile} digunakan sebagai kerangka kerja konseptual untuk mengelola proses pengerjaan fitur secara bertahap, mulai dari analisis kebutuhan dasar, implementasi modul inti, hingga pengujian dan evaluasi sistem. Pendekatan ini mendukung pengembangan sistem yang responsif terhadap kebutuhan fungsional dan teknis yang berkembang selama proyek berlangsung.
+
+\subsection{Alur Iterasi Pengembangan}
+Proses pengembangan sistem dilakukan melalui beberapa siklus iterasi yang masing-masing mencakup tahapan:
+\begin{enumerate}
+    \item \textbf{Perencanaan Iterasi}: Penentuan fitur yang akan dikembangkan berdasarkan prioritas kebutuhan sistem.
+    \item \textbf{Implementasi Fitur}: Pengembangan modul atau fungsi tertentu sesuai dengan hasil perencanaan iterasi.
+    \item \textbf{Pengujian Fungsional}: Pengujian terhadap fitur yang telah dikembangkan untuk memastikan kesesuaian dengan kebutuhan.
+    \item \textbf{Evaluasi dan Penyempurnaan}: Evaluasi hasil iterasi dan perbaikan terhadap kekurangan sebelum melanjutkan ke iterasi berikutnya.
+\end{enumerate}
+Setiap iterasi menghasilkan peningkatan fungsional sistem yang dapat langsung diuji, sehingga kemajuan proyek dapat dipantau secara berkelanjutan.
+
+\subsection{Penerapan Agile pada Proyek Nyumbangin}
+Penerapan pendekatan \textit{Agile} pada proyek Nyumbangin dilakukan dengan membagi pengembangan sistem ke dalam beberapa iterasi utama. Iterasi awal difokuskan pada pembangunan fitur inti, seperti autentikasi kreator, pencatatan donasi, dan integrasi sistem pembayaran. Iterasi berikutnya mencakup pengembangan fitur pendukung, seperti notifikasi \textit{real-time} melalui overlay, leaderboard donatur, serta mekanisme \textit{payout} bagi kreator.
+
+Pada setiap iterasi, fitur yang telah diimplementasikan langsung diuji menggunakan skenario pengujian fungsional untuk memastikan alur donasi, pembayaran, dan pencairan dana berjalan dengan benar. Hasil pengujian digunakan sebagai dasar evaluasi untuk menentukan perbaikan atau pengembangan fitur pada iterasi selanjutnya. Pendekatan ini memungkinkan pengembangan aplikasi dilakukan secara terstruktur namun tetap fleksibel, sehingga sistem dapat berkembang secara bertahap hingga memenuhi kebutuhan fungsional yang telah ditetapkan.
+
+\section{ANALISIS KEBUTUHAN}
+
+\subsection{Sumber Kebutuhan}
+Analisis kebutuhan sistem dilakukan melalui tiga pendekatan utama. Pertama, observasi terhadap platform donasi digital untuk mengidentifikasi pola umum, seperti kebutuhan transparansi transaksi, tampilan notifikasi \textit{real-time}, dan mekanisme \textit{payout} yang akuntabel. Kedua, studi pustaka terkait autentikasi modern (OAuth 2.0, JWT), keamanan API, serta pola desain sistem web yang relevan dengan karakteristik aplikasi donasi. Ketiga, analisis artefak kode dan struktur API yang telah dikembangkan, termasuk model basis data, alur donasi, integrasi Midtrans, serta skrip pemeliharaan yang digunakan untuk verifikasi dan pengarsipan data. Pendekatan ini memastikan kebutuhan sistem dirumuskan berdasarkan konteks teknis dan operasional yang aktual.
+
+\subsection{Kebutuhan Fungsional}
+Kebutuhan fungsional mendeskripsikan fitur yang wajib disediakan agar aplikasi donasi dapat berfungsi secara utuh. Fitur tersebut meliputi:
+\begin{enumerate}
+    \item \textbf{Autentikasi Pengguna} menggunakan Google OAuth melalui NextAuth, serta validasi akses melalui JWT untuk endpoint sensitif.
+    \item \textbf{Validasi Username Kreator}, memastikan username unik dan dapat diverifikasi sebelum transaksi dilakukan.
+    \item \textbf{Pengelolaan Donasi}, mencakup pembuatan transaksi, integrasi Midtrans, pembaruan status melalui webhook, serta penyimpanan konten media share.
+    \item \textbf{Notifikasi Real-Time}, yang menampilkan donasi terbaru pada overlay kreator untuk keperluan siaran langsung.
+    \item \textbf{Leaderboard}, baik secara global maupun berdasarkan kreator, untuk menampilkan agregasi donasi.
+    \item \textbf{Statistik Kreator}, berupa ringkasan donasi berdasarkan periode.
+    \item \textbf{Payout}, mencakup permintaan penarikan dana, perhitungan biaya platform, dan persetujuan admin.
+    \item \textbf{Pengelolaan Data Media Share dan Notifikasi}, termasuk pengaturan masa berlaku (TTL) dan keterkaitan dengan transaksi donasi.
+\end{enumerate}
+
+\subsection{Kebutuhan Non-Fungsional}
+Kebutuhan non-fungsional mencakup karakteristik kualitas sistem, yaitu:
+\begin{itemize}
+    \item \textbf{Keamanan}: verifikasi token JWT, sanitasi input, pembatasan metode HTTP, dan pemisahan akses berdasarkan peran pengguna.
+    \item \textbf{Performa}: optimasi query leaderboard melalui limit dan sorting.
+    \item \textbf{Skalabilitas}: rencana pagination serta caching pada proses agregasi data.
+    \item \textbf{Reliabilitas}: konsistensi penanganan kesalahan dengan kode status standar (401, 404, 500).
+    \item \textbf{Integritas Data}: akurasi perhitungan saldo payout dan pemrosesan donasi berdasarkan status valid (PAID).
+\end{itemize}
+
+\section{PERANCANGAN SISTEM}
+
+\subsection{Arsitektur Logis}
+Arsitektur logis sistem terdiri atas empat lapisan utama:
+\begin{enumerate}
+    \item \textbf{Lapisan Antarmuka Pengguna (UI Layer)}: Berisi halaman donasi, dashboard kreator, halaman overlay notifikasi, serta antarmuka admin.
+    \item \textbf{Lapisan API (Application Layer)}: Mengelola endpoint untuk donasi, leaderboard, overlay, autentikasi, payout, dan operasi admin melalui mekanisme API Routes di Next.js.
+    \item \textbf{Lapisan Layanan Utilitas (Service Layer)}: Meliputi modul koneksi database, pengelolaan token JWT, serta utilitas untuk validasi dan perhitungan internal.
+    \item \textbf{Lapisan Data (Data Layer)}: Terdiri atas model MongoDB seperti Donation, Creator, MediaShare, Payout, dan Notification.
+\end{enumerate}
+
+\subsection{Arsitektur Fisik}
+Arsitektur fisik sistem mengikuti pola aplikasi web modern:
+Browser / OBS Overlay $\rightarrow$ Next.js Runtime (Node.js) $\rightarrow$ MongoDB $\rightarrow$ Layanan Eksternal (Google OAuth, Midtrans).
+\begin{itemize}
+    \item Next.js menangani logika UI dan API dalam satu platform.
+    \item MongoDB digunakan sebagai basis data dokumen.
+    \item Midtrans mengelola proses pembayaran melalui Snap Token dan webhook.
+    \item Overlay digunakan secara mandiri melalui OBS atau iframe untuk menampilkan notifikasi donasi.
+\end{itemize}
+
+\subsection{Arsitektur Teknologi}
+Arsitektur teknologi sistem mencakup penggunaan Next.js sebagai framework utama yang menjalankan frontend and backend melalui API Routes, Node.js sebagai runtime \textit{server-side}, serta MongoDB sebagai data dokumen. Sistem autentikasi menggunakan Google OAuth 2.0 melalui NextAuth dan JWT untuk otorisasi endpoint privat. Mekanisme pembayaran dilakukan dengan Midtrans melalui Snap Token dan Webhook. Selain itu, aplikasi menyediakan overlay web \textit{real-time} untuk integrasi dengan OBS sebagai tampilan notifikasi donasi. Kombinasi teknologi ini menghasilkan sistem yang modern, responsif, serta siap diintegrasikan dengan berbagai layanan eksternal.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/arsitektur_teknologi.png}
+    \caption{Arsitektur Teknologi}
+    \label{fig:arsitektur_teknologi}
+\end{figure}
+
+\subsection{Modul Utama}
+Sistem dibagi ke dalam beberapa modul utama:
+\begin{enumerate}
+    \item Authentication Module (OAuth + JWT)
+    \item Donation Module (pembuatan transaksi, webhook, media share)
+    \item Leaderboard Module (global dan per kreator)
+    \item Payout Module (request, approval, perhitungan fee)
+    \item Notification Module (TTL, event donasi)
+    \item Maintenance Module (arsip donasi, integritas data)
+\end{enumerate}
+
+\subsection{Strategi Desain}
+Desain strategi menerapkan pola penanganan API yang konsisten meliputi validasi metode HTTP, autentikasi, validasi input, eksekusi query database, dan pengembalian response JSON. Selain itu, prinsip pemisahan tanggung jawab diterapkan melalui pembagian endpoint berdasarkan role dan fungsi. Pembatasan data seperti limit dan sorting digunakan untuk menghindari \textit{over-fetching}, terutama pada leaderboard dan statistik.
+
+\section{PEMODELAN SISTEM}
+Pemodelan sistem dilakukan untuk memberikan representasi visual dan konseptual dari fungsi, alur kerja, serta struktur data yang digunakan dalam aplikasi Nyumbangin ini. Pemodelan ini bertujuan memastikan bahwa kebutuhan fungsional dan non-fungsional yang telah diidentifikasi dapat diterjemahkan ke dalam desain sistem yang jelas, terstruktur, dan mudah diimplementasikan. Diagram-diagram pada bagian ini mencakup model proses, interaksi, dan entitas yang saling berhubungan, sehingga dapat memberikan gambaran menyeluruh mengenai cara sistem beroperasi secara \textit{end-to-end}.
+
+\subsection{Use Case}
+Use case menggambarkan interaksi antara Donatur, Kreator, Admin, Midtrans, dan Google OAuth, yang meliputi proses donasi, verifikasi status pembayaran, pengelolaan leaderboard, permintaan payout, pengelolaan payout admin, dan login menggunakan Google OAuth.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/usecase_diagram.png}
+    \caption{Use Case Diagram}
+    \label{fig:usecase_diagram}
+\end{figure}
+
+\subsection{Activity Diagram}
+\textbf{Activity Diagram proses Donasi}:
+Activity diagram proses Donasi menggambarkan di mana Donor mengisi formulir (dengan atau tanpa mediashare), kemudian Sistem membuat record PENDING, menghasilkan snap token, dan mengarahkan Donor ke Midtrans untuk pembayaran; setelah Midtrans mengirim webhook, Sistem memperbarui status donasi menjadi PAID dan membuat notifikasi.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/activity_donasi.png}
+    \caption{Activity Diagram Donasi}
+    \label{fig:activity_donasi}
+\end{figure}
+
+\textbf{Activity Diagram proses Payout}:
+Activity diagram proses Payout dimulai ketika Kreator meminta payout, di mana Sistem memeriksa saldo minimal; jika memenuhi syarat, sistem menghitung biaya layanan (5\%) dan status menjadi PENDING, lalu Admin meninjau dan melakukan transfer manual, yang kemudian diperbarui oleh Sistem menjadi PROCESSED.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/activity_payout.png}
+    \caption{Activity Diagram Payout}
+    \label{fig:activity_payout}
+\end{figure}
+
+\subsection{Sequence Diagram}
+\textbf{Sequence Diagram Donasi}:
+Pada sequence diagram ini menggambarkan alur proses donasi, dimulai dari donor mengisi form di Donation Page yang kemudian divalidasi dan dikirim ke Donate API. Setelah validasi server-side, data donasi disimpan ke database, dan jika ada youtubeUrl, dibuat juga MediaShare. API lalu meminta Snap Token ke Midtrans, yang digunakan untuk membuka halaman pembayaran. Setelah donor membayar dan pembayaran sukses, Midtrans mengirim webhook ke server, sehingga status donasi diupdate menjadi PAID dan di akhir notifikasi overlay dibuat.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/sequence_donasi.png}
+    \caption{Sequence Diagram Donasi}
+    \label{fig:sequence_donasi}
+\end{figure}
+
+\textbf{Sequence Diagram Leaderboard}:
+Sequence diagram ini menggambarkan alur pengambilan data leaderboard, di mana client (dashboard kreator) mengirim request ke leaderboard API dengan token. API memeriksa method dan validasi token melalui JWT Service, lalu memastikan user adalah kreator dan datanya ada. Setelah itu, API mengambil data donasi terbaru dari database, memformat respons, dan mengirim hasilnya ke client. Jika terjadi error seperti token tidak valid, kreator tidak ditemukan, atau method salah, API akan mengembalikan kode error yang sesuai.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/sequence_leaderboard.png}
+    \caption{Sequence Diagram Leaderboard}
+    \label{fig:sequence_leaderboard}
+\end{figure}
+
+\subsection{Model Entitas}
+Model entitas digunakan untuk merepresentasikan struktur data utama yang bekerja di dalam platform donasi. Setiap entitas dirancang untuk mendukung proses transaksi, pengelolaan kreator, penayangan media share di overlay, hingga alur pencairan dana. Secara umum, entitas yang digunakan dapat dikelompokkan menjadi entitas utama dan entitas pendukung.
+
+Entitas utama platform meliputi:
+\begin{itemize}
+    \item \textbf{Creator}: Menyimpan data kreator seperti nama, email, profil, serta informasi akun yang diperlukan untuk menerima donasi dan melakukan permintaan payout.
+    \item \textbf{Donation}: Mencatat seluruh transaksi donasi, termasuk nominal, pesan, metode pembayaran, status (PENDING/PAID), serta relasi terhadap kreator yang menerima donasi.
+    \item \textbf{MediaShare}: Entitas untuk menangani request media share (youtube video) yang dikaitkan dengan donasi tertentu, termasuk durasi dan validasi media.
+    \item \textbf{Payout}: Menyimpan informasi permintaan pencairan dana kreator, mencakup jumlah pencairan, fee platform, status (PENDING/APPROVED/PROCESSED), serta log aktivitas admin.
+    \item \textbf{Notification}: Berfungsi untuk menampilkan data overlay secara real-time, seperti donasi terbaru atau media share yang harus ditayangkan oleh streamer/kreator.
+\end{itemize}
+
+Selain itu, terdapat entitas pendukung yang digunakan untuk historisasi dan agregasi data:
+\begin{itemize}
+    \item \textbf{DonationHistory}: mencatat perubahan status donasi.
+    \item \textbf{MonthlyLeaderboard}: digunakan untuk menyimpan data peringkat donatur setiap bulan.
+    \item \textbf{Contact}: mencatat umpan balik dari pengguna.
+    \item \textbf{ProfileImage}: menyimpan data gambar untuk kebutuhan profil kreator.
+    \item \textbf{Admin}: menyimpan kredensial admin yang bertugas memverifikasi payout dan melakukan manajemen sistem.
+\end{itemize}
+Seluruh entitas tersebut berperan dalam memastikan integritas data serta menghubungkan seluruh proses inti mulai dari transaksi donasi, pengelolaan kreator, hingga operasional sistem admin.
+
+\subsection{Relasi Entitas}
+Pada poin ini menjelaskan hubungan antar entitas utama yang digunakan dalam sistem. Relasi ini dibangun berdasarkan alur operasional aplikasi, seperti proses donasi, pemutaran media share, pengajuan payout, serta notifikasi kepada kreator. Hubungan antar entitas divisualisasikan dalam bentuk Entity Relationship Diagram (ERD) agar struktur data menjadi lebih jelas, baik dari sisi keterkaitan maupun dependensi antar tabel/model. Diagram ini menjadi dasar dalam perancangan database dan memastikan bahwa setiap proses bisnis memiliki representasi data yang konsisten dan saling terhubung.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/erd.png}
+    \caption{ERD}
+    \label{fig:erd}
+\end{figure}
+
+\section{METODE PERANCANGAN TEKNIS}
+Perancangan teknis pada platform donasi ini difokuskan pada penyusunan arsitektur layanan yang aman, efisien, dan mudah dipelihara. Pendekatan utama yang digunakan adalah pemisahan tanggung jawab antar modul serta penerapan pola penanganan API yang konsisten. Setiap endpoint dirancang mengikuti alur standar: validasi metode HTTP, autentikasi menggunakan JWT (untuk endpoint privat), validasi input, eksekusi operasi database, dan pengembalian respons JSON. Pola yang seragam ini memudahkan debugging serta menjaga konsistensi perilaku lintas layanan.
+
+Dari sisi keamanan, validasi token JWT diterapkan untuk memastikan setiap permintaan memiliki otorisasi yang benar termasuk pengecekan masa berlaku token dan jenis pengguna (donor, kreator, atau admin). Seluruh input kritis seperti username, nominal donasi, dan URL media share – validasi untuk mencegah data tidak sah masuk ke sistem.
+
+Integrasi pembayaran dirancang agar bergantung hanya pada webhook resmi Midtrans, sehingga status transaksi tidak bergantung pada aktivitas pengguna di sisi client. Optimasi basis data dilakukan melalui penempatan indeks pada atribut yang sering digunakan dalam kueri seperti (createdAt, creatorId, dan creatorUsername). Operasi agregasi seperti leaderboard dan statistik kreator menggunakan pipeline agregasi MongoDB untuk mengurangi beban pada server aplikasi. Pembatasan kueri (limit) diterapkan untuk mencegah pengambilan data berlebihan pada endpoint yang memiliki potensi pertumbuhan data tinggi.
+
+Selain itu, proses donasi dan penyajian notifikasi dipisahkan dari alur pembayaran utama. Server hanya membuat record donasi dan Snap Token pada permintaan awal, sementara pembaruan status dan pemicu notifikasi dilakukan ketika webhook diterima. Pemisahan ini membuat sistem lebih stabil dan memastikan overlay selalu menampilkan data yang sudah tervalidasi.
+
+\section{METODE PENGUJIAN}
+Metode pengujian pada platform donasi ini dirancang untuk memastikan bahwa seluruh fungsi sistem berjalan sesuai kebutuhan, aman digunakan, dan menghasilkan data yang konsisten. Pendekatan pengujian dilakukan melalui kombinasi pengujian unit, pengujian integrasi, serta pengujian fungsional terhadap endpoint API dan alur bisnis utama. Fokus utama pengujian meliputi keakuratan proses donasi, keandalan mekanisme payout, integritas data pada leaderboard serta statistik kreator, dan validitas proses autentikasi berbasis OAuth dan JWT.
+
+Pengujian dilakukan menggunakan data uji yang dikontrol, simulasi webhook pembayaran, serta verifikasi hasil langsung melalui database. Seluruh skenario kritis seperti validasi input, autentikasi dan otorisasi, serta penanganan kesalahan diuji untuk memastikan sistem tetap stabil dalam berbagai kondisi operasional.
+
+\subsection{Jenis Pengujian}
+Pengujian sistem mencakup beberapa jenis pengujian sebagai berikut:
+\begin{enumerate}
+    \item \textbf{Pengujian Unit (Unit Testing)}: Dilakukan pada fungsi atau modul kecil yang berdiri sendiri, seperti validasi token JWT, perhitungan \textit{platformFee}, dan validasi input donasi.
+    \item \textbf{Pengujian Integrasi (Integration Testing)}: Berfokus pada alur yang melibatkan beberapa komponen, seperti proses donasi lengkap, permintaan payout, dan penampilan notifikasi overlay.
+    \item \textbf{Pengujian Fungsional (Functional Testing)}: Dilakukan untuk mengevaluasi apakah setiap endpoint memenuhi kebutuhan fungsional yang telah ditetapkan.
+    \item \textbf{Pengujian Keamanan (Security Testing)}: Meliputi akses API tanpa token, token expired, dan payload tidak valid.
+    \item \textbf{Pengujian Kinerja (Performance Testing)}: Difokuskan pada kecepatan query, respons webhook, dan performa overlay.
+\end{enumerate}
+
+\subsection{Skenario Pengujian}
+Beberapa skenario pengujian utama yang digunakan meliputi:
+\begin{enumerate}
+    \item \textbf{Skenario 1 – Donasi Berhasil}: Input valid $\rightarrow$ server membuat record PENDING $\rightarrow$ Snap Token sukses $\rightarrow$ pembayaran di Midtrans $\rightarrow$ webhook diterima $\rightarrow$ status menjadi PAID $\rightarrow$ overlay menampilkan donasi.
+    \item \textbf{Skenario 2 – Donasi Gagal Validasi}: Nominal $<$ minimum atau format URL salah $\rightarrow$ server mengembalikan status 400.
+    \item \textbf{Skenario 3 – Akses Endpoint Tanpa Token}: Mengakses leaderboard atau payout tanpa Authorization $\rightarrow$ harus menghasilkan 401 Unauthorized.
+    \item \textbf{Skenario 4 – Payout Request oleh Kreator}: Saldo cukup $\rightarrow$ request dicatat $\rightarrow$ status PENDING $\rightarrow$ admin review $\rightarrow$ APPROVED $\rightarrow$ status PROCESSED $\rightarrow$ saldo kreator berkurang.
+    \item \textbf{Skenario 5 – Token Salah Atau Expired}: Token invalid/expired $\rightarrow$ akses ditolak dengan pesan error yang konsisten.
+    \item \textbf{Skenario 6 – Webhook Simulasi Midtrans}: Webhook dikirim manual dari Postman $\rightarrow$ status donasi harus berubah menjadi PAID $\rightarrow$ overlay menampilkan notifikasi.
+\end{enumerate}
+
+\subsection{Alat Pengujian}
+Alat yang digunakan dalam proses pengujian meliputi:
+\begin{itemize}
+    \item \textbf{Postman}: untuk pengujian API (header, body, autentikasi).
+    \item \textbf{MongoDB Compass}: untuk memverifikasi perubahan data secara langsung.
+    \item \textbf{Logging Next.js (console)}: untuk memantau webhook, error, dan alur proses.
+\end{itemize}
+
+\section{EVALUASI KEBERHASILAN}
+Evaluasi keberhasilan dilakukan untuk menilai sejauh mana implementasi sistem memenuhi kebutuhan fungsional, stabilitas operasional, serta ketepatan mekanisme kritis seperti autentikasi, pengelolaan sesi, dan pemrosesan pembayaran. Penilaian dilakukan melalui pengujian terstruktur dan analisis hasil \textit{code coverage} yang dihasilkan dari proses \textit{unit testing} pada modul-modul inti.
+
+\subsection{Interpretasi dan Evaluasi}
+Berdasarkan hasil pengujian dan \textit{code coverage}, dapat disimpulkan bahwa:
+\begin{enumerate}
+    \item Stabilitas alur bisnis utama sudah terverifikasi, terutama mekanisme donasi dan payout yang melibatkan transaksi dan webhook.
+    \item Keamanan dasar terkait autentikasi, JWT, dan sesi sudah diuji dan berfungsi sesuai kebutuhan.
+    \item Konsistensi data pada proses pembayaran serta pencatatan notifikasi berhasil diuji melalui simulasi webhook.
+    \item Coverage yang rendah lebih disebabkan oleh lingkup pengujian yang difokuskan, bukan karena ketidakterujian seluruh sistem.
+    \item Sistem dinilai layak digunakan, namun peningkatan cakupan pengujian tetap direkomendasikan untuk modul non-kritis seperti UI dan utilitas.
+\end{enumerate}
+
+\subsection{Kesimpulan Evaluasi}
+Secara keseluruhan, sistem telah memenuhi fungsi utamanya – mulai dari pemrosesan donasi, pembayaran, hingga payout dan notifikasi. Hasil pengujian menunjukkan bahwa fitur inti berjalan stabil, meskipun pengujian yang lebih luas masih diperlukan pada pengembangan selanjutnya.
