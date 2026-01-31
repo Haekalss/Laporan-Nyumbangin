@@ -13,6 +13,7 @@
 \usepackage{titlesec}
 \usepackage{graphicx}
 \usepackage{xcolor}
+\usepackage{float}
 \usepackage{hyperref}
 % Disable colored boxes and annotate borders explicitly
 \hypersetup{
@@ -54,6 +55,57 @@
 
 % Spacing
 \onehalfspacing
+
+% Center chapter titles and make chapter label same size as title
+\titleformat{\chapter}[display]{\normalfont\bfseries\centering}{\Huge\chaptername\ \thechapter}{12pt}{\Huge}
+
+% Use tocloft to center table of contents / list of figures / list of tables titles
+\renewcommand{\contentsname}{DAFTAR ISI}
+\renewcommand{\listfigurename}{DAFTAR GAMBAR}
+\renewcommand{\listtablename}{DAFTAR TABEL}
+
+% Center the LOF / LOT titles using cft title font + after-title filler (omit TOC cft overrides to avoid conflicts)
+\renewcommand{\cftloftitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+
+% Replace default list printing by low-level calls so we control the title placement precisely
+\makeatletter
+\renewcommand{\tableofcontents}{%
+  \clearpage
+  % use empty pagestyle for entire TOC (covers multiple pages)
+  \pagestyle{empty}
+  \thispagestyle{empty}
+  \noindent\makebox[\paperwidth]{\hfill\Large\bfseries DAFTAR ISI\hfill}
+  \vspace{0.5cm}
+  \@starttoc{tableofcontents}
+  \clearpage
+  % restore document pagestyle (fancy if used)
+  \pagestyle{fancy}
+}
+
+\renewcommand{\listoffigures}{%
+  \clearpage
+  \pagestyle{empty}
+  \thispagestyle{empty}
+  \noindent\makebox[\paperwidth]{\hfill\Large\bfseries DAFTAR GAMBAR\hfill}
+  \vspace{0.5cm}
+  \@starttoc{lof}
+  \clearpage
+  \pagestyle{fancy}
+}
+\renewcommand{\listoftables}{%
+  \clearpage
+  \pagestyle{empty}
+  \thispagestyle{empty}
+  \noindent\makebox[\paperwidth]{\hfill\Large\bfseries DAFTAR TABEL\hfill}
+  \vspace{0.5cm}
+  \@starttoc{lot}
+  \clearpage
+  \pagestyle{fancy}
+}
+\makeatother
 
 \begin{document}
 
@@ -194,8 +246,11 @@ Aplikasi donasi digital kini banyak digunakan oleh kreator konten untuk memudahk
 
 \clearpage
 \tableofcontents
+\clearpage
 \listoffigures
+\clearpage
 \listoftables
+\clearpage
 
 % --- MAIN CONTENT ---
 \include{chapters/introduction}

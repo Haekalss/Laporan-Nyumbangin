@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  1 FEB 2026 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  1 FEB 2026 01:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -221,7 +221,15 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count299
+\float@exts=\toks27
+\float@box=\box56
+\@float@everytoks=\toks28
+\@floatcapt=\box57
+)
+(C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
@@ -267,11 +275,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count299
+\c@section@level=\count300
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count300
+\etb@tempcnta=\count301
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
 ty
@@ -279,8 +287,8 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen173
-\Hy@linkcounter=\count301
-\Hy@pagecounter=\count302
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
  (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -288,7 +296,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count303
+\Hy@SavedSpaceFactor=\count304
  (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -301,7 +309,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count304
+\c@Hy@tempcnt=\count305
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
@@ -318,7 +326,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count305
+\Fld@menulength=\count306
 \Field@Width=\dimen175
 \Fld@charsize=\dimen176
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -328,16 +336,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count306
-\c@Item=\count307
-\c@Hfootnote=\count308
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count309
-\c@bookmark@seq@number=\count310
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -352,7 +360,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip56
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -366,23 +374,23 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen184
 \cmidrulekern=\dimen185
 \defaultaddspace=\dimen186
-\@cmidla=\count311
-\@cmidlb=\count312
+\@cmidla=\count312
+\@cmidlb=\count313
 \@aboverulesep=\dimen187
 \@belowrulesep=\dimen188
-\@thisruleclass=\count313
-\@lastruleclass=\count314
+\@thisruleclass=\count314
+\@lastruleclass=\count315
 \@thisrulewidth=\dimen189
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen190
-\ar@mcellbox=\box56
+\ar@mcellbox=\box58
 \extrarowheight=\dimen191
-\NC@list=\toks27
+\NC@list=\toks29
 \extratabsurround=\skip57
 \backup@length=\skip58
-\ar@cellbox=\box57
+\ar@cellbox=\box59
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
@@ -399,18 +407,19 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen199
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count315
-\c@continuedfloat=\count316
+\c@caption@flags=\count316
+\c@continuedfloat=\count317
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip59
 \enit@outerparindent=\dimen256
-\enit@toks=\toks28
-\enit@inbox=\box58
-\enit@count@id=\count317
-\enitdp@description=\count318
+\enit@toks=\toks30
+\enit@inbox=\box60
+\enit@count@id=\count318
+\enitdp@description=\count319
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
@@ -432,7 +441,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip71
 \f@nch@widthC=\skip72
 \f@nch@widthR=\skip73
-\@temptokenb=\toks29
+\@temptokenb=\toks31
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
@@ -466,8 +475,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip100
 \cftfigindent=\skip101
 \cftfignumwidth=\skip102
-\c@lofdepth=\count319
-\c@lotdepth=\count320
+\c@lofdepth=\count320
+\c@lotdepth=\count321
 \cftbeforelottitleskip=\skip103
 \cftafterlottitleskip=\skip104
 \cftbeforetabskip=\skip105
@@ -485,8 +494,8 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@old@col=\dimen259
 \TX@target=\dimen260
 \TX@delta=\dimen261
-\TX@cols=\count321
-\TX@ftn=\toks30
+\TX@cols=\count322
+\TX@ftn=\toks32
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
@@ -494,18 +503,18 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTright=\skip109
 \LTpre=\skip110
 \LTpost=\skip111
-\LTchunksize=\count322
+\LTchunksize=\count323
 \LTcapwidth=\dimen262
-\LT@head=\box59
-\LT@firsthead=\box60
-\LT@foot=\box61
-\LT@lastfoot=\box62
-\LT@gbox=\box63
-\LT@cols=\count323
-\LT@rows=\count324
-\c@LT@tables=\count325
-\c@LT@chunks=\count326
-\LT@p@ftn=\toks31
+\LT@head=\box61
+\LT@firsthead=\box62
+\LT@foot=\box63
+\LT@lastfoot=\box64
+\LT@gbox=\box65
+\LT@cols=\count324
+\LT@rows=\count325
+\c@LT@tables=\count326
+\c@LT@chunks=\count327
+\LT@p@ftn=\toks33
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
@@ -526,43 +535,43 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\xs_counta=\count327
-\xs_countb=\count328
+\xs_counta=\count328
+\xs_countb=\count329
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 58
-.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+0.
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count329
+\l__color_backend_stack_int=\count330
 ) (bukped.aux (chapters/introduction.aux)
 (chapters/literature_review.aux) (chapters/methodology.aux)
 (chapters/results.aux) (chapters/conclusion.aux))
 \openout1 = `bukped.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -602,17 +611,17 @@ LaTeX Font Info:    ... okay on input line 58.
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
+\scratchcounter=\count331
 \scratchdimen=\dimen263
-\scratchbox=\box64
-\nofMPsegments=\count331
-\nofMParguments=\count332
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count333
+\scratchbox=\box66
+\nofMPsegments=\count332
+\nofMParguments=\count333
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count334
 \MPscratchDim=\dimen264
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
-\everyMPtoPDFconversion=\toks33
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
+\everyMPtoPDFconversion=\toks35
 )
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -624,7 +633,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 58.
+Package hyperref Info: Link coloring ON on input line 110.
  (bukped.out) (bukped.out)
 \@outlinefile=\write3
 \openout3 = `bukped.out'.
@@ -636,54 +645,54 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-<images/ulbi.png, id=127, 341.1144pt x 120.45pt>
+<images/ulbi.png, id=275, 341.1144pt x 120.45pt>
 File: images/ulbi.png Graphic file (type png)
 <use images/ulbi.png>
-Package pdftex.def Info: images/ulbi.png  used on input line 71.
+Package pdftex.def Info: images/ulbi.png  used on input line 123.
 (pdftex.def)             Requested size: 278.83578pt x 98.46452pt.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 74.
+ 126.
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 74.
+ 126.
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 74.
+ 126.
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 74.
+ 126.
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
-4.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+26.
 
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 
 [1
 
 {C:/Users/4guss/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/4gus
 s/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/ulbi.png
 >]
-Overfull \hbox (23.99997pt too wide) in paragraph at lines 99--109
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 151--161
  [] 
  []
 
@@ -692,7 +701,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \end{titlepage}
+l.170 \end{titlepage}
                       [1
 
 ]
@@ -700,15 +709,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.149 \end{titlepage}
+l.201 \end{titlepage}
                       [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 \end{titlepage}
+l.232 \end{titlepage}
                       [1]
-Overfull \hbox (12.88625pt too wide) in paragraph at lines 184--185
+Overfull \hbox (12.88625pt too wide) in paragraph at lines 236--237
 \T1/ptm/m/n/12 melalui over-lay, leader-board pen-dukung, serta mekanisme pen-c
 airan dana bagi kreator.
  []
@@ -718,27 +727,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.189 \chapter
+l.241 \chapter
               *{ABSTRACT} [1
 
 ] [2
 
 ] (bukped.toc [3
 
-])
+] [4])
 \tf@toc=\write4
 \openout4 = `bukped.toc'.
 
- (bukped.lof)
+ [5] (bukped.lof)
 \tf@lof=\write5
 \openout5 = `bukped.lof'.
 
- (bukped.lot)
+
+[6
+
+] (bukped.lot)
 \tf@lot=\write6
 \openout6 = `bukped.lot'.
 
+ [7
 
-[4]
+]
 \openout2 = `chapters/introduction.aux'.
 
  (chapters/introduction.tex (chapters/bab1.tex
@@ -779,7 +792,8 @@ Overfull \hbox (22.84592pt too wide) in paragraph at lines 9--10
 n meningkat-nya adopsi teknologi
  []
 
-[5
+[8
+
 
 
 ]
@@ -794,7 +808,7 @@ Overfull \hbox (4.8446pt too wide) in paragraph at lines 32--33
 na se-ba-gai pen-
  []
 
-[6]
+[9]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 9.
  (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
@@ -816,13 +830,13 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 60
 (C:\Users\4guss\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-[7]
+[10]
 Overfull \hbox (51.81158pt too wide) in paragraph at lines 95--96
 []\T1/ptm/m/n/12 Uji fung-sional ter-hadap end-point inti seperti au-t-en-tikas
 i kreator, pen-catatan/pengambilan
  []
 
-[8]
+[11]
 Overfull \hbox (3.30905pt too wide) in paragraph at lines 104--106
 \T1/ptm/m/n/12 Sistem hanya men-cakup proses donasi seder-hana tanpa fi-tur pen
 -dukung seperti
@@ -840,13 +854,13 @@ Overfull \hbox (8.99577pt too wide) in paragraph at lines 130--132
 emil-i-han teknologi
  []
 
-[9]
+[12]
 Overfull \hbox (10.6647pt too wide) in paragraph at lines 139--141
 \T1/ptm/m/n/12 point, an-tar-muka peng-guna, hasil pen-gu-jian, serta eval-u-as
 i sesuai ru-ang lingkup. 
  []
 
-) (chapters/bab2.tex [10]
+) (chapters/bab2.tex [13]
 BAB 2.
 
 Overfull \hbox (0.49069pt too wide) in paragraph at lines 9--10
@@ -860,21 +874,21 @@ Overfull \hbox (1.5687pt too wide) in paragraph at lines 13--14
 k-tur ar-sitek-tu-ral yang umum
  []
 
-[11
+[14
 
-] [12]
+] [15]
 Overfull \hbox (1.3427pt too wide) in paragraph at lines 33--34
 \T1/ptm/m/n/12 pan kre-den-sial peng-guna se-cara lang-sung [[]]. OAuth 2.0 men
 ye-di-akan seperangkat
  []
 
-[13]
+[16]
 Overfull \hbox (4.58148pt too wide) in paragraph at lines 49--50
 \T1/ptm/m/n/12 mem-per-luas per-mukaan seran-gan, ter-ma-suk risiko seperti in-
 for-ma-tion leak-age, unau-
  []
 
-[14] [15]
+[17] [18]
 Overfull \hbox (1.19829pt too wide) in paragraph at lines 65--66
 \T1/ptm/m/n/12 lan stan-dar yang di-gu-nakan un-tuk mer-an-cang dan men-doku-me
 n-tasikan sis-tem beror-
@@ -886,13 +900,247 @@ Overfull \hbox (0.62169pt too wide) in paragraph at lines 65--66
 kasikan, mem-ban-gun, dan
  []
 
-[16]
+[19]
 Overfull \hbox (2.48158pt too wide) in paragraph at lines 87--88
 []\T1/ptm/m/n/12 Salah satu mekanisme yang da-pat dit-er-ap-kan adalah fi-tur s
 o-cial shar-ing, yang memu-
  []
 
-[17])) [18]
+[20]) (chapters/bab3.tex [21]
+BAB 3.
+
+Overfull \hbox (30.62268pt too wide) in paragraph at lines 5--6
+\T1/ptm/m/n/12 Pengembangan plat-form Nyum-ban-gin meng-gu-nakan pen-dekatan Ag
+-ile, yang menekankan
+ []
+
+
+Overfull \hbox (3.34566pt too wide) in paragraph at lines 5--6
+\T1/ptm/m/n/12 Ag-ile dip-ilih karena sesuai den-gan karak-ter-is-tik proyek be
+rskala ke-cil hingga menen-
+ []
+
+
+Overfull \hbox (2.7331pt too wide) in paragraph at lines 17--18
+\T1/ptm/m/n/12 Proses pengem-ban-gan sis-tem di-lakukan melalui be-ber-apa sik-
+lus it-erasi yang masing-
+ []
+
+[22
+
+] [23]
+Overfull \hbox (2.61246pt too wide) in paragraph at lines 56--57
+[]\T1/ptm/m/n/12 Pengelolaan Donasi, men-cakup pem-bu-atan transaksi, in-te-gra
+si Mid-trans, pem-
+ []
+
+
+Overfull \hbox (19.64117pt too wide) in paragraph at lines 58--59
+[]\T1/ptm/m/n/12 Leaderboard, baik se-cara global maupun berdasarkan kreator, u
+n-tuk menampilkan
+ []
+
+[24] [25]
+Overfull \hbox (10.47185pt too wide) in paragraph at lines 108--109
+[]\T1/ptm/m/n/12 Overlay di-gu-nakan se-cara mandiri melalui OBS atau \T1/ptm/m
+/it/12 iframe \T1/ptm/m/n/12 un-tuk menampilkan
+ []
+
+
+Overfull \hbox (3.50166pt too wide) in paragraph at lines 113--114
+\T1/ptm/m/n/12 Arsitektur teknologi sis-tem men-cakup peng-gu-naan Next.js se-b
+a-gai frame-work utama
+ []
+
+<images/arsitektur.png, id=695, 241.3818pt x 255.354pt>
+File: images/arsitektur.png Graphic file (type png)
+<use images/arsitektur.png>
+Package pdftex.def Info: images/arsitektur.png  used on input line 117.
+(pdftex.def)             Requested size: 398.3386pt x 421.40553pt.
+[26] [27 <./images/arsitektur.png>]
+<images/use-case-diagram.png, id=713, 290.5254pt x 256.3176pt>
+File: images/use-case-diagram.png Graphic file (type png)
+<use images/use-case-diagram.png>
+Package pdftex.def Info: images/use-case-diagram.png  used on input line 147.
+(pdftex.def)             Requested size: 398.3386pt x 351.46588pt.
+ [28]
+<images/activity-diagram-donasi.png, id=718, 377.2494pt x 277.5168pt>
+File: images/activity-diagram-donasi.png Graphic file (type png)
+<use images/activity-diagram-donasi.png>
+Package pdftex.def Info: images/activity-diagram-donasi.png  used on input line
+ 162.
+(pdftex.def)             Requested size: 398.3386pt x 293.0527pt.
+ [29 <./images/use-case-diagram.png>]
+<images/activity-diagram-payout.png, id=724, 380.1402pt x 279.444pt>
+File: images/activity-diagram-payout.png Graphic file (type png)
+<use images/activity-diagram-payout.png>
+Package pdftex.def Info: images/activity-diagram-payout.png  used on input line
+ 173.
+(pdftex.def)             Requested size: 398.3386pt x 292.83217pt.
+
+[30 <./images/activity-diagram-donasi.png>]
+<images/activity-diagram-feedback.png, id=730, 398.4486pt x 393.6306pt>
+File: images/activity-diagram-feedback.png Graphic file (type png)
+<use images/activity-diagram-feedback.png>
+Package pdftex.def Info: images/activity-diagram-feedback.png  used on input li
+ne 184.
+(pdftex.def)             Requested size: 398.3386pt x 393.52753pt.
+ [31 <./images/activity-diagram-payout.png>]
+Overfull \hbox (22.67734pt too wide) in paragraph at lines 189--190
+\T1/ptm/m/n/12 peng-guna. Proses dim-u-lai dari pengisian for-mulir feed-back, 
+ke-mu-dian sis-tem melakukan
+ []
+
+<images/activity-diagram-login.png, id=736, 349.7868pt x 271.7352pt>
+File: images/activity-diagram-login.png Graphic file (type png)
+<use images/activity-diagram-login.png>
+Package pdftex.def Info: images/activity-diagram-login.png  used on input line 
+195.
+(pdftex.def)             Requested size: 398.3386pt x 309.45375pt.
+[32 <./images/activity-diagram-feedback.png>]
+<images/activity-diagram-kelola-overlay.png, id=742, 344.9688pt x 343.5234pt>
+File: images/activity-diagram-kelola-overlay.png Graphic file (type png)
+<use images/activity-diagram-kelola-overlay.png>
+Package pdftex.def Info: images/activity-diagram-kelola-overlay.png  used on in
+put line 206.
+(pdftex.def)             Requested size: 398.3386pt x 396.69998pt.
+ [33 <./images/activity-diagram-login.png>]
+Overfull \hbox (14.55432pt too wide) in paragraph at lines 211--212
+\T1/ptm/m/n/12 Activity di-a-gram kelola over-lay menggam-barkan alur pen-gelo-
+laan over-lay oleh kreator.
+ []
+
+<images/activity-diagram-kelola-profil.png, id=749, 369.0588pt x 418.2024pt>
+File: images/activity-diagram-kelola-profil.png Graphic file (type png)
+<use images/activity-diagram-kelola-profil.png>
+Package pdftex.def Info: images/activity-diagram-kelola-profil.png  used on inp
+ut line 217.
+(pdftex.def)             Requested size: 398.3386pt x 451.40936pt.
+[34 <./images/activity-diagram-kelola-overlay.png>]
+Overfull \hbox (4.05385pt too wide) in paragraph at lines 222--223
+\T1/ptm/m/n/12 diper-lukan. Sis-tem melakukan val-i-dasi in-put dan meny-im-pan
+ pe-ruba-han ke database.
+ []
+
+<images/activity-diagram-request-payout.png, id=755, 362.3136pt x 278.9622pt>
+File: images/activity-diagram-request-payout.png Graphic file (type png)
+<use images/activity-diagram-request-payout.png>
+Package pdftex.def Info: images/activity-diagram-request-payout.png  used on in
+put line 228.
+(pdftex.def)             Requested size: 398.3386pt x 306.69762pt.
+[35 <./images/activity-diagram-kelola-profil.png>]
+<images/activity-diagram-riwayat-donasi.png, id=761, 354.6048pt x 349.305pt>
+File: images/activity-diagram-riwayat-donasi.png Graphic file (type png)
+<use images/activity-diagram-riwayat-donasi.png>
+Package pdftex.def Info: images/activity-diagram-riwayat-donasi.png  used on in
+put line 239.
+(pdftex.def)             Requested size: 398.3386pt x 392.39151pt.
+ [36 <./images/activity-diagram-request-payout.png>]
+<images/sequence-diagram-donasi.png, id=767, 398.4486pt x 263.5446pt>
+File: images/sequence-diagram-donasi.png Graphic file (type png)
+<use images/sequence-diagram-donasi.png>
+Package pdftex.def Info: images/sequence-diagram-donasi.png  used on input line
+ 252.
+(pdftex.def)             Requested size: 398.3386pt x 263.47557pt.
+ [37 <./images/activity-diagram-riwayat-donasi.png>]
+Overfull \hbox (2.78146pt too wide) in paragraph at lines 257--258
+\T1/ptm/m/n/12 le-saikan pem-ba-yaran dan transaksi diny-atakan berhasil, Mid-t
+rans men-gir-imkan web-
+ []
+
+<images/sequence-diagram-leaderboard.png, id=773, 377.7312pt x 235.1184pt>
+File: images/sequence-diagram-leaderboard.png Graphic file (type png)
+<use images/sequence-diagram-leaderboard.png>
+Package pdftex.def Info: images/sequence-diagram-leaderboard.png  used on input
+ line 263.
+(pdftex.def)             Requested size: 398.3386pt x 247.95068pt.
+[38 <./images/sequence-diagram-donasi.png>]
+<images/sequence-diagram-login.png, id=780, 363.2772pt x 205.7286pt>
+File: images/sequence-diagram-login.png Graphic file (type png)
+<use images/sequence-diagram-login.png>
+Package pdftex.def Info: images/sequence-diagram-login.png  used on input line 
+274.
+(pdftex.def)             Requested size: 398.3386pt x 225.59897pt.
+ [39 <./images/sequence-diagram-leaderboard.png>]
+<images/sequence-diagram-feedback.png, id=788, 357.4956pt x 234.6366pt>
+File: images/sequence-diagram-feedback.png Graphic file (type png)
+<use images/sequence-diagram-feedback.png>
+Package pdftex.def Info: images/sequence-diagram-feedback.png  used on input li
+ne 285.
+(pdftex.def)             Requested size: 398.3386pt x 261.45934pt.
+ [40 <./images/sequence-diagram-login.png>]
+<images/sequence-diagram-kelola-profil.png, id=795, 398.4486pt x 177.7842pt>
+File: images/sequence-diagram-kelola-profil.png Graphic file (type png)
+<use images/sequence-diagram-kelola-profil.png>
+Package pdftex.def Info: images/sequence-diagram-kelola-profil.png  used on inp
+ut line 296.
+(pdftex.def)             Requested size: 398.3386pt x 177.73761pt.
+ [41 <./images/sequence-diagram-feedback.png>]
+<images/sequence-diagram-riwayat-donasi.png, id=802, 360.8682pt x 397.485pt>
+File: images/sequence-diagram-riwayat-donasi.png Graphic file (type png)
+<use images/sequence-diagram-riwayat-donasi.png>
+Package pdftex.def Info: images/sequence-diagram-riwayat-donasi.png  used on in
+put line 307.
+(pdftex.def)             Requested size: 398.3386pt x 438.78145pt.
+ [42 <./images/sequence-diagram-kelola-profil.png>]
+<images/sequence-diagram-request-payout.png, id=809, 337.26pt x 366.6498pt>
+File: images/sequence-diagram-request-payout.png Graphic file (type png)
+<use images/sequence-diagram-request-payout.png>
+Package pdftex.def Info: images/sequence-diagram-request-payout.png  used on in
+put line 318.
+(pdftex.def)             Requested size: 398.3386pt x 433.06258pt.
+
+[43 <./images/sequence-diagram-riwayat-donasi.png>]
+Overfull \hbox (1.66646pt too wide) in paragraph at lines 323--324
+\T1/ptm/m/n/12 Sequence di-a-gram re-quest pay-out menggam-barkan proses pen-ga
+-juan pen-cairan dana
+ []
+
+
+Overfull \hbox (18.46504pt too wide) in paragraph at lines 323--324
+\T1/ptm/m/n/12 oleh kreator. Kreator men-ga-jukan per-mintaan pay-out melalui s
+is-tem. Sis-tem melakukan
+ []
+
+[44 <./images/sequence-diagram-request-payout.png>]
+Overfull \hbox (0.2372pt too wide) in paragraph at lines 338--340
+\T1/ptm/m/n/12 Entitas un-tuk menan-gani re-quest me-dia share (YouTube video) 
+yang dikaitkan
+ []
+
+
+Overfull \hbox (24.77705pt too wide) in paragraph at lines 358--359
+[]\T1/ptm/m/n/12 Seluruh en-ti-tas terse-but berperan dalam memas-tikan in-tegr
+i-tas data serta menghubungkan
+ []
+
+[45]
+Overfull \hbox (20.95197pt too wide) in paragraph at lines 366--367
+\T1/ptm/m/n/12 di-gu-nakan dalam kueri, seperti \T1/pcr/m/n/12 createdAt\T1/ptm
+/m/n/12 , \T1/pcr/m/n/12 creatorId\T1/ptm/m/n/12 , dan \T1/pcr/m/n/12 creatorUs
+ername\T1/ptm/m/n/12 .
+ []
+
+
+Overfull \hbox (2.04977pt too wide) in paragraph at lines 372--373
+\T1/ptm/m/n/12 selu-ruh fungsi sis-tem ber-jalan sesuai ke-bu-tuhan, aman di-gu
+-nakan, dan meng-hasilkan
+ []
+
+[46] [47]
+Overfull \hbox (3.90866pt too wide) in paragraph at lines 436--438
+\T1/pcr/m/n/12 APPROVED $\OMS/ztmcm/m/n/12 !$ \T1/ptm/m/n/12 sta-tus \T1/pcr/m/
+n/12 PROCESSED $\OMS/ztmcm/m/n/12 !$ \T1/ptm/m/n/12 saldo kreator berku-rang se
+suai \T1/ptm/m/it/12 fi-nalAm-
+ []
+
+[48]
+Overfull \hbox (2.9136pt too wide) in paragraph at lines 453--454
+[]\T1/ptm/b/n/12 Logging Next.js (con-sole) \T1/ptm/m/n/12 ^^U un-tuk me-man-ta
+u web-hook, er-ror, dan alur proses. 
+ []
+
+[49])) [50] [51]
 \openout2 = `chapters/literature_review.aux'.
 
 
@@ -906,7 +1154,7 @@ No file chapters/results.tex.
 \openout2 = `chapters/conclusion.aux'.
 
 No file chapters/conclusion.tex.
-(bukped.bbl [19
+(bukped.bbl [52
 
 
 
@@ -922,7 +1170,7 @@ No file chapters/conclusion.tex.
 
 
 
-] [20]) [21] (bukped.aux (chapters/introduction.aux)
+] [53]) [54] (bukped.aux (chapters/introduction.aux)
 (chapters/literature_review.aux) (chapters/methodology.aux)
 (chapters/results.aux) (chapters/conclusion.aux))
  ***********
@@ -930,24 +1178,26 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `bukped.out' has not changed.
-(rerunfilecheck)             Checksum: 93EECD6A52E6971B61E47155B3909AB8;4783.
+(rerunfilecheck)             Checksum: F287695CBC3087DB3E98FC92F946ECAF;10996.
  ) 
 Here is how much of TeX's memory you used:
- 14322 strings out of 467871
- 230453 string characters out of 5418376
- 659780 words of memory out of 5000000
- 42797 multiletter control sequences out of 15000+600000
- 665087 words of font info for 82 fonts, out of 8000000 for 9000
+ 14722 strings out of 467871
+ 239736 string characters out of 5418376
+ 665365 words of memory out of 5000000
+ 43050 multiletter control sequences out of 15000+600000
+ 666867 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,1197b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.
-pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.
-pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.
-pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on bukped.pdf (25 pages, 198743 bytes).
+ 75i,8n,79p,1197b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1/u
+rw/courier/ucrr8a.pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1
+/urw/times/utmb8a.pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1
+/urw/times/utmr8a.pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on bukped.pdf (58 pages, 1451422 bytes).
 PDF statistics:
- 496 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 974 PDF objects out of 1000 (max. 8388607)
+ 288 named destinations out of 1000 (max. 500000)
+ 635 words of extra memory for PDF output out of 10000 (max. 10000000)
 

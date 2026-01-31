@@ -1,31 +1,75 @@
-\contentsline {chapter}{\numberline {1}Pendahuluan}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Latar Belakang}{5}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Identifikasi Masalah}{6}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Tujuan}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Ruang Lingkup}{7}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Cakupan Fungsional}{7}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Cakupan Teknis}{8}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Cakupan Pengujian}{8}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Batasan Penilitian}{9}{subsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.4.5}Luaran Penilitian}{9}{subsection.1.4.5}%
-\contentsline {section}{\numberline {1.5}Sistematika Penulisan}{9}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Landasan Teori}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Platform Donasi Digital}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Arsitektur Aplikasi Web Modern}{12}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Arsitektur Three-Tier/N-Tier}{12}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Konsep Client-Server}{12}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}REST API dan Protokol HTTP}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Autentikasi dan Otorisasi}{13}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}OAuth 2.0}{13}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}OpenID Connect}{13}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}JWT}{14}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Skema Bearer Token}{14}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Keamanan API}{14}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Database NoSQL (MongoDB)}{15}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Flowchart Sistem}{15}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Unified Modeling Language (UML)}{16}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Use Case Diagram}{16}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Activity Diagram}{16}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Sequence Diagram}{17}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4}Class Diagram}{17}{subsection.2.7.4}%
-\contentsline {section}{\numberline {2.8}Peran Fitur Social Sharing dalam Donasi Digital}{17}{section.2.8}%
+\contentsline {chapter}{\numberline {1}Pendahuluan}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Latar Belakang}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Identifikasi Masalah}{9}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Tujuan}{9}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Ruang Lingkup}{10}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Cakupan Fungsional}{10}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Cakupan Teknis}{11}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Cakupan Pengujian}{11}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Batasan Penilitian}{12}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Luaran Penilitian}{12}{subsection.1.4.5}%
+\contentsline {section}{\numberline {1.5}Sistematika Penulisan}{12}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Landasan Teori}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Platform Donasi Digital}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Arsitektur Aplikasi Web Modern}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Arsitektur Three-Tier/N-Tier}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Konsep Client-Server}{15}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}REST API dan Protokol HTTP}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Autentikasi dan Otorisasi}{16}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}OAuth 2.0}{16}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}OpenID Connect}{16}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}JWT}{17}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Skema Bearer Token}{17}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Keamanan API}{17}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Database NoSQL (MongoDB)}{18}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Flowchart Sistem}{18}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Unified Modeling Language (UML)}{19}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Use Case Diagram}{19}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Activity Diagram}{19}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Sequence Diagram}{20}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Class Diagram}{20}{subsection.2.7.4}%
+\contentsline {section}{\numberline {2.8}Peran Fitur Social Sharing dalam Donasi Digital}{20}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Metode Penelitian}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Metode Pengembangan Sistem}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Konsep Agile Development}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Alur Iterasi Pengembangan}{23}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Penerapan Agile pada Proyek Nyumbangin}{23}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Analisis Kebutuhan}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Sumber Kebutuhan}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Kebutuhan Fungsional}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Kebutuhan Non-Fungsional}{25}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Perancangan Sistem}{25}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Arsitektur Logis}{25}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Arsitektur Fisik}{25}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Arsitektur Teknologi}{26}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Modul Utama}{27}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Strategi Desain}{28}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Pemodelan Sistem}{28}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Use Case}{29}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Activity Diagram}{29}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Activity Diagram Proses Payout}{31}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Activity Diagram Feedback}{32}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Activity Diagram Login}{33}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Activity Diagram Kelola Overlay}{34}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Activity Diagram Kelola Profil}{35}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Activity Diagram Request Payout}{36}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.9}Activity Diagram Riwayat Donasi}{37}{subsection.3.4.9}%
+\contentsline {subsection}{\numberline {3.4.10}Sequence Diagram}{38}{subsection.3.4.10}%
+\contentsline {subsubsection}{Sequence Diagram Donasi}{38}{subsubsection*.13}%
+\contentsline {subsubsection}{Sequence Diagram Leaderboard}{39}{subsubsection*.15}%
+\contentsline {subsubsection}{Sequence Diagram Login}{40}{subsubsection*.17}%
+\contentsline {subsubsection}{Sequence Diagram Feedback}{41}{subsubsection*.19}%
+\contentsline {subsubsection}{Sequence Diagram Kelola Profil}{42}{subsubsection*.21}%
+\contentsline {subsubsection}{Sequence Diagram Riwayat Donasi}{43}{subsubsection*.23}%
+\contentsline {subsubsection}{Sequence Diagram Request Payout}{44}{subsubsection*.25}%
+\contentsline {subsection}{\numberline {3.4.11}Model Entitas}{45}{subsection.3.4.11}%
+\contentsline {section}{\numberline {3.5}Metode Perancangan Teknis}{46}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Metode Pengujian}{47}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Jenis Pengujian}{47}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Skenario Pengujian}{48}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Alat Pengujian}{49}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}Evaluasi Keberhasilan}{49}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Cakupan Pengujian}{49}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Hasil Code Coverage}{49}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Interpretasi dan Evaluasi}{50}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Kesimpulan Evaluasi}{51}{subsection.3.7.4}%

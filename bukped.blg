@@ -15,53 +15,53 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-Repeated entry---line 131 of file references.bib
+Repeated entry---line 147 of file references.bib
  : @article{jullien2021
  :                     , author={Jullien et al.}, year={2021}, title={Two-Sided Market Theory}, journal={Economic Review}}
 I'm skipping whatever remains of this entry
-Repeated entry---line 229 of file references.bib
+Repeated entry---line 245 of file references.bib
  : @article{tarigan2023
  :                     , author={Tarigan}, year={2023}, title={Trust in Digital Donation}, journal={E-Commerce Journal}}
 I'm skipping whatever remains of this entry
-You've used 61 entries,
+You've used 62 entries,
             2118 wiz_defined-function locations,
-            743 strings with 8115 characters,
-and the built_in function-call counts, 12826 in all, are:
-= -- 1250
-> -- 487
+            747 strings with 8215 characters,
+and the built_in function-call counts, 13030 in all, are:
+= -- 1270
+> -- 494
 < -- 0
-+ -- 203
-- -- 142
-* -- 530
-:= -- 2450
-add.period$ -- 183
-call.type$ -- 61
-change.case$ -- 254
++ -- 206
+- -- 144
+* -- 538
+:= -- 2489
+add.period$ -- 186
+call.type$ -- 62
+change.case$ -- 258
 chr.to.int$ -- 0
-cite$ -- 61
-duplicate$ -- 610
-empty$ -- 1038
-format.name$ -- 142
-if$ -- 2572
+cite$ -- 62
+duplicate$ -- 620
+empty$ -- 1055
+format.name$ -- 144
+if$ -- 2613
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 61
-newline$ -- 308
-num.names$ -- 122
-pop$ -- 254
+int.to.str$ -- 62
+missing$ -- 62
+newline$ -- 313
+num.names$ -- 124
+pop$ -- 258
 preamble$ -- 1
-purify$ -- 193
+purify$ -- 196
 quote$ -- 0
-skip$ -- 436
+skip$ -- 443
 stack$ -- 0
-substring$ -- 305
-swap$ -- 61
+substring$ -- 310
+swap$ -- 62
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 244
+type$ -- 248
 warning$ -- 0
-while$ -- 122
-width$ -- 63
-write$ -- 612
+while$ -- 124
+width$ -- 64
+write$ -- 622
 (There were 2 error messages)
