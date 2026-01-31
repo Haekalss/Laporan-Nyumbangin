@@ -12,6 +12,7 @@
 \usepackage{setspace}
 \usepackage{titlesec}
 \usepackage{graphicx}
+\usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{array}
@@ -47,57 +48,72 @@
 
 \begin{document}
 
-% --- FRONT MATTER ---
+% --- FRONT MATTER (white framed titlepage) ---
 \begin{titlepage}
-    \centering
-    \vspace*{1cm}
-    {\Large \textbf{NYUMBANGIN: PLATFORM DONASI DIGITAL}}\\[1cm]
-    {\large \textbf{LAPORAN PROYEK III}}\\[1.5cm]
-    Diajukan untuk Memenuhi Kelulusan Matakuliah\\
-    Proyek 3 pada Program Studi DIV Teknik Informatika\\[2cm]
-    
-    \textbf{DISUSUN OLEH :}\\[0.5cm]
-    \begin{tabular}{ll}
-    714230027 & Muhamad Haekal Syukur \\
-    714230060 & Muhammad Ferdy Leoza
-    \end{tabular}\\[2cm]
-    
-    \textbf{PROGRAM STUDI DIV TEKNIK INFORMATIKA}\\
-    \textbf{FAKULTAS SEKOLAH VOKASI}\\
-    \textbf{UNIVERSITAS LOGISTIK \& BISNIS INTERNASIONAL}\\
-    \textbf{BANDUNG}\\
-    \textbf{2026}
-\end{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{2cm}
+{\bfseries\Large NYUMBANGIN: PLATFORM DONASI DIGITAL}\\[0.6cm]
+{\bfseries\large LAPORAN PROYEK III}\\[0.6cm]
+{\small Diajukan untuk Memenuhi Kelulusan Matakuliah}\\
+{\small Proyek 3 pada Program Studi DIV Teknik Informatika}\\[1.0cm]
 
-\chapter*{LEMBAR PENGESAHAN}
-\begin{center}
-    \textbf{NYUMBANGIN: PLATFORM DONASI DIGITAL}
-\end{center}
-\vspace{1cm}
+% University logo (centered & large)
+\includegraphics[width=0.7\textwidth]{images/ulbi.png}\\[0.7cm]
+
+{\bfseries DISUSUN OLEH :}\\[0.3cm]
+\begin{tabular}{c}
+714230027 -- Muhamad Haekal Syukur\\
+714230060 -- Muhammad Ferdy Leoza
+\end{tabular}\\[0.9cm]
+
+{\small\bfseries PROGRAM STUDI DIV TEKNIK INFORMATIKA}\\
+{\small\bfseries FAKULTAS SEKOLAH VOKASI}\\
+{\small\bfseries UNIVERSITAS LOGISTIK \& BISNIS INTERNASIONAL}\\
+{\small\bfseries BANDUNG}\\
+{\small\bfseries 2026}
+\vfill
+\end{titlepage}
+\clearpage
+% --- end FRONT MATTER ---
+
+% --- LEMBAR PENGESAHAN (single page) ---
+\begin{titlepage}
+\centering
+\vspace*{1cm}
+{\bfseries\large LEMBAR PENGESAHAN \\[1ex]
+\textbf{NYUMBANGIN: PLATFORM DONASI DIGITAL}}\\[1.2cm]
+
 Laporan Proyek 3 ini telah diperiksa, disetujui, dan disidangkan\\
-Di Bandung,\\[1cm]
+Di Bandung,\\[0.6cm]
 
 \noindent
 \begin{tabular}{p{7cm} p{7cm}}
-    Oleh: & \\
-    Penguji Pendamping, & Penguji Utama, \\[2.5cm]
-    \textbf{Rolly Maulana Awangga, S.T.,MT.} & \textbf{Rolly Maulana Awangga, S.T.,MT.} (Simulasi) \\
+    Penguji Pendamping, & Penguji Utama, \\\vspace{0.8cm}
+    \textbf{Rolly Maulana Awangga, S.T., M.T.} & \textbf{Rolly Maulana Awangga, S.T., M.T.} (Simulasi) \\
     NIK: 113.74.163 & NIK: 1 \\
     & \\
-    Pembimbing, & Koordinator Proyek 3 \\[2.5cm]
-    \textbf{Rolly Maulana Awangga, S.T.,MT.} & \textbf{Roni Habibi, S.Kom., M.T., SFPC} \\
+    Pembimbing, & Koordinator Proyek 3 \\\vspace{0.8cm}
+    \textbf{Rolly Maulana Awangga, S.T., M.T.} & \textbf{Roni Habibi, S.Kom., M.T., SFPC} \\
     NIK: 117.86.219 & NIK: 117.88.233 \\
 \end{tabular}
 
-\vspace{1cm}
+\vfill
 \begin{center}
     Menyetujui,\\
-    Ketua Program Studi D-IV Teknik Informatika,\\[2.5cm]
+    Ketua Program Studi D-IV Teknik Informatika,\\[1.2cm]
     \textbf{Roni Andarsyah, S.T., M.Kom}\\
     NIK: 115.88.193
 \end{center}
+\vspace*{0.5cm}
+\end{titlepage}
+% --- end LEMBAR PENGESAHAN ---
 
-\chapter*{SURAT PERNYATAAN BEBAS PLAGIARISME}
+% --- SURAT PERNYATAAN 1 (single page) ---
+\begin{titlepage}
+\centering
+\vspace*{1cm}
+{\bfseries\large SURAT PERNYATAAN BEBAS PLAGIARISME}\\[1ex]
 \begin{tabular}{ll}
 Nama & : Muhamad Haekal Syukur \\
 NPM & : 714230027 \\
@@ -114,15 +130,21 @@ Menyatakan bahwa:
     \item Saya menyatakan bahwa pernyataan ini dibuat dengan sesungguhnya.
 \end{enumerate}
 
-\vspace{1cm}
+\vfill
 \begin{flushright}
     Bandung, Januari 2026\\
     Yang membuat pernyataan,\\[2cm]
     \textbf{Muhamad Haekal Syukur}\\
     NPM : 714230027
 \end{flushright}
+\end{titlepage}
+% --- end SURAT PERNYATAAN 1 ---
 
-\chapter*{SURAT PERNYATAAN BEBAS PLAGIARISME}
+% --- SURAT PERNYATAAN 2 (single page) ---
+\begin{titlepage}
+\centering
+\vspace*{1cm}
+{\bfseries\large SURAT PERNYATAAN BEBAS PLAGIARISME}\\[1ex]
 \begin{tabular}{ll}
 Nama & : Muhammad Ferdy Leoza \\
 NPM & : 714230060 \\
@@ -139,13 +161,15 @@ Menyatakan bahwa:
     \item Saya menyatakan bahwa pernyataan ini dibuat dengan sesungguhnya.
 \end{enumerate}
 
-\vspace{1cm}
+\vfill
 \begin{flushright}
     Bandung, Januari 2026\\
     Yang membuat pernyataan,\\[2cm]
     \textbf{Muhammad Ferdy Leoza}\\
     NPM : 714230060
 \end{flushright}
+\end{titlepage}
+% --- end SURAT PERNYATAAN 2 ---
 
 \chapter*{ABSTRAK}
 Aplikasi donasi digital kini banyak digunakan oleh kreator konten untuk memudahkan dukungan dari para pendukung. Laporan ini membahas pengembangan platform donasi dengan fitur utama seperti pengiriman donasi, notifikasi real-time melalui overlay, leaderboard pendukung, serta mekanisme pencairan dana bagi kreator. Pengembangan dilakukan melalui analisis kebutuhan, perancangan sistem, dan implementasi fitur sesuai alur donasi hingga pencairan dana. Hasil pengujian menunjukkan bahwa aplikasi dapat memproses donasi dengan baik, menampilkan notifikasi secara langsung dan menyediakan proses pencairan dana yang terstruktur untuk kreator. Secara keseluruhan, aplikasi yang dibangun telah memenuhi tujuan utama, yaitu menyediakan sarana donasi yang fungsional dan mudah digunakan, meskipun masih terdapat ruang pengembangan lebih lanjut untuk meningkatkan stabilitas dan cakupan fitur.
@@ -159,6 +183,7 @@ Aplikasi donasi digital kini banyak digunakan oleh kreator konten untuk memudahk
 \vspace{0.5cm}
 \textbf{Keywords:} \textit{digital donations, web applications, creator, overlay notifications, payouts.}
 
+\clearpage
 \tableofcontents
 \listoffigures
 \listoftables

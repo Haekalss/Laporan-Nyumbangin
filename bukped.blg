@@ -1,51 +1,67 @@
-This is BibTeX, Version 0.99d (TeX Live 2025)
+This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: bukped.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: chapters/introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: chapters/literature_review.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: chapters/methodology.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: chapters/results.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: chapters/conclusion.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-You've used 19 entries,
+Repeated entry---line 131 of file references.bib
+ : @article{jullien2021
+ :                     , author={Jullien et al.}, year={2021}, title={Two-Sided Market Theory}, journal={Economic Review}}
+I'm skipping whatever remains of this entry
+Repeated entry---line 229 of file references.bib
+ : @article{tarigan2023
+ :                     , author={Tarigan}, year={2023}, title={Trust in Digital Donation}, journal={E-Commerce Journal}}
+I'm skipping whatever remains of this entry
+You've used 61 entries,
             2118 wiz_defined-function locations,
-            608 strings with 7941 characters,
-and the built_in function-call counts, 6216 in all, are:
-= -- 598
-> -- 360
-< -- 1
-+ -- 143
-- -- 122
-* -- 480
-:= -- 1101
-add.period$ -- 57
-call.type$ -- 19
-change.case$ -- 118
+            743 strings with 8115 characters,
+and the built_in function-call counts, 12826 in all, are:
+= -- 1250
+> -- 487
+< -- 0
++ -- 203
+- -- 142
+* -- 530
+:= -- 2450
+add.period$ -- 183
+call.type$ -- 61
+change.case$ -- 254
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 209
-empty$ -- 421
-format.name$ -- 122
-if$ -- 1234
+cite$ -- 61
+duplicate$ -- 610
+empty$ -- 1038
+format.name$ -- 142
+if$ -- 2572
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 19
-newline$ -- 98
-num.names$ -- 38
-pop$ -- 86
+int.to.str$ -- 61
+missing$ -- 61
+newline$ -- 308
+num.names$ -- 122
+pop$ -- 254
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 193
 quote$ -- 0
-skip$ -- 156
+skip$ -- 436
 stack$ -- 0
-substring$ -- 304
-swap$ -- 28
-text.length$ -- 1
+substring$ -- 305
+swap$ -- 61
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
+type$ -- 244
 warning$ -- 0
-while$ -- 57
-width$ -- 21
-write$ -- 209
+while$ -- 122
+width$ -- 63
+write$ -- 612
+(There were 2 error messages)
