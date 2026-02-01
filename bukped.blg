@@ -15,53 +15,69 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-Repeated entry---line 147 of file references.bib
+Repeated entry---line 187 of file references.bib
  : @article{jullien2021
  :                     , author={Jullien et al.}, year={2021}, title={Two-Sided Market Theory}, journal={Economic Review}}
 I'm skipping whatever remains of this entry
-Repeated entry---line 245 of file references.bib
+Warning--entry type for "rahman2020" isn't style-file defined
+--line 529 of file references.bib
+Repeated entry---line 957 of file references.bib
  : @article{tarigan2023
- :                     , author={Tarigan}, year={2023}, title={Trust in Digital Donation}, journal={E-Commerce Journal}}
+ :                     ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "rahmayanti2024" isn't style-file defined
+--line 975 of file references.bib
+Warning--empty journal in assistantprofessor2020
+Warning--empty publisher in ball2020
+Warning--empty institution in chandramouli2020
+Warning--empty journal in fadzirul2020
+Warning--empty journal in jullien2021
+Warning--empty journal in lodderstedt2025
+Warning--empty journal in pan2024
+Warning--empty journal in prabu2025
+Warning--empty publisher in shneor2020
+Warning--empty journal in singh2023
+Warning--empty journal in wang2025
+Warning--empty journal in yasuda2022
 You've used 62 entries,
             2118 wiz_defined-function locations,
-            747 strings with 8215 characters,
-and the built_in function-call counts, 13030 in all, are:
-= -- 1270
-> -- 494
-< -- 0
-+ -- 206
-- -- 144
-* -- 538
-:= -- 2489
-add.period$ -- 186
+            782 strings with 13075 characters,
+and the built_in function-call counts, 18455 in all, are:
+= -- 1763
+> -- 1023
+< -- 4
++ -- 409
+- -- 340
+* -- 1273
+:= -- 3270
+add.period$ -- 185
 call.type$ -- 62
-change.case$ -- 258
+change.case$ -- 348
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 620
-empty$ -- 1055
-format.name$ -- 144
-if$ -- 2613
+cite$ -- 74
+duplicate$ -- 675
+empty$ -- 1304
+format.name$ -- 340
+if$ -- 3699
 int.to.chr$ -- 0
 int.to.str$ -- 62
-missing$ -- 62
-newline$ -- 313
+missing$ -- 61
+newline$ -- 312
 num.names$ -- 124
-pop$ -- 258
+pop$ -- 320
 preamble$ -- 1
-purify$ -- 196
+purify$ -- 287
 quote$ -- 0
-skip$ -- 443
+skip$ -- 524
 stack$ -- 0
-substring$ -- 310
-swap$ -- 62
-text.length$ -- 0
+substring$ -- 769
+swap$ -- 88
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 248
-warning$ -- 0
-while$ -- 124
+type$ -- 244
+warning$ -- 12
+while$ -- 165
 width$ -- 64
-write$ -- 622
+write$ -- 649
 (There were 2 error messages)

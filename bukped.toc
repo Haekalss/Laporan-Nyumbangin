@@ -73,3 +73,21 @@
 \contentsline {subsection}{\numberline {3.7.2}Hasil Code Coverage}{49}{subsection.3.7.2}%
 \contentsline {subsection}{\numberline {3.7.3}Interpretasi dan Evaluasi}{50}{subsection.3.7.3}%
 \contentsline {subsection}{\numberline {3.7.4}Kesimpulan Evaluasi}{51}{subsection.3.7.4}%
+\contentsline {chapter}{\numberline {4}Hasil dan Pembahasan}{52}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Halaman Autentikasi}{52}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Halaman Donasi}{53}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Form Donasi}{53}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Halaman Pembayaran Midtrans}{54}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Dashboard Kreator}{55}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Halaman Request Payout}{55}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Overlay}{56}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Overlay Notifikasi Donasi}{56}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Overlay Media Share}{57}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Overlay QR Link Donasi}{58}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Overlay Leaderboard}{59}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Dashboard Admin}{59}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Halaman Dashboard}{60}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Halaman Creator}{60}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Halaman Payout}{61}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Struktur Basis Data}{62}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Kesimpulan}{64}{chapter.5}%

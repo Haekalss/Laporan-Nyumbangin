@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  1 FEB 2026 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  1 FEB 2026 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,7 +645,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-<images/ulbi.png, id=275, 341.1144pt x 120.45pt>
+<images/ulbi.png, id=347, 341.1144pt x 120.45pt>
 File: images/ulbi.png Graphic file (type png)
 <use images/ulbi.png>
 Package pdftex.def Info: images/ulbi.png  used on input line 123.
@@ -952,26 +952,26 @@ Overfull \hbox (3.50166pt too wide) in paragraph at lines 113--114
 a-gai frame-work utama
  []
 
-<images/arsitektur.png, id=695, 241.3818pt x 255.354pt>
+<images/arsitektur.png, id=811, 241.3818pt x 255.354pt>
 File: images/arsitektur.png Graphic file (type png)
 <use images/arsitektur.png>
 Package pdftex.def Info: images/arsitektur.png  used on input line 117.
 (pdftex.def)             Requested size: 398.3386pt x 421.40553pt.
 [26] [27 <./images/arsitektur.png>]
-<images/use-case-diagram.png, id=713, 290.5254pt x 256.3176pt>
+<images/use-case-diagram.png, id=829, 290.5254pt x 256.3176pt>
 File: images/use-case-diagram.png Graphic file (type png)
 <use images/use-case-diagram.png>
 Package pdftex.def Info: images/use-case-diagram.png  used on input line 147.
 (pdftex.def)             Requested size: 398.3386pt x 351.46588pt.
  [28]
-<images/activity-diagram-donasi.png, id=718, 377.2494pt x 277.5168pt>
+<images/activity-diagram-donasi.png, id=834, 377.2494pt x 277.5168pt>
 File: images/activity-diagram-donasi.png Graphic file (type png)
 <use images/activity-diagram-donasi.png>
 Package pdftex.def Info: images/activity-diagram-donasi.png  used on input line
  162.
 (pdftex.def)             Requested size: 398.3386pt x 293.0527pt.
  [29 <./images/use-case-diagram.png>]
-<images/activity-diagram-payout.png, id=724, 380.1402pt x 279.444pt>
+<images/activity-diagram-payout.png, id=840, 380.1402pt x 279.444pt>
 File: images/activity-diagram-payout.png Graphic file (type png)
 <use images/activity-diagram-payout.png>
 Package pdftex.def Info: images/activity-diagram-payout.png  used on input line
@@ -979,7 +979,7 @@ Package pdftex.def Info: images/activity-diagram-payout.png  used on input line
 (pdftex.def)             Requested size: 398.3386pt x 292.83217pt.
 
 [30 <./images/activity-diagram-donasi.png>]
-<images/activity-diagram-feedback.png, id=730, 398.4486pt x 393.6306pt>
+<images/activity-diagram-feedback.png, id=846, 398.4486pt x 393.6306pt>
 File: images/activity-diagram-feedback.png Graphic file (type png)
 <use images/activity-diagram-feedback.png>
 Package pdftex.def Info: images/activity-diagram-feedback.png  used on input li
@@ -991,14 +991,14 @@ Overfull \hbox (22.67734pt too wide) in paragraph at lines 189--190
 ke-mu-dian sis-tem melakukan
  []
 
-<images/activity-diagram-login.png, id=736, 349.7868pt x 271.7352pt>
+<images/activity-diagram-login.png, id=852, 349.7868pt x 271.7352pt>
 File: images/activity-diagram-login.png Graphic file (type png)
 <use images/activity-diagram-login.png>
 Package pdftex.def Info: images/activity-diagram-login.png  used on input line 
 195.
 (pdftex.def)             Requested size: 398.3386pt x 309.45375pt.
 [32 <./images/activity-diagram-feedback.png>]
-<images/activity-diagram-kelola-overlay.png, id=742, 344.9688pt x 343.5234pt>
+<images/activity-diagram-kelola-overlay.png, id=858, 344.9688pt x 343.5234pt>
 File: images/activity-diagram-kelola-overlay.png Graphic file (type png)
 <use images/activity-diagram-kelola-overlay.png>
 Package pdftex.def Info: images/activity-diagram-kelola-overlay.png  used on in
@@ -1010,7 +1010,7 @@ Overfull \hbox (14.55432pt too wide) in paragraph at lines 211--212
 laan over-lay oleh kreator.
  []
 
-<images/activity-diagram-kelola-profil.png, id=749, 369.0588pt x 418.2024pt>
+<images/activity-diagram-kelola-profil.png, id=865, 369.0588pt x 418.2024pt>
 File: images/activity-diagram-kelola-profil.png Graphic file (type png)
 <use images/activity-diagram-kelola-profil.png>
 Package pdftex.def Info: images/activity-diagram-kelola-profil.png  used on inp
@@ -1022,21 +1022,21 @@ Overfull \hbox (4.05385pt too wide) in paragraph at lines 222--223
  pe-ruba-han ke database.
  []
 
-<images/activity-diagram-request-payout.png, id=755, 362.3136pt x 278.9622pt>
+<images/activity-diagram-request-payout.png, id=871, 362.3136pt x 278.9622pt>
 File: images/activity-diagram-request-payout.png Graphic file (type png)
 <use images/activity-diagram-request-payout.png>
 Package pdftex.def Info: images/activity-diagram-request-payout.png  used on in
 put line 228.
 (pdftex.def)             Requested size: 398.3386pt x 306.69762pt.
 [35 <./images/activity-diagram-kelola-profil.png>]
-<images/activity-diagram-riwayat-donasi.png, id=761, 354.6048pt x 349.305pt>
+<images/activity-diagram-riwayat-donasi.png, id=877, 354.6048pt x 349.305pt>
 File: images/activity-diagram-riwayat-donasi.png Graphic file (type png)
 <use images/activity-diagram-riwayat-donasi.png>
 Package pdftex.def Info: images/activity-diagram-riwayat-donasi.png  used on in
 put line 239.
 (pdftex.def)             Requested size: 398.3386pt x 392.39151pt.
  [36 <./images/activity-diagram-request-payout.png>]
-<images/sequence-diagram-donasi.png, id=767, 398.4486pt x 263.5446pt>
+<images/sequence-diagram-donasi.png, id=883, 398.4486pt x 263.5446pt>
 File: images/sequence-diagram-donasi.png Graphic file (type png)
 <use images/sequence-diagram-donasi.png>
 Package pdftex.def Info: images/sequence-diagram-donasi.png  used on input line
@@ -1048,42 +1048,42 @@ Overfull \hbox (2.78146pt too wide) in paragraph at lines 257--258
 rans men-gir-imkan web-
  []
 
-<images/sequence-diagram-leaderboard.png, id=773, 377.7312pt x 235.1184pt>
+<images/sequence-diagram-leaderboard.png, id=889, 377.7312pt x 235.1184pt>
 File: images/sequence-diagram-leaderboard.png Graphic file (type png)
 <use images/sequence-diagram-leaderboard.png>
 Package pdftex.def Info: images/sequence-diagram-leaderboard.png  used on input
  line 263.
 (pdftex.def)             Requested size: 398.3386pt x 247.95068pt.
 [38 <./images/sequence-diagram-donasi.png>]
-<images/sequence-diagram-login.png, id=780, 363.2772pt x 205.7286pt>
+<images/sequence-diagram-login.png, id=896, 363.2772pt x 205.7286pt>
 File: images/sequence-diagram-login.png Graphic file (type png)
 <use images/sequence-diagram-login.png>
 Package pdftex.def Info: images/sequence-diagram-login.png  used on input line 
 274.
 (pdftex.def)             Requested size: 398.3386pt x 225.59897pt.
  [39 <./images/sequence-diagram-leaderboard.png>]
-<images/sequence-diagram-feedback.png, id=788, 357.4956pt x 234.6366pt>
+<images/sequence-diagram-feedback.png, id=904, 357.4956pt x 234.6366pt>
 File: images/sequence-diagram-feedback.png Graphic file (type png)
 <use images/sequence-diagram-feedback.png>
 Package pdftex.def Info: images/sequence-diagram-feedback.png  used on input li
 ne 285.
 (pdftex.def)             Requested size: 398.3386pt x 261.45934pt.
  [40 <./images/sequence-diagram-login.png>]
-<images/sequence-diagram-kelola-profil.png, id=795, 398.4486pt x 177.7842pt>
+<images/sequence-diagram-kelola-profil.png, id=911, 398.4486pt x 177.7842pt>
 File: images/sequence-diagram-kelola-profil.png Graphic file (type png)
 <use images/sequence-diagram-kelola-profil.png>
 Package pdftex.def Info: images/sequence-diagram-kelola-profil.png  used on inp
 ut line 296.
 (pdftex.def)             Requested size: 398.3386pt x 177.73761pt.
  [41 <./images/sequence-diagram-feedback.png>]
-<images/sequence-diagram-riwayat-donasi.png, id=802, 360.8682pt x 397.485pt>
+<images/sequence-diagram-riwayat-donasi.png, id=918, 360.8682pt x 397.485pt>
 File: images/sequence-diagram-riwayat-donasi.png Graphic file (type png)
 <use images/sequence-diagram-riwayat-donasi.png>
 Package pdftex.def Info: images/sequence-diagram-riwayat-donasi.png  used on in
 put line 307.
 (pdftex.def)             Requested size: 398.3386pt x 438.78145pt.
  [42 <./images/sequence-diagram-kelola-profil.png>]
-<images/sequence-diagram-request-payout.png, id=809, 337.26pt x 366.6498pt>
+<images/sequence-diagram-request-payout.png, id=925, 337.26pt x 366.6498pt>
 File: images/sequence-diagram-request-payout.png Graphic file (type png)
 <use images/sequence-diagram-request-payout.png>
 Package pdftex.def Info: images/sequence-diagram-request-payout.png  used on in
@@ -1140,7 +1140,126 @@ Overfull \hbox (2.9136pt too wide) in paragraph at lines 453--454
 u web-hook, er-ror, dan alur proses. 
  []
 
-[49])) [50] [51]
+[49]) (chapters/bab4.tex [50] [51]
+BAB 4.
+<images/halaman-login.png, id=985, 357.0138pt x 270.7716pt>
+File: images/halaman-login.png Graphic file (type png)
+<use images/halaman-login.png>
+Package pdftex.def Info: images/halaman-login.png  used on input line 7.
+(pdftex.def)             Requested size: 398.3386pt x 302.12178pt.
+<images/form-donasi.png, id=986, 311.7246pt x 261.1356pt>
+File: images/form-donasi.png Graphic file (type png)
+<use images/form-donasi.png>
+Package pdftex.def Info: images/form-donasi.png  used on input line 20.
+(pdftex.def)             Requested size: 398.3386pt x 333.69855pt.
+[52
+
+ <./images/halaman-login.png>]
+<images/halaman-pembayaran-midtrans.png, id=992, 312.6882pt x 294.3798pt>
+File: images/halaman-pembayaran-midtrans.png Graphic file (type png)
+<use images/halaman-pembayaran-midtrans.png>
+Package pdftex.def Info: images/halaman-pembayaran-midtrans.png  used on input 
+line 31.
+(pdftex.def)             Requested size: 398.3386pt x 375.04852pt.
+ [53 <./images/form-donasi.png>]
+<images/dashboard-kreator.png, id=998, 401.8212pt x 187.4202pt>
+File: images/dashboard-kreator.png Graphic file (type png)
+<use images/dashboard-kreator.png>
+Package pdftex.def Info: images/dashboard-kreator.png  used on input line 42.
+(pdftex.def)             Requested size: 398.3386pt x 185.79823pt.
+ [54 <./images/halaman-pembayaran-midtrans.png>]
+<images/halaman-payout.png, id=1004, 398.4486pt x 185.0112pt>
+File: images/halaman-payout.png Graphic file (type png)
+<use images/halaman-payout.png>
+Package pdftex.def Info: images/halaman-payout.png  used on input line 53.
+(pdftex.def)             Requested size: 398.3386pt x 184.96274pt.
+ [55 <./images/dashboard-kreator.png> <./images/halaman-payout.png>]
+<images/overlay-notifikasi-donasi.png, id=1011, 340.6326pt x 146.949pt>
+File: images/overlay-notifikasi-donasi.png Graphic file (type png)
+<use images/overlay-notifikasi-donasi.png>
+Package pdftex.def Info: images/overlay-notifikasi-donasi.png  used on input li
+ne 68.
+(pdftex.def)             Requested size: 398.3386pt x 171.84666pt.
+
+Overfull \hbox (25.94049pt too wide) in paragraph at lines 73--74
+\T1/ptm/m/n/12 Overlay menampilkan no-ti-fikasi donasi se-cara real-time yang d
+i-am-bil melalui mekanisme
+ []
+
+<images/overlay-media-share.png, id=1012, 377.7312pt x 185.493pt>
+File: images/overlay-media-share.png Graphic file (type png)
+<use images/overlay-media-share.png>
+Package pdftex.def Info: images/overlay-media-share.png  used on input line 79.
+
+(pdftex.def)             Requested size: 398.3386pt x 195.61684pt.
+[56 <./images/overlay-notifikasi-donasi.png>]
+<images/overlay-qr-donasi.png, id=1018, 278.4804pt x 230.7822pt>
+File: images/overlay-qr-donasi.png Graphic file (type png)
+<use images/overlay-qr-donasi.png>
+Package pdftex.def Info: images/overlay-qr-donasi.png  used on input line 90.
+(pdftex.def)             Requested size: 398.3386pt x 330.12167pt.
+ [57 <./images/overlay-media-share.png>]
+<images/overlay-leaderboard-donatur.png, id=1025, 324.2514pt x 210.0648pt>
+File: images/overlay-leaderboard-donatur.png Graphic file (type png)
+<use images/overlay-leaderboard-donatur.png>
+Package pdftex.def Info: images/overlay-leaderboard-donatur.png  used on input 
+line 101.
+(pdftex.def)             Requested size: 398.3386pt x 258.06084pt.
+ [58 <./images/overlay-qr-donasi.png>]
+<images/dashboard-admin.png, id=1031, 365.2044pt x 170.0754pt>
+File: images/dashboard-admin.png Graphic file (type png)
+<use images/dashboard-admin.png>
+Package pdftex.def Info: images/dashboard-admin.png  used on input line 116.
+(pdftex.def)             Requested size: 398.3386pt x 185.51343pt.
+ [59 <./images/overlay-leaderboard-donatur.png>]
+<images/daftar-creator-admin.png, id=1037, 367.6134pt x 170.0754pt>
+File: images/daftar-creator-admin.png Graphic file (type png)
+<use images/daftar-creator-admin.png>
+Package pdftex.def Info: images/daftar-creator-admin.png  used on input line 12
+7.
+(pdftex.def)             Requested size: 398.3386pt x 184.2989pt.
+ [60 <./images/dashboard-admin.png> <./images/daftar-creator-admin.png>]
+<images/halaman-payout-admin.png, id=1044, 369.0588pt x 171.5208pt>
+File: images/halaman-payout-admin.png Graphic file (type png)
+<use images/halaman-payout-admin.png>
+Package pdftex.def Info: images/halaman-payout-admin.png  used on input line 13
+8.
+(pdftex.def)             Requested size: 398.3386pt x 185.14024pt.
+<images/struktur-basis-data.png, id=1045, 357.9774pt x 270.2898pt>
+File: images/struktur-basis-data.png Graphic file (type png)
+<use images/struktur-basis-data.png>
+Package pdftex.def Info: images/struktur-basis-data.png  used on input line 149
+.
+(pdftex.def)             Requested size: 398.3386pt x 300.7676pt.
+ [61 <./images/halaman-payout-admin.png>]
+Overfull \hbox (0.4285pt too wide) in paragraph at lines 163--164
+[]\T1/ptm/b/n/12 donationhistories \T1/ptm/m/n/12 ^^U meny-im-pan data ri-wayat
+ donasi yang be-rasal dari koleksi
+ []
+
+[62 <./images/struktur-basis-data.png>]
+Overfull \hbox (0.7531pt too wide) in paragraph at lines 168--169
+[]\T1/ptm/b/n/12 notifications \T1/ptm/m/n/12 ^^U meny-im-pan data no-ti-fikasi
+ donasi yang di-ta-mpilkan pada over-
+ []
+
+) (chapters/bab5.tex [63]
+BAB 5.
+
+Overfull \hbox (2.00136pt too wide) in paragraph at lines 3--4
+\T1/ptm/m/n/12 menan-gani alur utama donasi, mu-lai dari au-t-en-tikasi peng-gu
+na, pen-catatan transaksi,
+ []
+
+))
+Overfull \hbox (1.11356pt too wide) in paragraph at lines 7--256
+[]\T1/ptm/m/n/12 Pengujian sis-tem di-fokuskan pada modul-modul utama yang bers
+i-fat kri-tis, se-hingga
+ []
+
+[64
+
+]
 \openout2 = `chapters/literature_review.aux'.
 
 
@@ -1154,7 +1273,7 @@ No file chapters/results.tex.
 \openout2 = `chapters/conclusion.aux'.
 
 No file chapters/conclusion.tex.
-(bukped.bbl [52
+(bukped.bbl [65
 
 
 
@@ -1170,7 +1289,7 @@ No file chapters/conclusion.tex.
 
 
 
-] [53]) [54] (bukped.aux (chapters/introduction.aux)
+] [66] [67] [68]) [69] (bukped.aux (chapters/introduction.aux)
 (chapters/literature_review.aux) (chapters/methodology.aux)
 (chapters/results.aux) (chapters/conclusion.aux))
  ***********
@@ -1178,13 +1297,13 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `bukped.out' has not changed.
-(rerunfilecheck)             Checksum: F287695CBC3087DB3E98FC92F946ECAF;10996.
+(rerunfilecheck)             Checksum: 1B7ACBAC3CA002E1B7D311E1CA671B2E;13659.
  ) 
 Here is how much of TeX's memory you used:
- 14722 strings out of 467871
- 239736 string characters out of 5418376
- 665365 words of memory out of 5000000
- 43050 multiletter control sequences out of 15000+600000
+ 14906 strings out of 467871
+ 244602 string characters out of 5418376
+ 666033 words of memory out of 5000000
+ 43182 multiletter control sequences out of 15000+600000
  666867 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,1197b,666s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1195,9 +1314,9 @@ rw/courier/ucrr8a.pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmr8a.pfb><C:/Users/4guss/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on bukped.pdf (58 pages, 1451422 bytes).
+Output written on bukped.pdf (73 pages, 2684408 bytes).
 PDF statistics:
- 974 PDF objects out of 1000 (max. 8388607)
- 288 named destinations out of 1000 (max. 500000)
- 635 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1190 PDF objects out of 1200 (max. 8388607)
+ 334 named destinations out of 1000 (max. 500000)
+ 844 words of extra memory for PDF output out of 10000 (max. 10000000)
 

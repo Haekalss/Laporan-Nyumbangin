@@ -1,313 +1,355 @@
 \begin{thebibliography}{10}
 
+\bibitem{abbott2025}
+A.~A. Abbott, J.~Shin, K.~Carlson, M.~Russell, Y.~Qi, H.~Storm, and V.~D.
+  Jewell.
+\newblock Achieving inter-rater agreement and inter-rater reliability to assess
+  fidelity of an occupation-based coaching (obc) clinical trial intervention.
+\newblock {\em British Journal of Occupational Therapy}, 88(3):133--141, 2025.
+
+\bibitem{afiifah2022}
+K.~Afiifah, Z.~F. Azzahra, and A.~D. Anggoro.
+\newblock Universitas negeri jakarta; jl. rawamangun muka raya no.11 rw.14
+  rawamangun.
+\newblock {\em JURNAL INTECH}, 3(2):18--22, 2022.
+
 \bibitem{alfedaghi2020}
-Al-Fedaghi.
-\newblock Interaction modeling.
-\newblock {\em Systems Journal}, 2020.
+S.~Al-Fedaghi.
+\newblock Uml sequence diagram: An alternative model.
+\newblock {\em International Journal of Advanced Computer Science and
+  Applications}, 12(5), n.d.
+
+\bibitem{amani2024}
+A.~Amani~Bestari et~al.
+\newblock Penerapan uml pada sistem informasi pengaduan masyarakat berbasis
+  web.
+\newblock {\em Jurnal Mahasiswa Teknik Informatika}, 8(3), 2024.
 
 \bibitem{aprilliyani2020}
 Aprilliyani and Hamdana.
 \newblock Http methods.
 \newblock {\em Network Computing}, 2020.
 
+\bibitem{ariesta2020}
+A.~Ariesta et~al.
+\newblock Penerapan metode agile dalam pengembangan api system pada pt xyz.
+\newblock {\em Jurnal Sistem Informasi}, n.d.
+
+\bibitem{assistantprofessor2020}
+{Assistant Professor, S. K.}
+\newblock A study on the client server architecture and its usability.
+\newblock pages 73--76, n.d.
+
+\bibitem{ball2020}
+M.~Ball et~al.
+\newblock {\em Communication \& Cognition}.
+\newblock n.d.
+\newblock Book reference.
+
+\bibitem{bucko2023}
+A.~Bucko, K.~Vishi, B.~Krasniqi, and B.~Rexha.
+\newblock Enhancing jwt authentication and authorization in web applications
+  based on user behavior history.
+\newblock {\em Computers}, 12(4), 2023.
+
+\bibitem{byali2022}
+R.~Byali, M.~Jyothi, and M.~C. Shekadar.
+\newblock Evaluation of nosql database mongodb with respect to json format data
+  representation.
+\newblock {\em International Journal of Research Publication and Reviews},
+  pages 867--871, 2022.
+
+\bibitem{carvalho2023}
+I.~Carvalho, F.~Sá, and J.~Bernardino.
+\newblock Performance evaluation of nosql document databases.
+\newblock {\em Algorithms}, 16(2), 2023.
+
 \bibitem{chandramouli2020}
-Chandramouli and Butcher.
-\newblock Api security threats.
-\newblock {\em NIST}, 2020.
+R.~Chandramouli and Z.~Butcher.
+\newblock Building secure microservices-based applications using service-mesh
+  architecture.
+\newblock Technical report, 2020.
 
 \bibitem{dabdawb2024}
 Marwah M.~A. Dabdawb.
-\newblock Using uml diagrams to model system behavior.
-\newblock {\em Software Engineering Review}, 2024.
-
-\bibitem{abbott2025}
-Abbott et~al.
-\newblock Diagram consistency.
-\newblock {\em Modeling Journal}, 2025.
-
-\bibitem{afiifah2022}
-Afiifah et~al.
-\newblock Erd in database design.
-\newblock {\em Computer Science}, 2022.
-
-\bibitem{amani2024}
-Amani~Bestari et~al.
-\newblock Uml standards.
-\newblock {\em Software Modeling}, 2024.
-
-\bibitem{ariesta2020}
-Ariesta et~al.
-\newblock Agile software development for adaptive systems.
-\newblock {\em Software Engineering Journal}, 2020.
-
-\bibitem{ball2020}
-Ball et~al.
-\newblock Bearer token risks.
-\newblock {\em Security Review}, 2020.
-
-\bibitem{bucko2023}
-Bucko et~al.
-\newblock Jwt security.
-\newblock {\em Cybersecurity}, 2023.
-
-\bibitem{byali2022}
-Byali et~al.
-\newblock Nosql databases.
-\newblock {\em Big Data Journal}, 2022.
-
-\bibitem{carvalho2023}
-Carvalho et~al.
-\newblock Document databases.
-\newblock {\em Database Systems}, 2023.
+\newblock Unified modeling language quantitative measures based on a
+  behavioural model.
+\newblock {\em Journal of Education and Science}, 33(1):90--98, 2024.
 
 \bibitem{ehsan2022}
-Ehsan et~al.
-\newblock Rest api principles.
-\newblock {\em Software Engineering}, 2022.
-
-\bibitem{fadzirul2020}
-Fadzirul~Kamarubahrin et~al.
-\newblock Donation-based crowdfunding.
-\newblock {\em International Journal of Crowdfunding}, 2020.
+A.~Ehsan, M.~A. M.~E. Abuhaliqa, C.~Catal, and D.~Mishra.
+\newblock Restful api testing methodologies.
+\newblock {\em Applied Sciences}, 12(9), 2022.
 
 \bibitem{fauzan2021b}
 Fauzan et~al.
 \newblock Oop modeling.
 \newblock {\em Programming Education}, 2021.
 
-\bibitem{fauzan2021}
-Fauzan et~al.
-\newblock Use case assessment.
-\newblock {\em Computer Education}, 2021.
-
-\bibitem{febriandika2024}
-Febriandika et~al.
-\newblock Digital philanthropy in indonesia.
-\newblock {\em Jurnal Sosial}, 2024.
-
-\bibitem{fraihat2022}
-Fraihat et~al.
-\newblock Modern web architecture.
-\newblock {\em Web Systems Journal}, 2022.
-
-\bibitem{geofrey2020}
-Geofrey et~al.
-\newblock Distributed systems.
-\newblock {\em Network Journal}, 2020.
-
 \bibitem{greselda2020}
 Greselda~Gosal et~al.
 \newblock Transparency and credibility in online donation systems.
 \newblock {\em Digital Philanthropy Journal}, 2020.
-
-\bibitem{gudu2025}
-Gudu et~al.
-\newblock Oidc for ssh.
-\newblock {\em Network Security}, 2025.
-
-\bibitem{hammann2020}
-Hammann et~al.
-\newblock Openid connect.
-\newblock {\em Identity Journal}, 2020.
-
-\bibitem{jebli2024}
-Jebli et~al.
-\newblock Use case evaluation.
-\newblock {\em Education Computing}, 2024.
-
-\bibitem{jha2023}
-Jha et~al.
-\newblock Business process modeling.
-\newblock {\em Information Systems}, 2023.
-
-\bibitem{jullien2021}
-Jullien et~al.
-\newblock Two sided digital platform theory.
-\newblock {\em Digital Market Journal}, 2021.
-
-\bibitem{kamarudin2023}
-Kamarudin et~al.
-\newblock Donation intention.
-\newblock {\em Digital Business}, 2023.
-
-\bibitem{lodderstedt2025}
-Lodderstedt et~al.
-\newblock Oauth 2.0 security.
-\newblock {\em IETF}, 2025.
-
-\bibitem{marchezan2023}
-Marchezan et~al.
-\newblock Uml in sdlc.
-\newblock {\em Software Engineering}, 2023.
-
-\bibitem{nashikhuddin2023}
-Nashikhuddin et~al.
-\newblock Jwt in web services.
-\newblock {\em Information Technology}, 2023.
-
-\bibitem{pan2024}
-Pan et~al.
-\newblock Process visualization.
-\newblock {\em Engineering Design}, 2024.
-
-\bibitem{philippaerts2022}
-Philippaerts et~al.
-\newblock Authorization servers.
-\newblock {\em Security Journal}, 2022.
-
-\bibitem{pulungan2020}
-Pulungan et~al.
-\newblock Erd design.
-\newblock {\em Database Journal}, 2020.
-
-\bibitem{rahman2020}
-Rahman et~al.
-\newblock Token authentication.
-\newblock {\em Web Security}, 2020.
-
-\bibitem{rahmayanti2024}
-Rahmayanti et~al.
-\newblock Social proof in digital platforms.
-\newblock {\em Social Media Studies}, 2024.
-
-\bibitem{ramdany2020}
-Ramdany et~al.
-\newblock Uml activity diagram applications.
-\newblock {\em Software Engineering Review}, 2020.
-
-\bibitem{ratumurun2020}
-Ratumurun et~al.
-\newblock System flowchart.
-\newblock {\em Information Systems}, 2020.
-
-\bibitem{roziqin2023}
-Roziqin et~al.
-\newblock Restful services.
-\newblock {\em Information Systems}, 2023.
-
-\bibitem{sandfreni2021}
-Sandfreni et~al.
-\newblock Activity diagram.
-\newblock {\em UML Journal}, 2021.
-
-\bibitem{shneor2020}
-Shneor et~al.
-\newblock Digital platform ecosystems.
-\newblock {\em Journal of Digital Business}, 2020.
-
-\bibitem{sirisawat2022}
-Sirisawat et~al.
-\newblock Crowdfunding platform design.
-\newblock {\em Technology Journal}, 2022.
 
 \bibitem{siska2024b}
 Siska~Narulita et~al.
 \newblock Class diagram.
 \newblock {\em Object-Oriented Journal}, 2024.
 
-\bibitem{siska2024}
-Siska~Narulita et~al.
-\newblock Sequence diagram.
-\newblock {\em Software Design}, 2024.
+\bibitem{fadzirul2020}
+A.~Fadzirul~Kamarubahrin et~al.
+\newblock Donation-based crowdfunding: Systematic literature review.
+\newblock n.d.
 
-\bibitem{sun2022}
-Sun et~al.
-\newblock Api attack surface.
-\newblock {\em Cyber Defense}, 2022.
+\bibitem{fauzan2021}
+R.~Fauzan, D.~Siahaan, S.~Rochimah, and E.~Triandini.
+\newblock A different approach on automated use case diagram semantic
+  assessment.
+\newblock {\em International Journal of Intelligent Engineering and Systems},
+  14(1):496--505, 2021.
 
-\bibitem{wang2025}
-Wang et~al.
-\newblock Challenges in use case diagram evaluation.
-\newblock {\em Journal of Software Modeling}, 2025.
+\bibitem{febriandika2024}
+N.~R. Febriandika et~al.
+\newblock Enjoyment, habits and social influence.
+\newblock {\em Journal of Logistics, Informatics and Service Science},
+  11(5):395--410, 2024.
 
-\bibitem{yasuda2022}
-Yasuda et~al.
-\newblock Federated identity.
-\newblock {\em Security Systems}, 2022.
+\bibitem{fraihat2022}
+H.~Fraihat, A.~A. Almbaideen, A.~Al-Odienat, B.~Al-Naami, R.~De~Fazio, and
+  P.~Visconti.
+\newblock Solar radiation forecasting by pearson correlation using lstm neural
+  network and anfis method.
+\newblock {\em Future Internet}, 14(3), 2022.
 
-\bibitem{zhang2023}
-Zhang et~al.
-\newblock Flowchart modeling.
-\newblock {\em Software Modeling}, 2023.
+\bibitem{geofrey2020}
+M.~Geofrey, M.~Nyabuto, M.~V. Mony, and S.~Mbugua.
+\newblock Architectural review of client-server models.
+\newblock {\em International Journal of Scientific Research \& Engineering
+  Trends}, 10(1), n.d.
 
-\bibitem{zikrinawati2025}
-Zikrinawati et~al.
-\newblock Influence of trust and perceived risk on online donation decisions.
-\newblock {\em JIVA Journal}, 2025.
+\bibitem{gudu2025}
+D.~Gudu, M.~Hardt, L.~Brocke, and G.~Zachmann.
+\newblock Enabling secure shell access with openid connect.
+\newblock {\em Computing and Software for Big Science}, 9(1), 2025.
 
 \bibitem{halim2024}
-Halim.
-\newblock Platform donasi digital dan akses pendanaan sosial.
-\newblock {\em Jurnal Teknologi Informasi}, 2024.
+M.~A. Halim.
+\newblock Does crowdfunding contribute to digital financial inclusion?
+\newblock {\em Research in Globalization}, 9, 2024.
+
+\bibitem{hammann2020}
+S.~Hammann, R.~Sasse, and D.~Basin.
+\newblock Privacy-preserving openid connect.
+\newblock In {\em Proceedings of the 15th ACM Asia Conference on Computer and
+  Communications Security}, pages 277--289, 2020.
 
 \bibitem{hidayatullah2022}
-Hidayatullah and Purbasari.
-\newblock Online zakat platform.
-\newblock {\em Islamic Finance Journal}, 2022.
+E.~I. Hidayatullah and L.~T. Purbasari.
+\newblock Analysing repeat alms donation behavior via digital platform.
+\newblock {\em Jurnal Ilmiah Ekonomi Islam}, 8(1):677, 2022.
 
 \bibitem{indriyani2024}
-Indriyani and Ibrahim.
-\newblock Digital donation behavior.
-\newblock {\em Journal of Social Tech}, 2024.
+F.~Indriyani and R.~Ibrahim.
+\newblock The impact of transparency on the intention to donate online.
+\newblock {\em International Journal of Current Science Research and Review},
+  7(10), 2024.
 
 \bibitem{ismail2023}
-Ismail.
-\newblock Three tier lms implementation.
-\newblock {\em Education Technology}, 2023.
+A.~Ismail.
+\newblock High availability moodle dengan load balancer pada three-tier
+  architecture.
+\newblock {\em Jurnal Minfo Polgan}, 12(1):297--302, 2023.
 
 \bibitem{jaimez2020}
-Jaimez-Gonzalez and Martinez-Samora.
-\newblock Conceptual data modeling.
-\newblock {\em Information Systems}, 2020.
+C.~R. Jaimez-González and J.~Martínez-Samora.
+\newblock Diagrammer: A web application to support the teaching-learning
+  process of database courses.
+\newblock {\em International Journal of Emerging Technologies in Learning},
+  15(19):4--21, 2020.
+
+\bibitem{jebli2024}
+R.~Jebli, J.~El~Bouhdidi, and M.~Y. Chkouri.
+\newblock A proposed algorithm for assessing and grading automatically student
+  uml diagrams.
+\newblock {\em International Journal of Modern Education and Computer Science},
+  16(1):37--46, 2024.
+
+\bibitem{jha2023}
+P.~Jha, M.~Sahu, and T.~Isobe.
+\newblock A uml activity flow graph-based regression testing approach.
+\newblock {\em Applied Sciences}, 13(9), 2023.
+
+\bibitem{jullien2021}
+B.~Jullien, A.~Pavan, and M.~Rysman.
+\newblock Two-sided markets, pricing, and network effects.
+\newblock 2021.
+
+\bibitem{kamarudin2023}
+M.~K. Kamarudin et~al.
+\newblock Why do donors donate?
+\newblock {\em Sustainability}, 15(5), 2023.
+
+\bibitem{lodderstedt2025}
+T.~Lodderstedt, J.~Bradley, A.~Labunets, and D.~Fett.
+\newblock Rfc 9700: Best current practice for oauth 2.0 security.
+\newblock 2025.
+
+\bibitem{marchezan2023}
+L.~Marchezan, R.~Kretschmer, W.~K.~G. Assunção, A.~Reder, and A.~Egyed.
+\newblock Generating repairs for inconsistent models.
+\newblock {\em Software and Systems Modeling}, 22(1):297--329, 2023.
 
 \bibitem{maruf2020}
-Maruf and Ugli.
-\newblock Three tier architecture.
-\newblock {\em Software Architecture Journal}, 2020.
+T.~Maruf and T.~Ugli.
+\newblock The application of three-tier database architecture.
+\newblock {\em Modern Education and Development}, n.d.
+
+\bibitem{siska2024}
+Siska Narulita, Ahmad Nugroho, and M.~Zakki Abdillah.
+\newblock Diagram unified modelling language (uml) untuk perancangan sistem
+  informasi manajemen penelitian dan pengabdian masyarakat.
+\newblock {\em Bridge: Jurnal Publikasi Sistem Informasi dan Telekomunikasi},
+  2(3):244--256, 2024.
+
+\bibitem{nashikhuddin2023}
+A.~Y. Nashikhuddin, J.~Karaman, and Y.~Litanianda.
+\newblock Implementasi api restful dengan json web token (jwt) pada aplikasi
+  e-commerce thrifty shop.
+\newblock {\em METHOMIKA}, 7(2):239--246, 2023.
 
 \bibitem{neelan2022}
-Neelan.
-\newblock Oauth best practices.
-\newblock {\em API Security}, 2022.
+A.~Neelan.
+\newblock Oauth 2.0 evolution, grant types and best practices for secure
+  authorization.
+\newblock {\em International Journal of Leading Research Publication}, 3(7),
+  2022.
 
 \bibitem{nyabuto2023}
-Nyabuto.
-\newblock Http protocol.
-\newblock {\em Internet Technology}, 2023.
+G.~Nyabuto.
+\newblock Client-server architecture, a review.
+\newblock {\em International Journal of Advanced Science and Computer
+  Applications}, 3(1), 2023.
+
+\bibitem{pan2024}
+H.~Pan, Q.~Zhang, C.~Caragea, E.~Dragut, and L.~J. Latecki.
+\newblock Flowlearn: Evaluating large vision-language models on flowchart
+  understanding.
+\newblock 2024.
+
+\bibitem{philippaerts2022}
+P.~Philippaerts, D.~Preuveneers, and W.~Joosen.
+\newblock Oauch: Exploring security compliance in the oauth 2.0 ecosystem.
+\newblock In {\em ACM International Conference Proceeding Series}, pages
+  460--481, 2022.
 
 \bibitem{prabu2025}
-Prabu and De~Paul.
-\newblock Scalable web architecture.
-\newblock {\em Computer Science Review}, 2025.
+R.~Prabu and V.~De~Paul.
+\newblock Building scalable api-led connectivity using three-tier architecture
+  patterns.
+\newblock 2025.
 
-\bibitem{assistantprofessor2020}
-Assistant Professor.
-\newblock Client server model.
-\newblock {\em Computer Basics}, 2020.
+\bibitem{pulungan2020}
+S.~M. Pulungan, R.~Febrianti, T.~Lestari, N.~Gurning, and N.~Fitriana.
+\newblock Analisis teknik entity-relationship diagram dalam perancangan
+  database.
+\newblock {\em JEMB}, 1(2):143--147, n.d.
+
+\bibitem{rahman2020}
+H.~Rahman.
+\newblock Security analysis of json web tokens: Attack scenarios and
+  countermeasures, n.d.
+
+\bibitem{rahmayanti2024}
+P.~L.~D. Rahmayanti, I.~K. Rahyuda, N.~W. Ekawati, and P.~Y. Setiawan.
+\newblock Intention to donate on online charitable crowdfunding, 2024.
+
+\bibitem{ramdany2020}
+S.~W. Ramdany, S.~Aulia~Kaidar, B.~Aguchino, C.~Amelia, A.~Putri, and
+  R.~Anggie.
+\newblock Penerapan uml class diagram dalam perancangan sistem informasi
+  perpustakaan berbasis web.
+\newblock {\em Journal of Industrial and Engineering System}, 5(1), n.d.
+
+\bibitem{ratumurun2020}
+S.~Ratumurun and N.~Joseph.
+\newblock Implementasi model flowchart perancangan sistem informasi akuntansi
+  untuk permintaan dana.
+\newblock {\em LPPM STIA Said Perintah}, 4(1), 2023.
+
+\bibitem{roziqin2023}
+M.~C. Roziqin, M.~S. Noor, A.~Iskandar, and A.~Yuliantika.
+\newblock Implementation of rest api in web service system for medical resume
+  provision.
+\newblock {\em International Journal of Healthcare and Information Technology},
+  1(1), 2023.
+
+\bibitem{sandfreni2021}
+S.~Sandfreni, M.~B. Ulum, and A.~H. Azizah.
+\newblock Analisis perancangan sistem informasi pusat studi pada fakultas ilmu
+  komputer universitas esa unggul.
+\newblock {\em Sebatik}, 25(2):345--356, 2021.
 
 \bibitem{saputra2025}
-Saputra and Putri Nabila.
-\newblock Qris pada donation based crowdfunding.
-\newblock {\em Jurnal Fintech}, 2025.
+Y.~H. Saputra and A.~Putri~Nabila.
+\newblock Pemanfaatan qris dalam donation based crowdfunding.
+\newblock {\em Center of Economic Student Journal}, 8(2), 2025.
+
+\bibitem{shneor2020}
+R.~Shneor, L.~Zhao, and B.-T. Flåten.
+\newblock {\em Advances in Crowdfunding Research and Practice}.
+\newblock n.d.
 
 \bibitem{singh2023}
-Singh and Chaudhary.
-\newblock Oauth applications.
-\newblock {\em Mobile Computing}, 2023.
+J.~Singh and N.~K. Chaudhary.
+\newblock Unified singular protocol flow for oauth (uspfo) ecosystem.
+\newblock 2023.
+
+\bibitem{sirisawat2022}
+S.~Sirisawat, P.~Chatjuthamard, S.~Kiattisin, and S.~Treepongkaruna.
+\newblock The future of digital donation crowdfunding.
+\newblock {\em PLoS ONE}, 17(11), 2022.
+
+\bibitem{sun2022}
+R.~Sun, Q.~Wang, and L.~Guo.
+\newblock Research towards key issues of api security.
+\newblock {\em Communications in Computer and Information Science},
+  1506:179--192, 2022.
 
 \bibitem{tarigan2023}
 Tarigan.
 \newblock Trust dan inovasi pada donasi online.
 \newblock {\em Jurnal E-Commerce}, 2023.
 
+\bibitem{wang2025}
+C.~Wang, B.~Wang, P.~Liang, and J.~Liang.
+\newblock Assessing uml diagrams by gpt: Implications for education.
+\newblock 2025.
+
+\bibitem{yasuda2022}
+K.~Yasuda, T.~Lodderstedt, D.~Chadwick, K.~Nakamura, and J.~Vercammen.
+\newblock Openid for verifiable credentials.
+\newblock 2022.
+
+\bibitem{zhang2023}
+P.~Zhang, W.~Dou, and H.~Liu.
+\newblock Hierarchical data structures for flowchart.
+\newblock {\em Scientific Reports}, 13(1), 2023.
+
 \bibitem{zhao2020}
-Zhao.
-\newblock Rest api vulnerabilities.
-\newblock {\em Security Journal}, 2020.
+C.~Zhao.
+\newblock Api common security threats and security protection strategies.
+\newblock {\em Frontiers in Computing and Intelligent Systems}, n.d.
 
 \bibitem{zhou2025}
-Zhou and Inoue.
-\newblock Digital platform architecture.
-\newblock {\em Information Systems Journal}, 2025.
+X.~Zhou and Y.~Inoue.
+\newblock Innovation in platform ecosystems: Roles of complementors’
+  experiential knowledge and community engagement as an external knowledge
+  source.
+\newblock {\em Sustainability}, 17(5), 2025.
+
+\bibitem{zikrinawati2025}
+Zikrinawati et~al.
+\newblock Influence of trust and perceived risk on online donation decisions.
+\newblock {\em JIVA Journal}, 2025.
 
 \end{thebibliography}
