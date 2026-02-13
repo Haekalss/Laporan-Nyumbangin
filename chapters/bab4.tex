@@ -24,6 +24,17 @@ Halaman autentikasi menampilkan dua opsi untuk login, yaitu login manual dan log
 
 Halaman donasi menyediakan input seperti nama donor, nominal donasi, pesan, serta opsi media share. Sistem melakukan validasi dasar terhadap data yang dimasukkan sebelum melanjutkan proses pembayaran ke Midtrans.
 
+\subsection{Pembayaran Donasi Menggunakan QRIS Gopay Merchant}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/qris-gopay.png}
+    \caption{QRIS Gopay Merchant}
+    \label{fig:qris-gopay}
+\end{figure}
+
+Aplikasi Nyumbangin mengimplementasikan pembayaran donasi menggunakan QRIS GoPay Merchant untuk mempermudah donatur dalam melakukan transaksi digital. QRIS ditampilkan sebagai kode pembayaran resmi atas nama merchant Nyumbangin, Digital \& Kreatif, seperti ditunjukkan pada Gambar 4.3, dan digunakan oleh donatur dengan cara memindai kode QR melalui aplikasi pembayaran yang mendukung standar QRIS. Proses pembayaran dilakukan di luar sistem aplikasi, sementara konfirmasi keberhasilan transaksi ditentukan melalui mekanisme webhook yang memperbarui status donasi di sistem sebelum notifikasi dan proses lanjutan dijalankan.
+
 \subsection{Halaman Pembayaran Midtrans}
 
 \begin{figure}[H]
@@ -34,6 +45,17 @@ Halaman donasi menyediakan input seperti nama donor, nominal donasi, pesan, sert
 \end{figure}
 
 Setelah form donasi berhasil divalidasi, sistem mengirimkan permintaan \textit{Snap Token} ke Midtrans. Donor kemudian diarahkan ke halaman pembayaran yang disediakan oleh Midtrans untuk menyelesaikan proses transaksi.
+
+\subsection{Fitur Sharelink Donasi}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/sharelink-donasi.png}
+    \caption{Fitur Sharelink Donasi}
+    \label{fig:sharelink-donasi}
+\end{figure}
+
+Setelah donasi berhasil dan status transaksi tervalidasi, sistem menampilkan dialog konfirmasi yang menyediakan fitur social sharing berupa tombol berbagi tautan donasi ke beberapa platform media sosial serta opsi menyalin tautan. Fitur ini bertujuan mendorong penyebaran link donasi secara organik dan meningkatkan keterlibatan sosial.
 
 \section{Dashboard Kreator}
 
@@ -59,7 +81,7 @@ Kreator dapat mengajukan pencairan dana berdasarkan saldo yang tersedia. Sistem 
 
 \section{Overlay}
 
-Overlay berfungsi sebagai antarmuka yang ditampilkan pada platform streaming melalui OBS. Seluruh elemen overlay diambil secara real-time dari API sehingga kreator dapat menampilkan interaksi donasi secara langsung kepada penonton. Subbab ini menampilkan implementasi setiap komponen overlay.
+Overlay berfungsi sebagai antarmuka yang ditampilkan pada platform streaming melalui OBS. Seluruh elemen \textit{overlay} diambil secara real-time dari \textit{API} sehingga kreator dapat menampilkan interaksi donasi secara langsung kepada penonton. Subbab ini menampilkan implementasi setiap komponen overlay.
 
 \subsection{Overlay Notifikasi Donasi}
 

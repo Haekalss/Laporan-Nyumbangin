@@ -7,7 +7,7 @@ A.~A. Abbott, J.~Shin, K.~Carlson, M.~Russell, Y.~Qi, H.~Storm, and V.~D.
   fidelity of an occupation-based coaching (obc) clinical trial intervention.
 \newblock {\em British Journal of Occupational Therapy}, 88(3):133--141, 2025.
 
-\bibitem{afiifah2022}
+\bibitem{Afiifah2022}
 K.~Afiifah, Z.~F. Azzahra, and A.~D. Anggoro.
 \newblock Universitas negeri jakarta; jl. rawamangun muka raya no.11 rw.14
   rawamangun.
@@ -38,12 +38,12 @@ A.~Ariesta et~al.
 \bibitem{assistantprofessor2020}
 {Assistant Professor, S. K.}
 \newblock A study on the client server architecture and its usability.
-\newblock pages 73--76, n.d.
+\newblock {\em Unpublished}, pages 73--76, n.d.
 
 \bibitem{ball2020}
 M.~Ball et~al.
 \newblock {\em Communication \& Cognition}.
-\newblock n.d.
+\newblock Unknown, n.d.
 \newblock Book reference.
 
 \bibitem{bucko2023}
@@ -68,7 +68,7 @@ I.~Carvalho, F.~Sá, and J.~Bernardino.
 R.~Chandramouli and Z.~Butcher.
 \newblock Building secure microservices-based applications using service-mesh
   architecture.
-\newblock Technical report, 2020.
+\newblock Technical report, NIST, 2020.
 
 \bibitem{dabdawb2024}
 Marwah M.~A. Dabdawb.
@@ -91,6 +91,11 @@ Greselda~Gosal et~al.
 \newblock Transparency and credibility in online donation systems.
 \newblock {\em Digital Philanthropy Journal}, 2020.
 
+\bibitem{jullien2021}
+Jullien et~al.
+\newblock Two-sided market theory.
+\newblock {\em Economic Review}, 2021.
+
 \bibitem{siska2024b}
 Siska~Narulita et~al.
 \newblock Class diagram.
@@ -99,7 +104,7 @@ Siska~Narulita et~al.
 \bibitem{fadzirul2020}
 A.~Fadzirul~Kamarubahrin et~al.
 \newblock Donation-based crowdfunding: Systematic literature review.
-\newblock n.d.
+\newblock {\em Unpublished}, n.d.
 
 \bibitem{fauzan2021}
 R.~Fauzan, D.~Siahaan, S.~Rochimah, and E.~Triandini.
@@ -179,11 +184,6 @@ P.~Jha, M.~Sahu, and T.~Isobe.
 \newblock A uml activity flow graph-based regression testing approach.
 \newblock {\em Applied Sciences}, 13(9), 2023.
 
-\bibitem{jullien2021}
-B.~Jullien, A.~Pavan, and M.~Rysman.
-\newblock Two-sided markets, pricing, and network effects.
-\newblock 2021.
-
 \bibitem{kamarudin2023}
 M.~K. Kamarudin et~al.
 \newblock Why do donors donate?
@@ -192,7 +192,7 @@ M.~K. Kamarudin et~al.
 \bibitem{lodderstedt2025}
 T.~Lodderstedt, J.~Bradley, A.~Labunets, and D.~Fett.
 \newblock Rfc 9700: Best current practice for oauth 2.0 security.
-\newblock 2025.
+\newblock {\em RFC Editor}, 2025.
 
 \bibitem{marchezan2023}
 L.~Marchezan, R.~Kretschmer, W.~K.~G. Assunção, A.~Reder, and A.~Egyed.
@@ -234,7 +234,7 @@ G.~Nyabuto.
 H.~Pan, Q.~Zhang, C.~Caragea, E.~Dragut, and L.~J. Latecki.
 \newblock Flowlearn: Evaluating large vision-language models on flowchart
   understanding.
-\newblock 2024.
+\newblock {\em arXiv preprint}, 2024.
 
 \bibitem{philippaerts2022}
 P.~Philippaerts, D.~Preuveneers, and W.~Joosen.
@@ -246,7 +246,7 @@ P.~Philippaerts, D.~Preuveneers, and W.~Joosen.
 R.~Prabu and V.~De~Paul.
 \newblock Building scalable api-led connectivity using three-tier architecture
   patterns.
-\newblock 2025.
+\newblock {\em Unpublished}, 2025.
 
 \bibitem{pulungan2020}
 S.~M. Pulungan, R.~Febrianti, T.~Lestari, N.~Gurning, and N.~Fitriana.
@@ -257,11 +257,14 @@ S.~M. Pulungan, R.~Febrianti, T.~Lestari, N.~Gurning, and N.~Fitriana.
 \bibitem{rahman2020}
 H.~Rahman.
 \newblock Security analysis of json web tokens: Attack scenarios and
-  countermeasures, n.d.
+  countermeasures.
+\newblock Technical report, Aalborg University, n.d.
 
 \bibitem{rahmayanti2024}
 P.~L.~D. Rahmayanti, I.~K. Rahyuda, N.~W. Ekawati, and P.~Y. Setiawan.
-\newblock Intention to donate on online charitable crowdfunding, 2024.
+\newblock Intention to donate on online charitable crowdfunding.
+\newblock {\em Journal of Economics, Business, \& Accountancy Ventura},
+  26(3):401--427, 2024.
 
 \bibitem{ramdany2020}
 S.~W. Ramdany, S.~Aulia~Kaidar, B.~Aguchino, C.~Amelia, A.~Putri, and
@@ -297,12 +300,12 @@ Y.~H. Saputra and A.~Putri~Nabila.
 \bibitem{shneor2020}
 R.~Shneor, L.~Zhao, and B.-T. Flåten.
 \newblock {\em Advances in Crowdfunding Research and Practice}.
-\newblock n.d.
+\newblock Unknown, n.d.
 
 \bibitem{singh2023}
 J.~Singh and N.~K. Chaudhary.
 \newblock Unified singular protocol flow for oauth (uspfo) ecosystem.
-\newblock 2023.
+\newblock {\em arXiv preprint}, 2023.
 
 \bibitem{sirisawat2022}
 S.~Sirisawat, P.~Chatjuthamard, S.~Kiattisin, and S.~Treepongkaruna.
@@ -316,19 +319,20 @@ R.~Sun, Q.~Wang, and L.~Guo.
   1506:179--192, 2022.
 
 \bibitem{tarigan2023}
-Tarigan.
-\newblock Trust dan inovasi pada donasi online.
-\newblock {\em Jurnal E-Commerce}, 2023.
+E.~S. Tarigan.
+\newblock The influence of crowdfunding innovation and trust on online donation
+  decisions.
+\newblock {\em Jurnal Apresiasi Ekonomi}, 11(3):506--519, 2023.
 
 \bibitem{wang2025}
 C.~Wang, B.~Wang, P.~Liang, and J.~Liang.
 \newblock Assessing uml diagrams by gpt: Implications for education.
-\newblock 2025.
+\newblock {\em arXiv preprint}, 2025.
 
 \bibitem{yasuda2022}
 K.~Yasuda, T.~Lodderstedt, D.~Chadwick, K.~Nakamura, and J.~Vercammen.
 \newblock Openid for verifiable credentials.
-\newblock 2022.
+\newblock {\em Technical Report}, 2022.
 
 \bibitem{zhang2023}
 P.~Zhang, W.~Dou, and H.~Liu.

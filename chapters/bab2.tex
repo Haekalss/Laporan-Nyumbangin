@@ -22,7 +22,7 @@ Client-server merupakan model perangkat lunak yang memungkinkan sumber daya dan 
 
 \section{REST API dan Protokol HTTP}
 
-REST API dipahami sebagai pendekatan arsitektur web service yang memanfaatkan prinsip \textit{Representational State Transfer} \cite{ehsan2022,roziqin2023}. REST menekankan penggunaan URI standar untuk mengidentifikasi resource, komunikasi stateless, serta penerapan uniform interface. HTTP berperan sebagai protokol utama yang digunakan sebagai standar komunikasi dengan metode GET, POST, PUT, dan DELETE \cite{aprilliyani2020,roziqin2023}.
+REST \textit{API} dipahami sebagai pendekatan arsitektur web service yang memanfaatkan prinsip \textit{Representational State Transfer} \cite{ehsan2022,roziqin2023}. REST menekankan penggunaan URI standar untuk mengidentifikasi resource, komunikasi stateless, serta penerapan uniform interface. HTTP berperan sebagai protokol utama yang digunakan sebagai standar komunikasi dengan metode GET, POST, PUT, dan DELETE \cite{aprilliyani2020,roziqin2023}.
 
 \section{Autentikasi dan Otorisasi}
 
@@ -30,7 +30,7 @@ Bagian ini membahas konsep dasar autentikasi dan otorisasi yang menjadi fondasi 
 
 \subsection{OAuth 2.0}
 
-OAuth 2.0 didefinisikan sebagai framework otorisasi yang memungkinkan suatu aplikasi memperoleh akses terbatas ke resource yang dilindungi tanpa harus menyimpan kredensial pengguna secara langsung \cite{lodderstedt2025}. OAuth 2.0 menyediakan seperangkat authorization server \cite{philippaerts2022}. Framework ini dirancang untuk mendukung berbagai konteks-mulai dari aplikasi web, single-page apps, hingga aplikasi mobile-dengan cara memberikan fleksibilitas pada mekanisme autentikasi dan otorisasi yang aman di antara berbagai jenis klien\cite{singh2023}.
+\textit{OAuth} 2.0 didefinisikan sebagai framework otorisasi yang memungkinkan suatu aplikasi memperoleh akses terbatas ke resource yang dilindungi tanpa harus menyimpan kredensial pengguna secara langsung \cite{lodderstedt2025}. OAuth 2.0 menyediakan seperangkat authorization server \cite{philippaerts2022}. Framework ini dirancang untuk mendukung berbagai konteks-mulai dari aplikasi web, single-page apps, hingga aplikasi mobile-dengan cara memberikan fleksibilitas pada mekanisme autentikasi dan otorisasi yang aman di antara berbagai jenis klien\cite{singh2023}.
 
 \subsection{OpenID Connect}
 
@@ -38,7 +38,7 @@ OpenID Connect (OIDC) merupakan sebuah protokol yang mapan yang digunakan secara
 
 \subsection{JWT}
 
-JSON Web Token (JWT) merupakan sebuah standar terbuka yang didasarkan pada RFC 7519, yang digunakan secara luas sebagai mekanisme standar untuk otentikasi dan otorisasi pengguna pada layanan web. Standar ini tidak hanya populer untuk mengamankan transmisi data dan otentikasi pada RESTful API, tetapi juga dapat diperluas untuk meningkatkan keamanan dengan menyimpan informasi historis perilaku pengguna, seperti konsistensi alamat IP dan jenis user agent \cite{bucko2023,rahman2020}. Sementara itu, JWT secara fundamental adalah format token yang memfasilitasi transmisi data yang ringkas dan aman antara pihak-pihak yang berkepentingan sebagai objek JSON, yang menjadikannya mekanisme otentikasi yang penting dalam implementasi berbagai aplikasi modern \cite{nashikhuddin2023}.
+\textit{JSON Web Token} (\textit{JWT}) merupakan sebuah standar terbuka yang didasarkan pada RFC 7519, yang digunakan secara luas sebagai mekanisme standar untuk otentikasi dan otorisasi pengguna pada layanan web. Standar ini tidak hanya populer untuk mengamankan transmisi data dan otentikasi pada RESTful API, tetapi juga dapat diperluas untuk meningkatkan keamanan dengan menyimpan informasi historis perilaku pengguna, seperti konsistensi alamat IP dan jenis user agent \cite{bucko2023,rahman2020}. Sementara itu, JWT secara fundamental adalah format token yang memfasilitasi transmisi data yang ringkas dan aman antara pihak-pihak yang berkepentingan sebagai objek JSON, yang menjadikannya mekanisme otentikasi yang penting dalam implementasi berbagai aplikasi modern \cite{nashikhuddin2023}.
 
 \subsection{Skema Bearer Token}
 
@@ -55,10 +55,6 @@ Untuk mengatasi ancaman tersebut, mekanisme keamanan API membutuhkan pendekatan 
 Basis data dokumen NoSQL (\textit{Not Only SQL}) muncul sebagai alternatif yang signifikan terhadap basis data relasional tradisional yang sering memiliki batasan ketat pada struktur data dan relasi, sehingga kurang efisien untuk menangani volume data yang sangat besar (\textit{huge database}) \cite{byali2022}. NoSQL document database mengatasi masalah ini dengan menyediakan kemampuan untuk menyimppan dan mengelola data dalam format dokumen, sehingga dapat menampung data yang tidak terstruktur, semi-struktur, maupun terstruktur \cite{carvalho2023}. Keunggulan utama NoSQL, khususnya jenis berorientasi dokumen seperti MongoDB, terletak pada fleksibilitas dan skalabilitas horizontal yang tinggi, menjadikannya pilihan esensial ketika skema data yang dinamis tidak sesuai dengan kebutuhan basis data realisonal \cite{byali2022}.
 
 Secara opsional, basis data dokumen NoSQL menyimpan dalam bentuk dokumen. Meskipun memiliki perbedaan dalam beberapa aspek, MongoDB, Couchbase, dan CouchDB adalah contoh utama dari basis data dokume yang terkenal \cite{carvalho2023}. Sebagai contoh MongoDB merupakan basis data berorientasi dokumen, crossplatform, yang menawarkan kinjera tinggi, ketersediaan tinggi, dan skalabilitas yang sederhana. Basis data ini menggunakan MongoDB Query Language (MQL) yang dirancang untuk kemudahan penggunaan oleh pengembang \cite{byali2022}. Oleh karena itu, basis data dokumen NoSQL menjadi solusi penting untuk aplikasi padat data, memastikan penyimpanan big data dan kinerja kueri yang baik.
-
-\section{Flowchart Sistem}
-
-Flowchart merupakan salah satu model yang paling mendasar dan penting dalam perancangan sistem informasi, di mana ia berfungsi untuk mendesain dan menyusun alur dokumen serta memvisualisasikan prosedur atau tahapan proses secara sistematis. Secara umum, flowchart memiliki aplikasi yang luas di berbagai bidang seperti pengembangan perangkat lunak, desain teknik, dan eksperimen ilmiah \cite{zhang2023}. Struktur data flowchart tradisional sering kali didasarkan pada \textit{adjacensy list}, \textit{cross-linked list}, atau \textit{adjacency matrix} dari struktur graf, yang didasari fakta bahwa setiap dua node dapat memiliki hubungan koneksi \cite{zhang2023}. Namun, terlepas dari kompleksitas penyimpanan datanya, flowchart tetap menjadi alat fundamental yang menyediakan representasi visual dari urutan dan hubungan logis dalam suatu sistem \cite{ratumurun2020,pan2024}.
 
 \section{Unified Modeling Language (UML)}
 
@@ -78,12 +74,3 @@ Sequence Diagram adalah diagram UML yang paling umum kedua, digunakan untuk mere
 \subsection{Class Diagram}
 Class Diagram merupakan salah satu diagram Unified Modeling Language (UML) yang paling umum digunakan dalam Pendidikan dan pengembangan perangkat lunak berorientasi objek \cite{siska2024}. Fungsi utama dari Class Diagram adalah untuk merepresentasikan kelas-kelas dalam sistem perangkat lunak dan hubungan yang terjalin antar kelas-kelas tersebut \cite{fauzan2021}.
 
-Entity-Relationship Diagram (ERD) digunakan untuk memodelkan struktur konseptual basis data \cite{pulungan2020}. ERD merepresentasikan entitas, atribut, dan relasi antar entitas \cite{jaimez2020,afiifah2022}.
-
-\section{Peran Fitur Social Sharing dalam Donasi Digital}
-
-Kepercayaan merupakan faktor kunci dalam keberhasilan platform donasi digital, mengingat interaksi antara donatur dan penerima dilakukan sepenuhnya secara daring tanpa kontak langsung \cite{tarigan2023}. Tingkat kepercayaan ini sangat dipengaruhi oleh persepsi transparansi dan kredibilitas sistem yang disediakan oleh platform donasi digital \cite{greselda2020}. Oleh karena itu, platform donasi perlu menyediakan mekanisme yang mampu memperkuat transparansi tersebut.
-
-Salah satu mekanisme yang dapat diterapkan adalah fitur social sharing, yang memungkinkan aktivitas donasi dibagikan ke media sosial. Penerapan fitur social sharing berperan sebagai \textit{social proof}, di mana visibilitas partisipasi pengguna lain dapat meningkatkan persepsi keandalan dan legitimasi platform \cite{rahmayanti2024}. Peningkatan kepercayaan dan persepsi positif tersebut pada akhirnya berdampak pada meningkatnya niat dan partisipasi pengguna dalam kegiatan donasi digital \cite{kamarudin2023}.
-
-Berdasarkan temuan tersebut, fitur social sharing pada aplikasi Nyumbangin dirancang sebagai fitur pendukung yang memungkinkan pengguna membagikan aktivitas donasi ke media sosial. Fitur ini diharapkan dapat memperkuat kepercayaan pengguna serta mendorong partisipasi donasi secara lebih luas.

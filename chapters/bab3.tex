@@ -34,7 +34,7 @@ Setiap iterasi menghasilkan peningkatan fungsional sistem yang dapat langsung di
 
 \subsection{Penerapan Agile pada Proyek Nyumbangin}
 
-Penerapan pendekatan Agile pada proyek Nyumbangin dilakukan dengan membagi pengembangan sistem ke dalam beberapa iterasi utama. Iterasi awal difokuskan pada pembangunan fitur inti, seperti autentikasi kreator, pencatatan donasi, dan integrasi sistem pembayaran. Iterasi berikutnya mencakup pengembangan fitur pendukung, seperti notifikasi real-time melalui overlay, leaderboard donatur, serta mekanisme payout bagi kreator.
+Penerapan pendekatan Agile pada proyek Nyumbangin dilakukan dengan membagi pengembangan sistem ke dalam beberapa iterasi utama. Iterasi awal difokuskan pada pembangunan fitur inti, seperti autentikasi kreator, pencatatan donasi, dan integrasi sistem pembayaran. Iterasi berikutnya mencakup pengembangan fitur pendukung, seperti notifikasi real-time melalui \textit{overlay}, \textit{leaderboard} donatur, serta mekanisme \textit{payout} bagi kreator.
 
 Pada setiap iterasi, fitur yang telah diimplementasikan langsung diuji menggunakan scenario pengujian fungsional untuk memastikan alur donasi, pembayaran, dan pencairan dana berjalan dengan benar. Hasil pengujian digunakan sebagai dasar evaluasi untuk menentukan perbaikan atau pengembangan fitur pada iterasi selanjutnya.
 
@@ -84,7 +84,7 @@ Arsitektur logis sistem terdiri atas empat lapisan utama sebagai berikut:
     Berisi halaman donasi, dashboard kreator, halaman overlay notifikasi, serta antarmuka admin.
 
     \item \textbf{Lapisan API (Application Layer)} \\
-    Mengelola endpoint untuk donasi, leaderboard, overlay, autentikasi, payout, dan operasi admin melalui mekanisme API Routes di Next.js.
+    Mengelola endpoint untuk donasi, \textit{leaderboard}, \textit{overlay}, autentikasi, \textit{payout}, dan operasi admin melalui mekanisme \textit{API} Routes di Next.js.
 
     \item \textbf{Lapisan Layanan Utilitas (Service Layer)} \\
     Meliputi modul koneksi database, pengelolaan token JWT, serta utilitas untuk validasi dan perhitungan internal.
@@ -104,7 +104,7 @@ Browser / OBS Overlay $\rightarrow$ Next.js Runtime (Node.js) $\rightarrow$ Mong
 \begin{itemize}
     \item Next.js menangani logika antarmuka pengguna dan API dalam satu platform.
     \item MongoDB digunakan sebagai basis data dokumen.
-    \item Midtrans mengelola proses pembayaran melalui mekanisme Snap Token dan webhook.
+    \item Midtrans mengelola proses pembayaran melalui mekanisme \textit{Snap Token} dan \textit{webhook}.
     \item Overlay digunakan secara mandiri melalui OBS atau \textit{iframe} untuk menampilkan notifikasi donasi.
 \end{itemize}
 
@@ -134,7 +134,7 @@ Sistem dibagi ke dalam beberapa modul utama sebagai berikut:
 
 \subsection{Strategi Desain}
 
-Strategi desain menerapkan pola penanganan API yang konsisten meliputi validasi metode HTTP, autentikasi, validasi input, eksekusi query database, dan pengembalian response dalam format JSON. Selain itu, prinsip pemisahan tanggung jawab diterapkan melalui pembagian endpoint berdasarkan peran dan fungsi. Pembatasan data seperti penggunaan limit dan sorting digunakan untuk menghindari over-fetching, terutama pada proses pengambilan data leaderboard dan statistik.
+Strategi desain menerapkan pola penanganan \textit{API} yang konsisten meliputi validasi metode HTTP, autentikasi, validasi input, eksekusi query database, dan pengembalian response dalam format JSON. Selain itu, prinsip pemisahan tanggung jawab diterapkan melalui pembagian endpoint berdasarkan peran dan fungsi. Pembatasan data seperti penggunaan limit dan sorting digunakan untuk menghindari over-fetching, terutama pada proses pengambilan data leaderboard dan statistik.
 
 \section{Pemodelan Sistem}
 
@@ -254,7 +254,7 @@ Activity diagram riwayat donasi menggambarkan proses penampilan data riwayat don
     \label{fig:sequence-donasi}
 \end{figure}
 
-Sequence diagram donasi menggambarkan alur proses donasi yang dimulai ketika donor mengisi formulir pada halaman donasi (\textit{Donation Page}) yang kemudian divalidasi dan dikirim ke \textit{Donate API}. Setelah dilakukan validasi di sisi server, data donasi disimpan ke dalam basis data, dan apabila terdapat \textit{youtubeUrl}, sistem juga akan membuat data \textit{MediaShare}. Selanjutnya, API meminta \textit{Snap Token} ke Midtrans yang digunakan untuk membuka halaman pembayaran. Setelah donor menyelesaikan pembayaran dan transaksi dinyatakan berhasil, Midtrans mengirimkan webhook ke server sehingga status donasi diperbarui menjadi \texttt{PAID}, dan pada tahap akhir sistem membuat notifikasi overlay.
+Sequence diagram donasi menggambarkan alur proses donasi yang dimulai ketika donor mengisi formulir pada halaman donasi (\textit{Donation Page}) yang kemudian divalidasi dan dikirim ke \textit{Donate API}. Setelah dilakukan validasi di sisi server, data donasi disimpan ke dalam basis data, dan apabila terdapat \textit{youtubeUrl}, sistem juga akan membuat data \textit{MediaShare}. Selanjutnya, \textit{API} meminta \textit{Snap Token} ke Midtrans yang digunakan untuk membuka halaman pembayaran. Setelah donor menyelesaikan pembayaran dan transaksi dinyatakan berhasil, Midtrans mengirimkan webhook ke server sehingga status donasi diperbarui menjadi \texttt{PAID}, dan pada tahap akhir sistem membuat notifikasi overlay.
 
 \subsubsection{Sequence Diagram Leaderboard}
 
@@ -265,7 +265,7 @@ Sequence diagram donasi menggambarkan alur proses donasi yang dimulai ketika don
     \label{fig:sequence-leaderboard}
 \end{figure}
 
-Sequence diagram leaderboard menggambarkan alur pengambilan data leaderboard, di mana client (dashboard kreator) mengirimkan request ke \textit{Leaderboard API} dengan menyertakan token. API melakukan pemeriksaan metode HTTP dan validasi token melalui layanan JWT, kemudian memastikan bahwa pengguna merupakan kreator dan data yang diminta tersedia. Selanjutnya, API mengambil data donasi terbaru dari basis data, memformat respons, dan mengirimkan hasilnya kembali ke client. Apabila terjadi kesalahan seperti token tidak valid, kreator tidak ditemukan, atau metode HTTP tidak sesuai, API akan mengembalikan kode error yang relevan.
+Sequence diagram leaderboard menggambarkan alur pengambilan data \textit{leaderboard}, di mana client (\textit{dashboard} kreator) mengirimkan request ke \textit{Leaderboard API} dengan menyertakan token. API melakukan pemeriksaan metode HTTP dan validasi token melalui layanan JWT, kemudian memastikan bahwa pengguna merupakan kreator dan data yang diminta tersedia. Selanjutnya, API mengambil data donasi terbaru dari basis data, memformat respons, dan mengirimkan hasilnya kembali ke client. Apabila terjadi kesalahan seperti token tidak valid, kreator tidak ditemukan, atau metode HTTP tidak sesuai, API akan mengembalikan kode error yang relevan.
 
 \subsubsection{Sequence Diagram Login}
 
@@ -322,11 +322,11 @@ Sequence diagram riwayat donasi menggambarkan proses pengambilan dan penampilan 
 
 Sequence diagram request payout menggambarkan proses pengajuan pencairan dana oleh kreator. Kreator mengajukan permintaan payout melalui sistem. Sistem melakukan pengecekan saldo dan menyimpan data payout dengan status \texttt{PENDING}. Admin kemudian melakukan proses review terhadap permintaan tersebut dan memutuskan untuk menerima atau menolak. Apabila permintaan diterima, sistem memperbarui status payout dan mengirimkan notifikasi keberhasilan kepada kreator.
 
-\subsection{Model Entitas}
+\subsection{Model Koleksi}
 
-Model entitas digunakan untuk merepresentasikan struktur data utama yang bekerja di dalam platform donasi. Setiap entitas dirancang untuk mendukung proses transaksi, pengelolaan kreator, penayangan media share di overlay, hingga alur pencairan dana. Secara umum, entitas yang digunakan dapat dikelompokkan menjadi entitas utama dan entitas pendukung.
+Model koleksi digunakan untuk merepresentasikan struktur data utama yang bekerja di dalam platform donasi. Setiap collection dirancang untuk mendukung proses transaksi, pengelolaan kreator, penayangan media share di overlay, hingga alur pancairan dana. Secara umum, entitas yang digunakan dapat dikelompokkan menjadi koleksi utama dan koleksi pendukung. 
 
-Entitas utama platform meliputi:
+Koleksi utama platform meliputi:
 
 \begin{itemize}
     \item \textbf{Creator} \\
@@ -352,10 +352,31 @@ Selain itu, terdapat entitas pendukung yang digunakan untuk historisasi dan agre
     \item \textbf{MonthlyLeaderboard} – menyimpan data peringkat donatur setiap bulan.
     \item \textbf{Contact} – mencatat umpan balik dari pengguna.
     \item \textbf{ProfileImage} – menyimpan data gambar untuk kebutuhan profil kreator.
+    \item \textbf{Filteredwords} – menyimpan daftar kata yang difilter pada pesan donasi.
+    \item \textbf{Donationshares} – menyimpan \textit{record} data agregasi dari hasil \textit{sharelink} donasi.
     \item \textbf{Admin} – menyimpan kredensial admin yang bertugas memverifikasi payout dan melakukan manajemen sistem.
 \end{itemize}
 
-Seluruh entitas tersebut berperan dalam memastikan integritas data serta menghubungkan seluruh proses inti mulai dari transaksi donasi, pengelolaan kreator, hingga operasional sistem admin.
+Seluruh koleksi tersebut berperan dalam memastikan integritas data serta menghubungkan seluruh proses inti mulai dari transaksi donasi, pengelolaan kreator, hingga operasional sistem admin.
+
+\subsection{Gopay Merchant}
+
+GoPay Merchant digunakan sebagai metode pembayaran alternatif pada aplikasi Nyumbangin selain integrasi utama melalui Midtrans. Fitur ini memungkinkan donatur melakukan pembayaran dengan memindai kode QRIS yang disediakan melalui aplikasi merchant. Setiap transaksi yang berhasil akan menghasilkan notifikasi pada perangkat admin sebagai indikator penerimaan dana. Implementasi ini bertujuan untuk memberikan fleksibilitas metode pembayaran, khususnya untuk transaksi langsung atau kebutuhan tertentu di luar alur payment gateway utama, tanpa menggantikan sistem pembayaran terintegrasi yang telah dibangun sebelumnya.
+
+\subsection{Perancangan Mekanisme Macrodroid Trigger Webhook}
+
+MacroDroid digunakan sebagai mekanisme otomasi untuk mendeteksi notifikasi transaksi dari aplikasi GoPay Merchant dan meneruskannya ke sistem backend Nyumbangin. Aplikasi ini dikonfigurasi menggunakan konsep trigger dan action, di mana trigger berupa notifikasi transaksi masuk, kemudian action yang dijalankan adalah pengiriman HTTP request ke endpoint backend yang telah disediakan. Data yang diterima backend selanjutnya diproses dan disimpan ke dalam database sehingga donasi dapat tercatat secara otomatis tanpa input manual dari admin. Pendekatan ini memungkinkan integrasi pembayaran berjalan secara semi-otomatis dengan memanfaatkan sistem notifikasi pada perangkat Android.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=0.8\textheight,keepaspectratio]{images/macrodroid.jpg}
+    \caption{MacroDroid}
+    \label{fig:macrodroid}
+\end{figure}
+
+\subsection{Integrasi Payment Gateway Midtrans}
+
+Midtrans dirancang sebagai payment gateway yang menangani proses pembayaran donasi secara eksternal. Sistem Nyumbangin hanya membuat transaksi awal dan menghasilkan Snap Token berdasarkan data donasi yang telah divalidasi. Snap Token tersebut digunakan untuk menampilkan halaman pembayaran Midtrans, sementara penentuan status akhir transaksi tidak dilakukan pada tahap ini dan dibahas pada mekanisme selanjutnya. Implementasi tampilan pembayaran Midtrans ditampilkan pada BAB IV.
 
 \section{Metode Perancangan Teknis}
 
@@ -363,9 +384,9 @@ Perancangan teknis pada platform donasi ini difokuskan pada penyusunan arsitektu
 
 Dari sisi keamanan, validasi token JWT diterapkan untuk memastikan setiap permintaan memiliki otorisasi yang benar, termasuk pengecekan masa berlaku token dan jenis pengguna (donor, kreator, atau admin). Seluruh input kritis seperti username, nominal donasi, dan URL media share divalidasi untuk mencegah data tidak sah masuk ke dalam sistem. Integrasi pembayaran dirancang agar hanya bergantung pada webhook resmi Midtrans, sehingga status transaksi tidak bergantung pada aktivitas pengguna di sisi klien.
 
-Optimasi basis data dilakukan melalui penempatan indeks pada atribut yang sering digunakan dalam kueri, seperti \texttt{createdAt}, \texttt{creatorId}, dan \texttt{creatorUsername}. Operasi agregasi seperti leaderboard dan statistik kreator menggunakan pipeline agregasi MongoDB untuk mengurangi beban pada server aplikasi. Pembatasan kueri (\textit{limit}) diterapkan untuk mencegah pengambilan data berlebihan pada endpoint yang memiliki potensi pertumbuhan data tinggi.
+Optimasi basis data dilakukan melalui penempatan indeks pada atribut yang sering digunakan dalam kueri, seperti \texttt{createdAt}, \texttt{creatorId}, dan \texttt{creatorUsername}. Operasi agregasi seperti \textit{leaderboard} dan statistik kreator menggunakan pipeline agregasi \textit{MongoDB} untuk mengurangi beban pada server aplikasi. Pembatasan kueri (\textit{limit}) diterapkan untuk mencegah pengambilan data berlebihan pada endpoint yang memiliki potensi pertumbuhan data tinggi.
 
-Selain itu, proses donasi dan penyajian notifikasi dipisahkan dari alur pembayaran utama. Server hanya membuat record donasi dan \textit{Snap Token} pada permintaan awal, sementara pembaruan status dan pemicu notifikasi dilakukan ketika webhook diterima. Pemisahan ini meningkatkan stabilitas sistem dan memastikan overlay hanya menampilkan data yang telah tervalidasi.
+Selain itu, proses donasi dan penyajian notifikasi dipisahkan dari alur pembayaran utama. Server hanya membuat record donasi dan \textit{Snap Token} pada permintaan awal, sementara pembaruan status dan pemicu notifikasi dilakukan ketika \textit{webhook} diterima. Pemisahan ini meningkatkan stabilitas sistem dan memastikan overlay hanya menampilkan data yang telah tervalidasi.
 
 \section{Metode Pengujian}
 

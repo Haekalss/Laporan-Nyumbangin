@@ -55,6 +55,7 @@
 
 % Spacing
 \onehalfspacing
+\setlength\emergencystretch{2em}
 
 % Center chapter titles and make chapter label same size as title
 \titleformat{\chapter}[display]{\normalfont\bfseries\centering}{\Huge\chaptername\ \thechapter}{12pt}{\Huge}
@@ -65,10 +66,18 @@
 \renewcommand{\listtablename}{DAFTAR TABEL}
 
 % Center the LOF / LOT titles using cft title font + after-title filler (omit TOC cft overrides to avoid conflicts)
-\renewcommand{\cftloftitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftloftitlefont}{\hfill\large\bfseries}
 \renewcommand{\cftafterloftitle}{\hfill}
-\renewcommand{\cftlottitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftlottitlefont}{\hfill\large\bfseries}
 \renewcommand{\cftafterlottitle}{\hfill}
+
+% Tidy TOC: set indents and spacing for nicer appearance
+\cftsetindents{chapter}{0em}{3.0em}
+\cftsetindents{section}{1.8em}{3.0em}
+\cftsetindents{subsection}{4.2em}{3.0em}
+\setlength{\cftbeforechapskip}{0.6ex}
+\setlength{\cftbeforesecskip}{0.2ex}
+\setlength{\cftbeforesubsecskip}{0.1ex}
 
 % Replace default list printing by low-level calls so we control the title placement precisely
 \makeatletter
@@ -77,7 +86,8 @@
   % use empty pagestyle for entire TOC (covers multiple pages)
   \pagestyle{empty}
   \thispagestyle{empty}
-  \noindent\makebox[\paperwidth]{\hfill\Large\bfseries DAFTAR ISI\hfill}
+  % center across the full page width (ignore left/right text margins)
+  \noindent\makebox[\paperwidth]{\hfill\large\bfseries DAFTAR ISI\hfill}\par
   \vspace{0.5cm}
   \@starttoc{tableofcontents}
   \clearpage
@@ -89,48 +99,39 @@
   \clearpage
   \pagestyle{empty}
   \thispagestyle{empty}
-  \noindent\makebox[\paperwidth]{\hfill\Large\bfseries DAFTAR GAMBAR\hfill}
+  \begin{center}\large\bfseries DAFTAR GAMBAR\end{center}
   \vspace{0.5cm}
   \@starttoc{lof}
   \clearpage
   \pagestyle{fancy}
 }
-\renewcommand{\listoftables}{%
-  \clearpage
-  \pagestyle{empty}
-  \thispagestyle{empty}
-  \noindent\makebox[\paperwidth]{\hfill\Large\bfseries DAFTAR TABEL\hfill}
-  \vspace{0.5cm}
-  \@starttoc{lot}
-  \clearpage
-  \pagestyle{fancy}
-}
+% \listoftables disabled (removed by author request)
+\renewcommand{\listoftables}{\relax}
 \makeatother
 
 \begin{document}
 
-% --- FRONT MATTER (white framed titlepage) ---
+% --- FRONT MATTER (cover page) ---
 \begin{titlepage}
 \thispagestyle{empty}
 \centering
-\vspace*{2cm}
-{\bfseries\Large NYUMBANGIN: PLATFORM DONASI DIGITAL}\\[0.6cm]
-{\bfseries\large LAPORAN PROYEK III}\\[0.6cm]
-{\small Diajukan untuk Memenuhi Kelulusan Matakuliah}\\
-{\small Proyek 3 pada Program Studi DIV Teknik Informatika}\\[1.0cm]
+\vspace*{1.6cm}
+{\bfseries\Large NYUMBANGIN: PLATFORM DONASI DIGITAL}\\[0.8cm]
+{\bfseries\normalsize LAPORAN PROYEK III}\\[0.8cm]
+{\small Diajukan untuk Memenuhi Kelulusan Matakuliah}\\[0.4em]
+{\small Proyek 3 pada Program Studi DIV Teknik}\\[0.2em]
+{\small Informatika}\\[1.0cm]
 
-% University logo (centered & large)
-\includegraphics[width=0.7\textwidth]{images/ulbi.png}\\[0.7cm]
+% University logo (centered & proportionate)
+\includegraphics[width=0.6\textwidth,keepaspectratio]{images/ulbi.png}\\[0.9cm]
 
-{\bfseries DISUSUN OLEH :}\\[0.3cm]
-\begin{tabular}{c}
-714230027 -- Muhamad Haekal Syukur\\
-714230060 -- Muhammad Ferdy Leoza
-\end{tabular}\\[0.9cm]
+{\bfseries DISUSUN OLEH :}\\[0.4cm]
+{\small\textbf{714230027\,-\,Muhamad Haekal Syukur}}\\[0.2em]
+{\small\textbf{714230060\,-\,Muhammad Ferdy Leoza}}\\[1.0cm]
 
 {\small\bfseries PROGRAM STUDI DIV TEKNIK INFORMATIKA}\\
 {\small\bfseries FAKULTAS SEKOLAH VOKASI}\\
-{\small\bfseries UNIVERSITAS LOGISTIK \& BISNIS INTERNASIONAL}\\
+{\small\bfseries UNIVERSITAS LOGISTIK \& BISNIS INTERNASIONAL}\\[0.6em]
 {\small\bfseries BANDUNG}\\
 {\small\bfseries 2026}
 \vfill
@@ -142,22 +143,32 @@
 \begin{titlepage}
 \centering
 \vspace*{1cm}
-{\bfseries\large LEMBAR PENGESAHAN \\[1ex]
-\textbf{NYUMBANGIN: PLATFORM DONASI DIGITAL}}\\[1.2cm]
+{\bfseries\large LEMBAR PENGESAHAN}\\[1ex]
+{\bfseries\large NYUMBANGIN: PLATFORM DONASI DIGITAL}\\[1.2cm]
 
-Laporan Proyek 3 ini telah diperiksa, disetujui, dan disidangkan\\
-Di Bandung,\\[0.6cm]
+\begin{center}
+  Laporan Proyek 3 ini telah diperiksa, disetujui, dan disidangkan\\[0.5em]
+  Di Bandung, \quad Oleh:
+\end{center}
+\vspace{0.8cm}
 
-\noindent
-\begin{tabular}{p{7cm} p{7cm}}
-    Penguji Pendamping, & Penguji Utama, \\\vspace{0.8cm}
-    \textbf{Rolly Maulana Awangga, S.T., M.T.} & \textbf{Rolly Maulana Awangga, S.T., M.T.} (Simulasi) \\
-    NIK: 113.74.163 & NIK: 1 \\
-    & \\
-    Pembimbing, & Koordinator Proyek 3 \\\vspace{0.8cm}
-    \textbf{Rolly Maulana Awangga, S.T., M.T.} & \textbf{Roni Habibi, S.Kom., M.T., SFPC} \\
-    NIK: 117.86.219 & NIK: 117.88.233 \\
+% signature block: examiners / pembimbing / koordinator
+\begin{center}
+\begin{tabular}{ >{\centering\arraybackslash}p{7cm} >{\centering\arraybackslash}p{7cm} }
+  Penguji Pendamping & Penguji Utama \\\vspace{1.2cm} & \\
+  \underline{\textbf{Rolly Maulana Awangga, S.T., M.T.}} & \underline{\textbf{Dr. Syafrial Fachri Pane, S.T., M.T.}} \\
+  NIK: 117.86.219 & NIK: 117.88.233 \\
 \end{tabular}
+\end{center}
+
+\vspace{0.9cm}
+\begin{center}
+\begin{tabular}{ >{\centering\arraybackslash}p{7cm} >{\centering\arraybackslash}p{7cm} }
+  Pembimbing & Koordinator Proyek 3 \\\vspace{1.2cm} & \\
+  \underline{\textbf{Rolly Maulana Awangga, S.T., M.T.}} & \underline{\textbf{Roni Habibi, S.Kom., M.T., SFPC}} \\
+  NIK: 117.86.219 & NIK: 103.78.069 \\
+\end{tabular}
+\end{center}
 
 \vfill
 \begin{center}
@@ -248,9 +259,8 @@ Aplikasi donasi digital kini banyak digunakan oleh kreator konten untuk memudahk
 \tableofcontents
 \clearpage
 \listoffigures
-\clearpage
-\listoftables
-\clearpage
+\clearpage% \listoftables removed as requested
+
 
 % --- MAIN CONTENT ---
 \include{chapters/introduction}
@@ -261,6 +271,9 @@ Aplikasi donasi digital kini banyak digunakan oleh kreator konten untuk memudahk
 
 % --- BIBLIOGRAPHY ---
 \nocite{*}
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\bibname}
 \bibliographystyle{plain}
 \bibliography{references}
 
